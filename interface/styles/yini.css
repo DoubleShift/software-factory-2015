@@ -28,15 +28,15 @@
 }
 
 .welcome .col.exercise{
-	background: url('/interface/icon-running.png') center center no-repeat;
+	background: url('/interface/pictures/icon-running.png') center center no-repeat;
 }
 .welcome .col.goal{
-	background: url('/interface/icon-note.png') center center no-repeat;
+	background: url('/interface/pictures/icon-note.png') center center no-repeat;
 }
 .welcome .col.profile{
-	background: url('/interface/icon-profile.png') center center no-repeat;
+	background: url('/interface/pictures/icon-profile.png') center center no-repeat;
 }
 .welcome .col.rank{
-	background: url('/interface/icon-star.png') center center no-repeat;
+	background: url('/interface/pictures/icon-star.png') center center no-repeat;
 }
 /*Codes made by Yini - End */
