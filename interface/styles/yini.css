@@ -27,16 +27,16 @@
 	margin-right: 20px;
 }
 
-.welcome .col.exercise{
+.welcome .col.exercise:before{
 	background: url('/interface/pictures/icon-running.png') center center no-repeat;
 }
-.welcome .col.goal{
+.welcome .col.goal:before{
 	background: url('/interface/pictures/icon-note.png') center center no-repeat;
 }
-.welcome .col.profile{
+.welcome .col.profile:before{
 	background: url('/interface/pictures/icon-profile.png') center center no-repeat;
 }
-.welcome .col.rank{
+.welcome .col.rank:before{
 	background: url('/interface/pictures/icon-star.png') center center no-repeat;
 }
 /*Codes made by Yini - End */
