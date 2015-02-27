@@ -1,6 +1,6 @@
 <?php
 // Include header
-	include( dirname(__FILE__) . '/kiosk/header.php' );
+	include( dirname(__FILE__) . '/header.php' );
 
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
