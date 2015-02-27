@@ -1,0 +1,82 @@
+
+#MainContent {
+	width: 720px;
+	overflow: visible;
+	position: absolute;
+	color: #454545;
+	float: left;
+	left: -300px;
+	margin-left: 50%;
+}
+ul,
+ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #3FA7CB;
+}
+h1.title {
+	margin: 20px 0 0 0;
+}
+h1.title a {
+	font-size: 40px;
+	font-weight: normal;
+	text-shadow: -2px 1px white;
+}
+
+table#ranktable {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-color: gray;
+	color: #333;
+}
+table#ranktable thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+table#ranktable th {
+	font-weight: bold;
+	vertical-align: bottom;
+}
+table#ranktable th,
+table#ranktable td {
+	padding: 8px;
+	line-height: 18px;
+	border-top: 1px solid #DDD;
+	text-align: left;
+}
+table#ranktable tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+table#ranktable tr.ranktitle {
+	background-color: #97C94E;
+}
+table#ranktable tr.rankitem {
+	background-color: #F9F9F9;
+}
+table#ranktable tr.rankitem2 {
+	background-color: #DCDCDC;
+}
+/* bar */
+table#ranktable div.rank {
+	vertical-align: middle;
+	background-color: #52B4FE;
+	height: 16px;
+}
+table#ranktable div.starbox {
+  	height: 16px;
+  	width: 400px;
+}
+/* star */
+table#ranktable div.star {
+ 	background-image: url("../pictures/star.png");
+  	background-repeat: repeat-x;
+  	height: 16px;
+}
+table#ranktable tr.hover {
+	background-color: #DDD;
+}
