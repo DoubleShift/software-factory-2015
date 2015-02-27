@@ -35,3 +35,20 @@
 	color: black;
 	text-shadow: -2px 1px white;
 }
+
+/*Codes made by Yini - Start*/
+.welcome .col{
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	border: 3px solid #000;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.welcome .col:before{
+	
+}
+
+/*Codes made by Yini - End */
