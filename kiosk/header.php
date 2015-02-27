@@ -25,6 +25,7 @@ Created: 13.02.2015
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>help.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>rank.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>welcome.css">
+	<link rel="stylesheet" type="text/css" href="/kiosk/yini/yini.css">
 
 	<!-- avaliable for help.css-->
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
