@@ -1,8 +1,8 @@
 <?php
 
 /*
-File: profile.php
-Description: user profile.
+File: report.php
+Description: report a problem.
 Author: Chen Xin
 Version: 0.1
 Created: 24.02.2015
@@ -15,6 +15,7 @@ Created: 24.02.2015
 ?>
 
 <div id="welcome-picture"></div>
+
 
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
