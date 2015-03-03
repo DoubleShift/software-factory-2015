@@ -38,7 +38,7 @@ Created: 13.02.2015
 	<meta http-equiv="Content-Type" content="text/html; charset=utf8" >
 
 	<!-- Script -->
-	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>cookie.js"></script>
+	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>util.js"></script>
 
 
 </head>

@@ -1,3 +1,6 @@
+/**
+* JS functions
+**/
 function getCookie(name) {  
  var nameEQ = name + "=";  
  var ca = document.cookie.split(';');      
@@ -27,3 +30,20 @@ function setCookie(name, value, seconds) {
  }  
  document.cookie = name+"="+escape(value)+expires+"; path=/";     
 }  
+
+function post(URL, PARAMS) {        
+    var temp = document.createElement("form");        
+    temp.action = URL;        
+    temp.method = "post";        
+    temp.style.display = "none";        
+    for (var x in PARAMS) {        
+        var opt = document.createElement("textarea");        
+        opt.name = x;        
+        opt.value = PARAMS[x];        
+        // alert(opt.name)        
+        temp.appendChild(opt);        
+    }        
+    document.body.appendChild(temp);        
+    temp.submit();        
+    return temp;        
+}        
