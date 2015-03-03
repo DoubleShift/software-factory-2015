@@ -26,8 +26,9 @@ Created: 13.02.2015
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>rank.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>welcome.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>yini.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>register.css">
 
-	<!-- avaliable for help.css-->
+	<!-- avaliable for help.css,delete soon-->
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 
 	<!-- Adjust app for mobile -->
@@ -35,6 +36,8 @@ Created: 13.02.2015
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf8" >
+
+
 
 
 </head>

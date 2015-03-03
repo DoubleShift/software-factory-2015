@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2015 年 02 月 20 日 05:50
+-- 生成日期: 2015 年 03 月 03 日 04:00
 -- 服务器版本: 5.1.73-log
--- PHP 版本: 5.2.17-pl0-gentoo
+-- PHP 版本: 5.5.16-pl0-gentoo
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -24,7 +24,6 @@ SET time_zone = "+00:00";
 
 --
 -- 表的结构 `calendar`
--- store uid in each day, every day scan the table and send emails.
 --
 
 CREATE TABLE IF NOT EXISTS `calendar` (
@@ -35,14 +34,14 @@ CREATE TABLE IF NOT EXISTS `calendar` (
   `thu` int(11) NOT NULL,
   `fri` int(11) NOT NULL,
   `sat` int(11) NOT NULL,
-  `sun` int(11) NOT NULL
+  `sun` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
 --
 -- 表的结构 `exercise`
--- exercise type, speed/load either should be avalible 
 --
 
 CREATE TABLE IF NOT EXISTS `exercise` (
@@ -60,15 +59,44 @@ CREATE TABLE IF NOT EXISTS `exercise` (
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `exercise_plan`
+--
+
+CREATE TABLE IF NOT EXISTS `exercise_plan` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `exercise_type` int(11) NOT NULL,
+  `difficulty` int(11) NOT NULL,
+  `ex1_type` int(11) NOT NULL,
+  `ex1_level` int(11) NOT NULL,
+  `ex2_type` int(11) NOT NULL,
+  `ex2_level` int(11) NOT NULL,
+  `ex3_type` int(11) NOT NULL,
+  `ex3_level` int(11) NOT NULL,
+  `ex4_type` int(11) NOT NULL,
+  `ex4_level` int(11) NOT NULL,
+  KEY `id` (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- 转存表中的数据 `exercise_plan`
+--
+
+INSERT INTO `exercise_plan` (`id`, `user_id`, `exercise_type`, `difficulty`, `ex1_type`, `ex1_level`, `ex2_type`, `ex2_level`, `ex3_type`, `ex3_level`, `ex4_type`, `ex4_level`) VALUES
+(1, 1, 1, 5, 1, 10, 2, 10, 3, 10, 4, 10);
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `plan`
--- time is the collection of repetation/duration.
 --
 
 CREATE TABLE IF NOT EXISTS `plan` (
   `id` int(11) NOT NULL,
   `uid` int(11) NOT NULL,
   `eid` int(11) NOT NULL,
-  `time` varchar(10) COLLATE utf8_unicode_ci NOT NULL
+  `time` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -88,14 +116,37 @@ CREATE TABLE IF NOT EXISTS `user` (
   `language` varchar(10) COLLATE utf8_unicode_ci NOT NULL,
   `experience` int(11) NOT NULL,
   `status` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  `scores` int(11) NOT NULL
+  `scores` int(11) NOT NULL,
+  FULLTEXT KEY `name` (`name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL,
+  `first_name` varchar(32) NOT NULL,
+  `last_name` varchar(32) NOT NULL,
+  `age` int(11) NOT NULL,
+  `gender` int(11) NOT NULL,
+  KEY `id` (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- 转存表中的数据 `users`
+--
+
+INSERT INTO `users` (`id`, `first_name`, `last_name`, `age`, `gender`) VALUES
+(1, 'Test', 'User', 30, 1);
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `wiki`
--- for get help pages
+--
 
 CREATE TABLE IF NOT EXISTS `wiki` (
   `id` int(11) NOT NULL,
@@ -103,7 +154,8 @@ CREATE TABLE IF NOT EXISTS `wiki` (
   `date` datetime NOT NULL,
   `author` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
   `icon` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
-  `content` text COLLATE utf8_unicode_ci NOT NULL
+  `content` text COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

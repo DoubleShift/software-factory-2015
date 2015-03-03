@@ -1,0 +1,16 @@
+
+.main-box {
+	width: 720px;
+	overflow: visible;
+	position: absolute;
+	color: #454545;
+	float: left;
+	left: -300px;
+	top: 100px;
+	margin-left: 50%;
+}
+
+.main-text {
+    font-size: 20px;
+    text-align: left;
+}

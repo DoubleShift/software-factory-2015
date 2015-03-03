@@ -10,7 +10,7 @@ Created: 23.02.2015
 
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
-
+	
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 

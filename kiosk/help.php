@@ -107,7 +107,7 @@ Created: 15.02.2015
                 </p>
                 <p>
                     Regards,<br>
-                    Chen
+                    
                 </p>
             </div>
         </div>
