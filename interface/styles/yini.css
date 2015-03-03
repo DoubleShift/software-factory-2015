@@ -2,17 +2,30 @@
 *{
 	box-sizing: border-box;
 }
+.content{
+	padding: 50px 0 0;
+}
+.welcome .row{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.welcome .row .col:first-child{
+	margin-right: 50px;
+}
 .welcome .col{
 	display: inline-block;
 	width: 430px;
-	height: 170;
-	text-align: center;
+	height: 170px;
+	padding-left: 140px;
 	text-transform: uppercase;
 	font-size: 300%;
 	border: 3px solid #2b2b2b;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
+	padding-top: 35px;
+	vertical-align: middle;
+	position: relative;
 }
 .welcome .col:hover{
 	color: #97c950;
@@ -21,10 +34,11 @@
 }
 .welcome .col:before{
 	content: '';
-	display: inline-block;
 	width: 80px;
 	height: 80px;
 	margin-right: 20px;
+	position: absolute;
+	left: 40px;
 }
 
 .welcome .col.exercise:before{
