@@ -37,7 +37,8 @@ Created: 13.02.2015
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf8" >
 
-
+	<!-- Script -->
+	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>cookie.js"></script>
 
 
 </head>
