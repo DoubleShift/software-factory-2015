@@ -2,6 +2,9 @@
 *{
 	box-sizing: border-box;
 	font-family: Airal, sans-serif;
+}
+body{
+	
 	background: url('/interface/pictures/bg3.jpg') center 80px no-repeat;
 	background-size: cover;
 }
