@@ -14,6 +14,7 @@
 	margin-right: 50px;
 }
 .welcome .col{
+	float: none;
 	display: inline-block;
 	width: 430px;
 	height: 170px;
