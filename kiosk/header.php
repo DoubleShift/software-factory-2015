@@ -55,10 +55,10 @@ Created: 13.02.2015
 		<img class="language<?php if($_SESSION['language']!='cn') echo ' opacity' ?>" src="<?=IP_PICTURES;?>cn.png" onclick="location.href='<?php echo curPage();?>?lang=cn'"  />
 	</td>
 	<td align="right">
-		<div class="menu-item" onclick="location.href='report.php'">
+		<div class="menu-item report-problem" onclick="location.href='report.php'">
 		<img class="menu-image" src="<?=IP_PICTURES?>tool.png">
 		<span class="menu-text"><?=REPORT_PROBLEM?></span>
-		</div><div class="menu-item" onclick="location.href='help.php'">
+		</div><div class="menu-item help" onclick="location.href='help.php'">
 		<img class="menu-image" src="<?=IP_PICTURES?>help.png">
 		<span class="menu-text"><?=HELP?></span>
 		</div>

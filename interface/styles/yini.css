@@ -8,6 +8,10 @@ body{
 	background: url('/interface/pictures/bg3.jpg') center 80px no-repeat;
 	background-size: cover;
 }
+h1, h2, h3, h4, h5, h6{
+	margin-top: 0;
+	font-family: Arial, sans-serif;
+}
 #header{
 	border-bottom: 3px solid #fff;
 	background: #454545; /* Old browsers */
@@ -31,8 +35,11 @@ body{
 }
 .menu-image {
   height: 30px;
-  width: 30px;
+  width: auto;
   float: left;
+}
+.menu-item.report-problem .menu-image{
+	height: 25px;
 }
 .menu-text {
   height: 30px;

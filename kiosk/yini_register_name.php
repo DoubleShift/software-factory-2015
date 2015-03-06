@@ -19,7 +19,7 @@ Created: 6.3.2015
 			<h1>Enter your name</h1>
 		</div>
 		<div class="body">
-			<p>This will be hte name for your registration that is assigned with your card.</p>
+			<p>This will be the name for your registration that is assigned with your card.</p>
 			<form action="post" class="form register register-name">
 				<table width="100%">
 					<tr>
