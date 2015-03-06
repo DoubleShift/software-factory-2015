@@ -8,6 +8,19 @@ body{
 	background: url('/interface/pictures/bg3.jpg') center 80px no-repeat;
 	background-size: cover;
 }
+.menu-image {
+  height: 30px;
+  width: 30px;
+  float: left;
+}
+.menu-text {
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  color: #FFF;
+  margin-left: 10px;
+  margin-right: 20px;
+}
 .content{
 	width: 924px;
 	margin: 0 auto;
@@ -41,6 +54,12 @@ input[type="text"], input[type="email"], textarea{
   height: 50px;
   line-height: 40px;
   font-size: 20px;
+}
+.btn:hover{
+	background: #A0D357;
+}
+.btn:focus{
+	background: #A7DA5F;
 }
 .btn span{
 	display: inline-block;
@@ -105,7 +124,13 @@ input[type="text"], input[type="email"], textarea{
 	background: url('/interface/pictures/icon-star.png') center center no-repeat;
 }
 
+#input-name{
+	width: 100%;
+}
 .keyboard{
+	width: 100%;
+  	height: 297px;
+  	margin: 20px auto 0;
 	background: url('/interface/pictures/keyboard.jpg') center bottom no-repeat;
 }
 /*Codes made by Yini - End */

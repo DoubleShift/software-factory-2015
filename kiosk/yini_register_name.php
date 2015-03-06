@@ -21,11 +21,12 @@ Created: 6.3.2015
 		<div class="body">
 			<p>This will be hte name for your registration that is assigned with your card.</p>
 			<form action="post" class="form register register-name">
-				<table>
+				<table width="100%">
 					<tr>
 						<td>
 							<input type="text" id="input_name" />
 						</td>
+						<td width="30">&nbsp;</td>
 						<td>
 							<button class="btn next" onclick="btn_next_onclick()">Next<span></span></button>
 						</td>
