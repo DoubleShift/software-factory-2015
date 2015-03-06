@@ -42,13 +42,13 @@ function btn_next_onclick(){
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
-							<div class="register-block register-gender female"><span></span>Female
+							<a href="#" class="register-block register-gender female"><span></span>Female
 								<input type="radio" name="register_gender" value="female" />
-							</div>
+							</a>
 						
-							<div class="register-block register-gender male"><span></span>Male
+							<a href="#" class="register-block register-gender male"><span></span>Male
 								<input type="radio" name="register_gender" value="male" />
-							</div>
+							</a>
 						</td>
 					</tr>
 					<tr>
@@ -60,21 +60,21 @@ function btn_next_onclick(){
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
-							<div class="register-block register-age">< 25
+							<a href="#" class="register-block register-age">< 25
 							<input type="radio" name="register_age" value="25-" />
-							</div>
+							</a>
 						
-							<div class="register-block register-age">25 - 35
+							<a href="#" class="register-block register-age">25 - 35
 							<input type="radio" name="register_age" value="25-35" />
-							</div>
+							</a>
 						
-							<div class="register-block register-age">36 - 50
+							<a href="#" class="register-block register-age">36 - 50
 							<input type="radio" name="register_age" value="36-50" />
-							</div>
+							</a>
 						
-							<div class="register-block register-age">> 50
+							<a href="#" class="register-block register-age">> 50
 							<input type="radio" name="register_age" value="50+" />
-							</div>
+							</a>
 						</td>
 					</tr>
 					<tr>
