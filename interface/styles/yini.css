@@ -104,6 +104,8 @@ input[type="text"], input[type="email"], textarea{
 .btn.prev span{
 	margin-left: 0;
 	margin-right: 10px;
+	float: left;
+	margin-top: 7px;
 	background: url('/interface/pictures/arrow-white-left.png') no-repeat;
 }
 
