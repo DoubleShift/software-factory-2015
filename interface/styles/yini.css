@@ -26,6 +26,9 @@ body{
 .language:first-child{
 	margin-left: 50px;
 }
+.menu-item{
+	padding-right: 0;
+}
 .menu-image {
   height: 30px;
   width: 30px;

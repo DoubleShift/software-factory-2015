@@ -46,7 +46,7 @@ Created: 13.02.2015
 	
 	include( P_LANGUAGE . $_SESSION['language'] . '.php');
 	
-	include( '/kiosk/alex_exercise.php' );
+	include( 'kiosk/alex_exercise.php' );
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
