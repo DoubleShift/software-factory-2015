@@ -164,4 +164,27 @@ input[type="text"], input[type="email"], textarea{
   	margin: 20px auto 0;
 	background: #000 url('/interface/pictures/keyboard.jpg') center bottom no-repeat;
 }
+
+.register-block{
+	float: none;
+	display: inline-block;
+	height: 100px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #000;
+	border: 3px solid #2b2b2b;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	position: relative;
+	line-height: 80px;
+}
+.register-block.selected{
+	color: #97c950;
+	background: rgba(255,255,255,.6);
+	border-color: #fff;
+}
+.register-block span{
+	display: inline-block;
+}
 /*Codes made by Yini - End */

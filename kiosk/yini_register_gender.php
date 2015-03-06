@@ -40,13 +40,13 @@ function btn_next_onclick(){
 						</td>
 						<td width="30">&nbsp;</td>
 						<td colspan="3">
-							<div class="register-gender female"><span></span>Female
+							<div class="register-block register-gender female"><span></span>Female
 								<input type="radio" name="register_gender" value="female" />
 							</div>
 						</td>
 						<td width="30">&nbsp;</td>
 						<td colspan="3">
-							<div class="register-gender male"><span></span>Male
+							<div class="register-block register-gender male"><span></span>Male
 								<input type="radio" name="register_gender" value="male" />
 							</div>
 						</td>
@@ -57,32 +57,32 @@ function btn_next_onclick(){
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
-							<div class="register-age">< 25
+							<div class="register-block register-age">< 25
 							<input type="radio" name="register_age" value="25-" />
 							</div>
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
-							<div class="register-age">25 - 35
+							<div class="register-block register-age">25 - 35
 							<input type="radio" name="register_age" value="25-35" />
 							</div>
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
-							<div class="register-age">36 - 50
+							<div class="register-block register-age">36 - 50
 							<input type="radio" name="register_age" value="36-50" />
 							</div>
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
-							<div class="register-age">> 50
+							<div class="register-block register-age">> 50
 							<input type="radio" name="register_age" value="50+" />
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="6">
-							<button class="btn prev" onclick="javascript:history.go(-1);">Cancel<span></span></button>
+							<button class="btn prev" onclick="javascript:history.go(-1);"><span></span>Cancel</button>
 						</td>
 						<td colspan="3" align="right">
 							<button class="btn next" onclick="btn_next_onclick()">Next<span></span></button>
@@ -92,7 +92,6 @@ function btn_next_onclick(){
 			</form>
 		</div>
 	</div>
-	<div class="keyboard"></div>
 </div>
 
 
