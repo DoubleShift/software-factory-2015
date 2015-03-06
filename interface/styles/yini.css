@@ -48,7 +48,6 @@ body{
 	position: absolute;
 	left: 40px;
 }
-
 .welcome .col.exercise:before{
 	background: url('/interface/pictures/icon-running.png') center center no-repeat;
 }
