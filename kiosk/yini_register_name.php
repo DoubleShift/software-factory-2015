@@ -39,6 +39,22 @@ function btn_next_onclick(){
 	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
 
 
+		<div class="wrapper">
+			<div class="content register name">
+				<div class="heading">
+					<h1>Enter your name</h1>
+				</div>
+				<div class="body">
+					<p>This will be hte name for your registration that is assigned with your card.</p>
+					<form action="post" class="form">
+						<input type="text" id="register_name" />
+						<button class="btn next">Next<span></span></button>
+					</form>
+				</div>
+			</div>
+			<div class="keyboard"></div>
+		</div>
+
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>
