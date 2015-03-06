@@ -33,27 +33,31 @@ function btn_next_onclick(){
 		</div>
 		<div class="body">
 			<form action="post" class="form register register-general">
-				<table width="100%">
+				<table width="">
 					<tr>
 						<td>
 							<label>Gender</label>
 						</td>
 						<td width="30">&nbsp;</td>
-						<td colspan="3">
+						<td>
 							<div class="register-block register-gender female"><span></span>Female
 								<input type="radio" name="register_gender" value="female" />
 							</div>
 						</td>
 						<td width="30">&nbsp;</td>
-						<td colspan="3">
+						<td>
 							<div class="register-block register-gender male"><span></span>Male
 								<input type="radio" name="register_gender" value="male" />
 							</div>
 						</td>
+						<td colspan="4">&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="9" height="30">&nbsp;</td>
 					</tr>
 					<tr>
 						<td>
-							<label>Gender</label>
+							<label>Age</label>
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
@@ -79,6 +83,9 @@ function btn_next_onclick(){
 							<input type="radio" name="register_age" value="50+" />
 							</div>
 						</td>
+					</tr>
+					<tr>
+						<td colspan="9" height="30">&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan="6">

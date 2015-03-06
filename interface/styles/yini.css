@@ -102,6 +102,8 @@ input[type="text"], input[type="email"], textarea{
 	background: url('/interface/pictures/arrow-white-right.png') no-repeat;
 }
 .btn.prev span{
+	margin-left: 0;
+	margin-right: 10px;
 	background: url('/interface/pictures/arrow-white-left.png') no-repeat;
 }
 
@@ -165,24 +167,31 @@ input[type="text"], input[type="email"], textarea{
 	background: #000 url('/interface/pictures/keyboard.jpg') center bottom no-repeat;
 }
 
+.register label{
+	font-weight: 700;
+	font-size: 120%;
+}
 .register-block{
 	float: none;
 	display: inline-block;
-	height: 100px;
+	height: 80px;
 	padding: 10px 20px;
-	text-transform: uppercase;
+	font-size: 120%;
 	color: #000;
 	border: 3px solid #2b2b2b;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	position: relative;
-	line-height: 80px;
+	line-height: 60px;
 }
 .register-block.selected{
 	color: #97c950;
 	background: rgba(255,255,255,.6);
 	border-color: #fff;
+}
+.register-block input{
+	display: none;
 }
 .register-block span{
 	display: inline-block;
