@@ -38,8 +38,9 @@ Created: 13.02.2015
 	<meta http-equiv="Content-Type" content="text/html; charset=utf8" >
 
 	<!-- Script -->
+	<script src="jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>util.js"></script>
-
+	<script src="javascript.js"></script>
 
 </head>
 <body>
