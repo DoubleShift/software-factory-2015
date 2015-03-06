@@ -9,7 +9,7 @@ Created: 6.3.2015
 */
 
 	// Include header
-	include( dirname(__FILE__) . '/header.php' );
+	include( dirname(__FILE__) . 'header.php' );
 
 ?>
 
