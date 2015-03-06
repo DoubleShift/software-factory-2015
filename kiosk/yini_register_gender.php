@@ -82,7 +82,7 @@ function btn_next_onclick(){
 					</tr>
 					<tr>
 						<td colspan="2">
-							<button class="btn prev" onclick="javascript:history.go(-1);"><span></span>Cancel</button>
+							<button class="btn prev" onclick="javascript:history.go(-1);">Cancel<span></span></button>
 						</td>
 						<td align="right">
 							<button class="btn next" onclick="btn_next_onclick()">Next<span></span></button>
