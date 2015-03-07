@@ -67,7 +67,7 @@ function btn_next_onclick(){
 	</a>  
 	</td>
 	</tr>
-	<tr>
+	<tr height="20">
 	</tr>
 	<tr>
 						<td>
