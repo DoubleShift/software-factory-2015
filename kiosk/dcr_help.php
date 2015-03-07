@@ -38,7 +38,7 @@ Created: 15.02.2015
 	</tr>
 	<tr>
     <td colspan="2" height="30">
-	<a href="#" class="option">
+	<a href="#" class="help_option">
        What is the standard of star level evaluation 
 	</a> 
 	</td>

@@ -2,8 +2,21 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
-
-
+.help_option{
+	float: none;
+	
+	height: 80px;
+	
+	padding: 10px 20px;
+	font-size: 120%;
+	color: #000;
+	border: 3px solid #2b2b2b;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	position: relative;
+	line-height: 60px;
+}
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
  * On desktops and other large-sized devices, we want to customize some
