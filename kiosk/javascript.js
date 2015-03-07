@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 			e.preventDefault();
 				
-			$(this).siblings().removeClass('selected').find('input').attr('checked','checked');
+			$(this).siblings().removeClass('selected').find('input').removeAttr('checked');
 
 			if($(this).hasClass('selected')){
 				//$(this).removeClass('selected').find('input').removeAttr('checked');
