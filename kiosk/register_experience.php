@@ -25,8 +25,20 @@ function btn_next_onclick(){
 	var user_exp = $('input[name="register_experience"]:checked').val();
 	
 	$.cookie('userexperience', user_exp);
-	
-	window.location ='register_problem.php';
+
+	var required_input = $('input.required');
+
+	if(required_input.size()){
+		required_input.each(function(){
+			var value = $(this).val();
+			if(value == ''){
+				$(this).addClass('highlight');
+			}
+		});
+		alert('Please fill in all the fields!');
+	}else{
+		window.location ='register_problem.php';
+	}
 }
 
 </script>

@@ -17,28 +17,25 @@ Created: 7.3.2015
 
 function btn_next_onclick(){
 
-	/*var user_gender='';
-	if(document.getElementsByName("register_gender").checked){
-		user_gender = document.getElementsByName("register_gender").value;
-		setCookie("usergender", user_gender);   
-		alert(user_gender);
-	};
-
-	var user_age = '';
-	if(document.getElementsByName("register_age").checked){
-		user_age = document.getElementsByName("register_age").value;
-		setCookie("userage", user_age);  
-		alert(user_age); 
-		
-	}*/
-
 	var user_gender = $('input[name="register_gender"]:checked').val();
 	var user_age = $('input[name="register_age"]:checked').val();
 	
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
-	
-	window.location ='register_experience.php';
+
+	var required_input = $('input.required');
+
+	if(required_input.size()){
+		required_input.each(function(){
+			var value = $(this).val();
+			if(value == ''){
+				$(this).addClass('highlight');
+			}
+		});
+		alert('Please fill in all the fields!');
+	}else{
+		window.location ='register_experience.php';
+	}
 
 	
 }

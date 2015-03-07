@@ -22,13 +22,23 @@ function btn_next_onclick(){
 	var required_input = $('input.required');
 
 	if(required_input.size()){
+
+		var empty_field = 0;
+
 		required_input.each(function(){
 			var value = $(this).val();
 			if(value == ''){
 				$(this).addClass('highlight');
+				empty_field = empty_field + 1;
 			}
 		});
-		alert('Please fill in all the fields!');
+
+		if(empty_field > 0){
+			alert('Please fill in all the fields!');
+		}else{
+			location.href='register_general.php';
+		}
+		
 	}else{
 		location.href='register_general.php';
 	}
