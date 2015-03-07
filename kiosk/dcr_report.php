@@ -3,9 +3,9 @@
 /*
 File: report.php
 Description: report a problem.
-Author: Chen Xin
-Version: 0.1
-Created: 24.02.2015
+Author: Deng Canrong
+Version: 0.2
+Created: 7.03.2015
 */
 
 	// Include header
@@ -27,16 +27,15 @@ function btn_next_onclick(){
 </script>
 <div class="wrapper">
 	<div class="content register-name">
-<div id="welcome-picture"></div>
-<div class="wrapper">
-	<div class="content register-name">
+<div id="report"></div>
+
 	<div class="heading">
 			<h1>Report a problem</h1>
 			
 		</div>
 	<div class="body">
 	 <h2>Select the problematic equipment</h2>
-	</div>
+	
 	<table >
 	<tr>
 	<h2>Describe the problem</h2>
@@ -58,5 +57,6 @@ function btn_next_onclick(){
 </div>
 </div>
 </div>
+
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>
