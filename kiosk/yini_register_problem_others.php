@@ -19,7 +19,7 @@ function btn_next_onclick(){
 
 	var user_problem=document.getElementById("input_problem").value;
 	setCookie("userproblem", user_problem);   
-	location.href='register_email.php';
+	location.href='yini_register_email.php';
 }
 
 </script>
@@ -30,14 +30,14 @@ function btn_next_onclick(){
 			<h1>AND any other issues that we should know?</h1>
 		</div>
 		<div class="body">
-			<form action="post" class="form register register-general">
+			<div class="register-wrap register-problem-others">
 				<table width="100%">
 					<tr>
 						<td colspan="2" height="30">&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan="2">
-							<textarea name="register_other_problem"></textarea>
+							<textarea width="100%" name="register_other_problem"></textarea>
 						</td>
 					</tr>
 					<tr>
@@ -52,7 +52,7 @@ function btn_next_onclick(){
 						</td>
 					</tr>
 				</table>
-			</form>
+			</div>
 		</div>
 	</div>
 

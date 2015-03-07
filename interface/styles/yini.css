@@ -12,6 +12,18 @@ h1, h2, h3, h4, h5, h6{
 	margin-top: 0;
 	font-family: Arial, sans-serif;
 }
+input[type="text"], input[type="email"], textarea{
+  border: 2px solid #000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 5px 10px;
+  height: 50px;
+  line-height: 40px;
+}
+textarea{
+	height: 100px;
+}
 #header{
 	border-bottom: 3px solid #fff;
 	background: #454545; /* Old browsers */
@@ -62,15 +74,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .body{
   padding: 20px 0;
-}
-input[type="text"], input[type="email"], textarea{
-  border: 2px solid #000;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  padding: 5px 10px;
-  height: 50px;
-  line-height: 40px;
 }
 .btn{
   border: 2px solid #fff;

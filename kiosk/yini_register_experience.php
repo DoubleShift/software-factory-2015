@@ -30,7 +30,7 @@ function btn_next_onclick(){
 			<h1>Provide your exercise experience</h1>
 		</div>
 		<div class="body">
-			<form action="post" class="form register register-general">
+			<div class="register-wrap register-experience">
 				<table width="100%">
 					<tr>
 						<td colspan="2" height="30">&nbsp;</td>
@@ -68,7 +68,7 @@ function btn_next_onclick(){
 						</td>
 					</tr>
 				</table>
-			</form>
+			</div>
 		</div>
 	</div>
 </div>

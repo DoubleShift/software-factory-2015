@@ -30,7 +30,7 @@ function btn_next_onclick(){
 		</div>
 		<div class="body">
 			<p>This will be the name for your registration that is assigned with your card.</p>
-			<form action="post" class="form register register-name">
+			<div class="register-wrap register-name">
 				<table width="100%">
 					<tr>
 						<td>
@@ -42,7 +42,7 @@ function btn_next_onclick(){
 						</td>
 					</tr>
 				</table>
-			</form>
+			</div>
 		</div>
 	</div>
 	<div class="keyboard"></div>
