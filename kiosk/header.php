@@ -39,6 +39,7 @@ Created: 13.02.2015
 
 	<!-- Script -->
 	<script src="jquery-2.1.3.min.js"></script>
+	<script src="jquery.cookie.js"></script>
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>util.js"></script>
 	<script src="javascript.js"></script>
 
