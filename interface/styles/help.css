@@ -2,8 +2,16 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
-
-
+.help_option{
+width: 720px;
+	overflow: visible;
+	position: absolute;
+	color: #454545;
+	float: left;
+	left: -300px;
+	top: 100px;
+	margin-left: 50%;
+}
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
  * On desktops and other large-sized devices, we want to customize some
