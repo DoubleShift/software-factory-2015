@@ -20,56 +20,10 @@ Created: 15.02.2015
 
 
 <div id="layout" class="content pure-g">
+   <div id="help_topic" class="welcome.row">
+	<p> Help </p>
    
-
-    <div id="list" class="pure-u-1">
-        <div class="email-item email-item-selected pure-g">
-            <div class="pure-u">
-                <img class="email-avatar"  height="64" width="64" src="../interface/pictures/icon01.png">
-            </div>
-
-            <div class="pure-u-3-4">
-                <h4 class="email-subject">Bar Bell</h4>
-            </div>
-        </div>
-
-
-
-
-        <div class="email-item pure-g">
-            <div class="pure-u">
-                <img class="email-avatar"  height="64" width="64" src="../interface/pictures/icon02.png">
-            </div>
-
-            <div class="pure-u-3-4">
-                <h4 class="email-subject">Running Machine</h4>
-            </div>
-        </div>
-
-
-
-        <div class="email-item pure-g">
-            <div class="pure-u">
-                <img class="email-avatar"  height="64" width="64" src="../interface/pictures/icon03.png">
-            </div>
-
-            <div class="pure-u-3-4">
-                <h4 class="email-subject">Scales</h4>
-            </div>
-        </div>
-
-        <div class="email-item pure-g">
-            <div class="pure-u">
-                <img class="email-avatar"  height="64" width="64" src="../interface/pictures/icon04.png">
-            </div>
-
-            <div class="pure-u-3-4">
-                <h4 class="email-subject">Biking</h4>
-               
-            </div>
-        </div>
-
-       
+   </div>    
     </div>
 
 
