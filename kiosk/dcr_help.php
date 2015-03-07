@@ -25,17 +25,26 @@ Created: 15.02.2015
 	<hr/>
 	<h2> Select the topic you need help from </h2>
 	
-	<table border="1">
+	<table border="1" width="100%" cell_pading="" >
 	<tr>
-    <td>How to use our system </td>
+    <td><a href="#" class="option">
+        How to use our system
+	</a> </td>
     
 	</tr>
 	<tr>
-    <td>What is the standard of star level evaluation</td>
+    <td>
+	<a href="#" class="option">
+       What is the standard of star level evaluation 
+	</a> 
+	</td>
     
 	</tr>
 	<tr>
-	<td>How can I get contacted with my Facebook Account </td>
+	<td>
+	<a href="#" class="option">
+        How can I get contacted with my Facebook Account
+	</a>  </td>
 	</tr>
 	</table>
 	
