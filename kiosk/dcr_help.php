@@ -23,16 +23,18 @@ Created: 15.02.2015
 			<h1>Help</h1>
 		</div>
 
-	
+	<div class="body"
 	
 	<h2> Select the topic you need help from </h2>
 	
-	<table border="1" width="100%" cellpadding="5px" cellspacing="20px">
+	<table  width="100%" cellpadding="5px" cellspacing="20px">
 	<tr>
     <td colspan="2" height="30"><a href="#" class="option">
         How to use our system
 	</a> </td>
     
+	</tr>
+	<tr>
 	</tr>
 	<tr>
     <td colspan="2" height="30">
@@ -43,6 +45,8 @@ Created: 15.02.2015
     
 	</tr>
 	<tr>
+	</tr>
+	<tr>
 	<td colspan="2" height="30">
 	<a href="#" class="option">
         How can I get contacted with my Facebook Account
@@ -50,7 +54,7 @@ Created: 15.02.2015
 	</tr>
 	</table>
 	
-   
+   </div>
    </div>    
     </div>
 
