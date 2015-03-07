@@ -76,16 +76,17 @@ function btn_next_onclick(){
 							<input type="radio" name="register_age" value="50+" />
 							</a>
 						</td>
+
 					</tr>
 					<tr>
-						<td colspan="3" height="30">&nbsp;</td>
+						<td colspan="4" height="30">&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan="2">
-							<button class="btn prev" onclick="javascript:history.go(-1);">Cancel<span></span></button>
+							<button class="btn prev" onclick="javascript:history.go(-1);">Cancel</button>
 						</td>
 						<td align="right">
-							<button class="btn next" onclick="btn_next_onclick()">Next<span></span></button>
+							<button class="btn next" onclick="btn_next_onclick()">Next</button>
 						</td>
 					</tr>
 				</table>

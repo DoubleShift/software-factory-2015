@@ -85,6 +85,7 @@ input[type="text"], input[type="email"], textarea{
   height: 50px;
   line-height: 40px;
   font-size: 20px;
+  position: relative;
 }
 .btn:hover{
 	background: #A0D357;
@@ -92,22 +93,37 @@ input[type="text"], input[type="email"], textarea{
 .btn:focus{
 	background: #A7DA5F;
 }
-.btn span{
-	display: inline-block;
-	margin-left: 10px;
+.btn.prev{
+	padding-left: 72px;
+}
+.btn.next{
+	padding-right: 72px;
+}
+.btn.prev:before {
+  content: '';
+  margin-left: 0;
+  margin-right: 10px;
+  display: block;
+  margin-top: 7px;
+  background: url('/interface/pictures/arrow-white-left.png') no-repeat;
+  position: absolute;
+  left: 50px;
+  width: 12px;
+  height: 21px;
+}
+.btn.next:before{
+	content: '';
+	margin-left: 0;
+	margin-right: 10px;
+	display: block;
+	margin-top: 7px;
+	background: url('/interface/pictures/arrow-white-right.png') no-repeat;
+	position: absolute;
+	right: 50px;
 	width: 12px;
 	height: 21px;
 }
-.btn.next span{
-	background: url('/interface/pictures/arrow-white-right.png') no-repeat;
-}
-.btn.prev span{
-	margin-left: 0;
-	margin-right: 10px;
-	float: left;
-	margin-top: 7px;
-	background: url('/interface/pictures/arrow-white-left.png') no-repeat;
-}
+
 
 .welcome .row{
 	width: 100%;
