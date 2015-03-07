@@ -36,7 +36,7 @@ function btn_next_onclick(){
 	<div class="body">
 	 <h2>Select the problematic equipment</h2>
 	
-	<table >
+	<table width=100%>
 	<tr>
 	<h2>Describe the problem</h2>
 	</tr>
@@ -49,7 +49,7 @@ function btn_next_onclick(){
 							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
 						</td>
 						<td align="right">
-							<button class="btn next" onclick="btn_next_onclick()">Next</button>
+							<button class="btn next" onclick="btn_next_onclick()">Send</button>
 						</td>
 					</tr>
 	</table>
