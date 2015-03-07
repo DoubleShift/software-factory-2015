@@ -49,8 +49,8 @@ function btn_next_onclick(){
 	<tr>
 	</tr>
 	<tr>
-    <td colspan="2" height="30" style="width:100%; >
-	<a href="#" class="help_option">
+    <td colspan="2" height="30"  >
+	<a href="#" class="help_option" style="width:100%;>
        What is the standard of star level evaluation 
 	</a> 
 	</td>
@@ -60,7 +60,7 @@ function btn_next_onclick(){
 	</tr>
 	<tr>
 	<td colspan="2" height="30">
-	<a href="#" class="help_option" style="width:100%;>
+	<a href="#" class="help_option" style="width:100%";>
         How can I get contacted with my Facebook Account
 	</a>  </td>
 	</tr>
@@ -68,7 +68,7 @@ function btn_next_onclick(){
 	</tr>
 	<tr>
 						<td>
-							<button class="btn prev" onclick="javascript:history.go(-1);">Back</button>
+							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
 						</td>
 						<td align="right">
 							<button class="btn next" onclick="btn_next_onclick()">Next</button>
