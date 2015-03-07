@@ -38,7 +38,7 @@ function btn_next_onclick(){
 	$.removeCookie('userage');
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
-	window.location.href='http://sfp.psicode.ru/kiosk/yini_register_experience.php';
+	window.location ='http://sfp.psicode.ru/kiosk/yini_register_experience.php';
 
 	
 }
@@ -54,7 +54,7 @@ function btn_next_onclick(){
 		</div>
 		<div class="body">
 			<form action="post" class="form register register-general">
-				<table width="">
+				<table width="100%">
 					<tr>
 						<td colspan="3" height="30">&nbsp;</td>
 					</tr>

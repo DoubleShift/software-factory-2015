@@ -17,7 +17,7 @@ Created: 24.02.2015
 
 function btn_next_onclick(){
 
-	var user_exp=document.getElementById("input_experience").value;
+	var user_exp=document.getElementsById("input_experience").value;
 	setCookie("userexperience", user_exp);   
 	location.href='yini_register_problem.php';
 }
@@ -31,7 +31,7 @@ function btn_next_onclick(){
 		</div>
 		<div class="body">
 			<form action="post" class="form register register-general">
-				<table width="">
+				<table width="100%">
 					<tr>
 						<td colspan="2" height="30">&nbsp;</td>
 					</tr>
@@ -39,6 +39,9 @@ function btn_next_onclick(){
 						<td colspan="2">
 							<label>How often do you expercise per week?</label>
 						</td>
+					</tr>
+					<tr>
+						<td colspan="2" height="30">&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan="2">
