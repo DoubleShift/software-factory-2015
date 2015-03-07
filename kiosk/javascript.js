@@ -6,14 +6,26 @@ $(document).ready(function(){
 		$(this).click(function(e){
 
 			e.preventDefault();
-				
-			$(this).siblings().removeClass('selected').find('input').removeAttr('checked');
 
-			if($(this).hasClass('selected')){
-				//$(this).removeClass('selected').find('input').removeAttr('checked');
+			if($(this).find('input[type="radio"]')){
+
+				$(this).siblings().removeClass('selected').find('input').removeAttr('checked');
+
+				if(!$(this).hasClass('selected')){
+					$(this).addClass('selected').find('input').attr('checked','checked');
+				}
+
 			}else{
-				$(this).addClass('selected').find('input').attr('checked','checked');
+
+				if($(this).hasClass('selected')){
+					$(this).removeClass('selected').find('input').removeAttr('checked');
+				}else{
+					$(this).addClass('selected').find('input').attr('checked','checked');
+				}
 			}
+				
+			
+			
 
 		});
 		
