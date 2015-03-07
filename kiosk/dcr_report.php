@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 /*
@@ -61,67 +60,4 @@ function btn_next_onclick(){
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>
-=======
-<?php
 
-/*
-File: report.php
-Description: report a problem.
-Author: Deng Canrong
-Version: 0.2
-Created: 7.03.2015
-*/
-
-	// Include header
-	include( dirname(__FILE__) . '/header.php' );
-
-	/* PAGE CODE STARTS AFTER THIS SECTION */ 
-?>
-<script>
-/* waiting to write*/
-function btn_next_onclick(){
-
-	/*var user_problem=document.getElementById("input_problem").value;
-	setCookie("userproblem", user_problem);   
-	location.href='yini_register_email.php';*/
-
-	
-}
-
-</script>
-<div class="wrapper">
-	<div class="content register-name">
-<div id="report"></div>
-
-	<div class="heading">
-			<h1>Report a problem</h1>
-			
-		</div>
-	<div class="body">
-	 <h2>Select the problematic equipment</h2>
-	
-	<table width=100%>
-	<tr>
-	<h2>Describe the problem</h2>
-	</tr>
-	<tr>
-	<textarea style="width:100%;" id="register_other_problem"></textarea>
-	<tr height=20>
-	</tr>
-	<tr>
-						<td>
-							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
-						</td>
-						<td align="right">
-							<button class="btn next" onclick="btn_next_onclick()">Send</button>
-						</td>
-					</tr>
-	</table>
-</div>
-</div>
-</div>
-</div>
-
-<?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
-</body></html>
->>>>>>> 3784f8ce353be9eea40819d98fc8b53922e3438f

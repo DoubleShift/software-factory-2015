@@ -37,7 +37,7 @@ $size = count($files);
 //create  file list links
 echo '<ol>';
     for( $i=0; $i < $size; $i++ ) {
-    echo '<li><a href="'.($files[$i]).'" target="_blank">'.$files[$i].'</a></li>';
+    echo '<li><a href="kiosk\\'.($files[$i]).'" target="_blank">'.$files[$i].'</a></li>';
     }
 echo '</ol>';
 ?>
