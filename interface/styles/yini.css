@@ -116,7 +116,7 @@ input.highlight, textarea.highlight{
 	content: '';
 	display: block;
 	position: absolute;
-	top: 12px;
+	top: 18px;
 	width: 12px;
 	height: 21px;
 }
