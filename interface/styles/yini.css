@@ -28,7 +28,7 @@ input[type="text"], input[type="email"], textarea{
   outline: none;
 }
 textarea{
-	height: 100px;
+	height: 150px;
 }
 input.highlight, textarea.highlight{
 	border-color: #ff0000;
