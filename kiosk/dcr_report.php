@@ -36,7 +36,7 @@ function btn_next_onclick(){
 		</div>
 	<div class="body">
 	 <h2>Select the problematic equipment</h2>
-	</div>
+	
 	<table >
 	<tr>
 	<h2>Describe the problem</h2>
