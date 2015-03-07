@@ -23,7 +23,7 @@ Created: 15.02.2015
 			<h1>Help</h1>
 		</div>
 
-	<div class="body" width="100%">
+	<div class="body" style="width:100%;">
 	
 	<h2> Select the topic you need help from </h2>
 	
