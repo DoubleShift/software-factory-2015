@@ -16,12 +16,21 @@ Created: 24.02.2015
 <script>
 
 function btn_next_onclick(){
-	var user_gender=document.getElementsByName("register_gender")[0].value;
-	setCookie("usergender", user_gender);   
-	alert(user_gender);
 
-	var user_age=document.getElementsByName("register_age")[0].value;
-	setCookie("userage", user_age);   
+	var user_gender='';
+	if(document.getElementsByName("register_gender").checked){
+		user_gender = document.getElementsByName("register_gender").value;
+		setCookie("usergender", user_gender);   
+		alert(user_gender);
+	};
+
+	var user_age = '';
+	if(document.getElementsByName("register_age").checked){
+		user_age = document.getElementsByName("register_age").value;
+		setCookie("userage", user_age);  
+		alert(user_age); 
+	}
+
 	location.href='yini_register_experience.php';
 }
 
