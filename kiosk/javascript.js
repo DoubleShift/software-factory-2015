@@ -23,12 +23,11 @@ $(document).ready(function(){
 					$(this).addClass('selected').find('input').attr('checked','checked');
 				}
 			}
-				
-			
-			
 
 		});
 		
 	});
+
+	
 
 })
