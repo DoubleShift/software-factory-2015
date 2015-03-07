@@ -47,7 +47,7 @@ input.highlight, textarea.highlight{
 }
 .language{
 	width: auto;
-	height: 30px;
+	height: 40px;
 }
 .language:first-child{
 	margin-left: 50px;
@@ -56,16 +56,16 @@ input.highlight, textarea.highlight{
 	padding-right: 0;
 }
 .menu-image {
-  height: 30px;
+  height: 40px;
   width: auto;
   float: left;
 }
 .menu-item.report-problem .menu-image{
-	height: 25px;
+	height: 35px;
 }
 .menu-text {
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
   display: inline-block;
   color: #FFF;
   margin-left: 10px;
