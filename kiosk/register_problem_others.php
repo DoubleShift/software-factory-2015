@@ -1,8 +1,8 @@
 <?php
 
 /*
-File: problem.php
-Description:  health problem.
+File: register_problem_others.php
+Description:  other health problem.
 Author: Yini Wang
 Version: 0.1
 Created: 7.3.2015
@@ -25,7 +25,7 @@ function btn_next_onclick(){
 	
 	$.cookie('userproblemothers', user_problem_others);
 	
-	window.location ='yini_register_email.php';
+	window.location ='register_email.php';
 }
 
 </script>

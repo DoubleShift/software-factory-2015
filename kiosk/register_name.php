@@ -18,7 +18,7 @@ Created: 6.3.2015
 function btn_next_onclick(){
 	var user_name=document.getElementById("input_name").value;
 	setCookie("username", user_name);   
-	location.href='yini_register_gender.php';
+	location.href='register_general.php';
 }
 
 </script>
@@ -34,7 +34,7 @@ function btn_next_onclick(){
 				<table width="100%">
 					<tr>
 						<td>
-							<input type="text" id="input_name" />
+							<input required="required" type="text" id="input_name" />
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
