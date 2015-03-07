@@ -3,14 +3,19 @@
  * Most of these are inherited from Base, but I want to change a few.
  */
 .help_option{
-width: 720px;
-	overflow: visible;
-	position: absolute;
-	color: #454545;
-	float: left;
-	left: -300px;
-	top: 100px;
-	margin-left: 50%;
+	float: none;
+	display: inline-block;
+	height: 80px;
+	margin-right: 30px;
+	padding: 10px 20px;
+	font-size: 120%;
+	color: #000;
+	border: 3px solid #2b2b2b;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	position: relative;
+	line-height: 60px;
 }
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
