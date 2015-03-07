@@ -29,7 +29,7 @@ Created: 15.02.2015
 	
 	<table  width="100%" cellpadding="5px" cellspacing="20px">
 	<tr>
-    <td colspan="2" height="30"><a href="#" class="option">
+    <td colspan="2" height="30"><a href="#" class="help_option">
         How to use our system
 	</a> </td>
     
@@ -48,7 +48,7 @@ Created: 15.02.2015
 	</tr>
 	<tr>
 	<td colspan="2" height="30">
-	<a href="#" class="option">
+	<a href="#" class="help_option">
         How can I get contacted with my Facebook Account
 	</a>  </td>
 	</tr>
