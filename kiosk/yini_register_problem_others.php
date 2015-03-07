@@ -21,7 +21,7 @@ function btn_next_onclick(){
 	setCookie("userproblem", user_problem);   
 	location.href='yini_register_email.php';*/
 
-	var user_problem_others = $('input[name="register_other_problem"]').val();
+	var user_problem_others = $('#register_other_problem').text();
 	
 	$.cookie('userproblemothers', user_problem_others);
 	
@@ -43,7 +43,7 @@ function btn_next_onclick(){
 					</tr>
 					<tr>
 						<td colspan="2">
-							<textarea width="100%" name="register_other_problem"></textarea>
+							<textarea style="width:100%;" id="register_other_problem"></textarea>
 						</td>
 					</tr>
 					<tr>

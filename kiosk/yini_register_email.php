@@ -50,7 +50,7 @@ function btn_next_onclick(){
 					</tr>
 					<tr>
 						<td colspan="2">
-							<input type="email" id="input_email" />
+							<input style="width:100%;" type="email" id="input_email" />
 						</td>
 					</tr>
 					<tr>
