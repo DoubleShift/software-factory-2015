@@ -41,7 +41,7 @@ function btn_next_onclick(){
 	
 	<table  width="100%" cellpadding="5px" cellspacing="20px">
 	<tr>
-    <td colspan="2" height="30" ><a href="#" class="help_option">
+    <td colspan="2" height="30" style="width:100%;><a href="#" class="help_option">
         How to use our system
 	</a> </td>
     
@@ -49,7 +49,7 @@ function btn_next_onclick(){
 	<tr>
 	</tr>
 	<tr>
-    <td colspan="2" height="30" >
+    <td colspan="2" height="30" style="width:100%; >
 	<a href="#" class="help_option">
        What is the standard of star level evaluation 
 	</a> 
@@ -60,9 +60,11 @@ function btn_next_onclick(){
 	</tr>
 	<tr>
 	<td colspan="2" height="30">
-	<a href="#" class="help_option">
+	<a href="#" class="help_option" style="width:100%;>
         How can I get contacted with my Facebook Account
 	</a>  </td>
+	</tr>
+	<tr>
 	</tr>
 	<tr>
 						<td>
