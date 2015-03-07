@@ -21,7 +21,7 @@ function btn_next_onclick(){
 	setCookie("userproblem", user_problem);   
 	location.href='yini_register_email.php';*/
 
-	var user_problem_others = $('#register_other_problem').text();
+	var user_problem_others = $('#register_other_problem').val();
 	
 	$.cookie('userproblemothers', user_problem_others);
 	
