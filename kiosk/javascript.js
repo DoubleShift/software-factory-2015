@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 			e.preventDefault();
 
-			if($(this).find('input[type="radio"]')){
+			if($(this).find('input[type="radio"]').size()){
 
 				$(this).siblings().removeClass('selected').find('input').removeAttr('checked');
 
