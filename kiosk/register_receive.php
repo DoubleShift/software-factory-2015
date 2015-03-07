@@ -1,10 +1,10 @@
 <?php
 /*
-File: receive.php
+File: register_receive.php
 Description:  receive user register data.
-Author: Chen Xin
-Version: 0.1
-Created: 03.03.2015
+Author: Yini Wang
+Version: 0.2
+Created: 07.03.2015
 */
 
 	// Include header
@@ -15,10 +15,11 @@ Created: 03.03.2015
 	$userage = $_POST['userage'];
 	$userexperience = $_POST['userexperience'];
 	$userproblem = $_POST['userproblem'];
+	$userproblemothers = $_POST['userproblemothers'];
 	$useremail = $_POST['useremail'];
 	$userlanguage = $_POST['userlanguage'];
 
-	$query = 'insert into "user" (,'.$username.',,'.$useremail.','.$usergender.','.$userage.',,'.$userlanguage.','.$userexperience.','.$userproblem.',),';	
+	$query = 'insert into "user" (,'.$username.',,'.$useremail.','.$usergender.','.$userage.',,'.$userlanguage.','.$userexperience.','.$userproblem.','.$userproblemothers.',),';	
 
 	//INSERT INTO `user` (`uid`, `name`, `pass`, `email`, `gender`, `age`, `gravatar`, `language`, `experience`, `status`, `scores`) VALUES
 

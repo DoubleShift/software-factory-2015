@@ -1,42 +1,80 @@
 <?php
 
 /*
-File: report.php
-Description: report a problem.
-Author: Chen Xin
+File: register_name.php
+Description: register name
+Author: Yini Wang
 Version: 0.1
-Created: 24.02.2015
+Created: 6.3.2015
 */
 
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
 
-
 ?>
 
-<script>
-
+<script type="text/javascript">
+	
 function btn_next_onclick(){
 	var user_name=document.getElementById("input_name").value;
 	setCookie("username", user_name);   
-	location.href='register_gender.php';
+
+	var required_input = $('input.required');
+
+	if(required_input.size()){
+
+		var empty_field = 0;
+
+		required_input.each(function(){
+			var value = $(this).val();
+			if(value == ''){
+				$(this).addClass('highlight');
+				empty_field = empty_field + 1;
+			}
+		});
+
+		if(empty_field > 0){
+			alert(translations.emptyField);
+		}else{
+			window.location='register_general.php';
+		}
+		
+	}else{
+		window.location='register_general.php';
+	}
+	
 }
+
+
 
 </script>
 
-<div id="welcome-picture"></div>
-
-
-	<div class="main-box">
-		<h1 class="title">Enter your name</h1>
-		<hr align=left width=720 color=#000000 SIZE=3 noShade> 
-		<h1 class="main-text">Please input your name:</h1>
-		<input id="input_name" type="text">
-		<button  class="button-back" onclick="btn_next_onclick()">Next</button>
-
+<div class="wrapper">
+	<div class="content register-name">
+		<div class="heading">
+			<h1>Enter your name</h1>
+		</div>
+		<div class="body">
+			<p>This will be the name for your registration that is assigned with your card.</p>
+			<div class="register-wrap register-name">
+				<table width="100%">
+					<tr>
+						<td>
+							<input class="required" type="text" id="input_name" />
+						</td>
+						<td width="30">&nbsp;</td>
+						<td>
+							<button class="btn next" onclick="btn_next_onclick()">Next</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
 	</div>
+	<div class="keyboard"></div>
+</div>
 
-	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
+
 
 
 

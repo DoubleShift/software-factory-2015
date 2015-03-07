@@ -1,11 +1,11 @@
 <?php
 
 /*
-File: email.php
+File: register_email.php
 Description:  user email.
-Author: Chen Xin
+Author: Yini Wang
 Version: 0.1
-Created: 24.02.2015
+Created: 7.3.2015
 */
 
 	// Include header
@@ -26,23 +26,50 @@ function btn_next_onclick(){
 	value.userage = getCookie('userage');
 	value.userexperience = getCookie('userexperience');
 	value.userproblem = getCookie('userproblem');
+	value.userproblemothers = getCookie('userproblemothers');
 	value.useremail = user_email;
 	value.userlanguage = getCookie('language');
+	
 	post('register_receive.php', value);
-		//location.href='welcome.php';
+	
 	
 }
 
 </script>
 
-<div id="welcome-picture"></div>
-
-<div class="main-box">
-<input type="text" id="input_email">
-	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
-	<button  class="button-back" onclick="btn_next_onclick()">Next</button>
-
-
+<div class="wrapper">
+	<div class="content register-name">
+		<div class="heading">
+			<h1>Enter your email</h1>
+		</div>
+		<div class="body">
+			<p>We will send you login information for internet portal via email.</p>
+			<div class="register-wrap register-email">
+				<table width="100%">
+					<tr>
+						<td colspan="2" height="30">&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input style="width:100%;" type="email" id="input_email" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" height="50">&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="btn prev" onclick="javascript:history.go(-1);">Back</button>
+						</td>
+						<td align="right">
+							<button class="btn next" onclick="btn_next_onclick()">Next</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="keyboard"></div>
 </div>
 
 

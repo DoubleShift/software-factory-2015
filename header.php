@@ -46,7 +46,7 @@ Created: 13.02.2015
 	
 	include( P_LANGUAGE . $_SESSION['language'] . '.php');
 	
-	include( 'exercise.php' );
+	include( 'kiosk/alex_exercise.php' );
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
@@ -56,9 +56,6 @@ Created: 13.02.2015
 	<link href='https://fonts.googleapis.com/css?subset=cyrillic,latin&family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 	
 	<title><?php echo $title; ?></title>
-	
-	<!-- Favicon -->
-	<link rel="icon" type="image/ico" href="<?php echo IP_PICTURES ?>favicon.ico" >
 	
 	<!-- Add links to stylesheets. Place your css here -->
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>main.css">
