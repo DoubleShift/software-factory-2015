@@ -56,5 +56,7 @@ function btn_next_onclick(){
 	</table>
 </div>
 </div>
+</div>
+</div>
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>
