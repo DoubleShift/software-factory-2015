@@ -36,7 +36,7 @@ function btn_next_onclick(){
 	var user_age = $('input[name="register_age"]:checked').val();
 	$.setCookie('usergender', user_gender);
 	$.setCookie('userage', user_age);
-	location.href='yini_register_experience.php';
+	window.location.href='yini_register_experience.php';
 
 	
 }
