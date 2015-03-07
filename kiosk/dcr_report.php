@@ -14,6 +14,7 @@ Created: 24.02.2015
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 <script>
+/* waiting to write*/
 function btn_next_onclick(){
 
 	/*var user_problem=document.getElementById("input_problem").value;
@@ -22,7 +23,10 @@ function btn_next_onclick(){
 
 	
 }
+
 </script>
+<div class="wrapper">
+	<div class="content register-name">
 <div id="welcome-picture"></div>
 <div class="wrapper">
 	<div class="content register-name">
@@ -39,6 +43,8 @@ function btn_next_onclick(){
 	</tr>
 	<tr>
 	<textarea style="width:100%;" id="register_other_problem"></textarea>
+	<tr height=20>
+	</tr>
 	<tr>
 						<td>
 							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
