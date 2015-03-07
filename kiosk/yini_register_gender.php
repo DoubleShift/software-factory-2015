@@ -37,6 +37,9 @@ function btn_next_onclick(){
 			<form action="post" class="form register register-general">
 				<table width="">
 					<tr>
+						<td colspan="3" height="30">&nbsp;</td>
+					</tr>
+					<tr>
 						<td>
 							<label>Gender</label>
 						</td>
@@ -79,7 +82,7 @@ function btn_next_onclick(){
 
 					</tr>
 					<tr>
-						<td colspan="4" height="30">&nbsp;</td>
+						<td colspan="4" height="50">&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan="2">
