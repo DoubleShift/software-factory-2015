@@ -34,13 +34,13 @@ function btn_next_onclick(){
 		});
 
 		if(empty_field > 0){
-			alert('Please fill in all the fields!');
+			alert(translations.empty_field);
 		}else{
-			location.href='register_general.php';
+			window.location='register_general.php';
 		}
 		
 	}else{
-		location.href='register_general.php';
+		window.location='register_general.php';
 	}
 	
 }
