@@ -23,8 +23,8 @@ function btn_next_onclick(){
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
 
-	var required_input_1 = $('input[name="register_gender"]]');
-	var required_input_2 = $('input[name="register_age"]]');
+	var required_input_1 = $('input[name="register_gender"]');
+	var required_input_2 = $('input[name="register_age"]');
 
 	if(required_input.size()){
 
