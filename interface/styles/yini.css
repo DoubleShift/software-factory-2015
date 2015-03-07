@@ -99,29 +99,21 @@ input[type="text"], input[type="email"], textarea{
 .btn.next{
 	padding-right: 72px;
 }
-.btn.prev:before {
-  content: '';
-  margin-left: 0;
-  margin-right: 10px;
-  display: block;
-  margin-top: 7px;
-  background: url('/interface/pictures/arrow-white-left.png') no-repeat;
-  position: absolute;
-  left: 50px;
-  width: 12px;
-  height: 21px;
-}
-.btn.next:before{
+.btn:before{
 	content: '';
-	margin-left: 0;
-	margin-right: 10px;
 	display: block;
-	margin-top: 7px;
-	background: url('/interface/pictures/arrow-white-right.png') no-repeat;
 	position: absolute;
-	right: 50px;
+	top: 7px;
 	width: 12px;
 	height: 21px;
+}
+.btn.prev:before {
+	background: url('/interface/pictures/arrow-white-left.png') no-repeat;
+	left: 50px;
+}
+.btn.next:before{
+	background: url('/interface/pictures/arrow-white-right.png') no-repeat;
+	right: 50px;
 }
 
 
@@ -189,7 +181,7 @@ input[type="text"], input[type="email"], textarea{
 	font-weight: 700;
 	font-size: 120%;
 }
-.register-block{
+.option-block{
 	float: none;
 	display: inline-block;
 	height: 80px;
@@ -204,15 +196,15 @@ input[type="text"], input[type="email"], textarea{
 	position: relative;
 	line-height: 60px;
 }
-.register-block.selected{
+.option-block.selected{
 	color: #97c950;
 	background: rgba(255,255,255,.6);
 	border-color: #fff;
 }
-.register-block input{
+.option-block input{
 	display: none;
 }
-.register-block span{
+.option-block span{
 	display: inline-block;
 }
 /*Codes made by Yini - End */

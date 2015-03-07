@@ -1,15 +1,19 @@
 $(document).ready(function(){
 
 	//On register pages, select of info block
-	$(document).on('.register-block', 'click', function(e){
+	$('.option-block').each(function(){
 
-		if($(this).hasClass('selected')){
-			$(this).removeClass('selected').find('input').removeAttr('checked');
-		}else{
-			$(this).addClass('selected').find('input').attr('checked','checked');
-		}
+		$(this).click(function(e){
 
-		return false;
+			e.preventDefault();
+
+			if($(this).hasClass('selected')){
+				$(this).removeClass('selected').find('input').removeAttr('checked');
+			}else{
+				$(this).addClass('selected').find('input').attr('checked','checked');
+			}
+
+		});
 		
 	});
 
