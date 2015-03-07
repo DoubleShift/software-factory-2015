@@ -103,7 +103,7 @@ input[type="text"], input[type="email"], textarea{
 	content: '';
 	display: block;
 	position: absolute;
-	top: 7px;
+	top: 12px;
 	width: 12px;
 	height: 21px;
 }

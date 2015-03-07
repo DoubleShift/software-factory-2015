@@ -60,7 +60,7 @@ function btn_next_onclick(){
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
-							<a href="#" class="option register-age">< 25
+							<a href="#" class="option-block register-age">< 25
 							<input type="radio" name="register_age" value="25-" />
 							</a>
 						
