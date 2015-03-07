@@ -15,14 +15,15 @@ Created: 03.03.2015
 	$userage = $_POST['userage'];
 	$userexperience = $_POST['userexperience'];
 	$userproblem = $_POST['userproblem'];
+	$userproblemothers = $_POST['userproblemothers'];
 	$useremail = $_POST['useremail'];
 	$userlanguage = $_POST['userlanguage'];
 
-	$query = 'insert into "user" (,'.$username.',,'.$useremail.','.$usergender.','.$userage.',,'.$userlanguage.','.$userexperience.','.$userproblem.',),';	
+	$query = 'insert into "user" (,'.$username.',,'.$useremail.','.$usergender.','.$userage.',,'.$userlanguage.','.$userexperience.','.$userproblem.','.$userproblemothers.',),';	
 
 	//INSERT INTO `user` (`uid`, `name`, `pass`, `email`, `gender`, `age`, `gravatar`, `language`, `experience`, `status`, `scores`) VALUES
 
-	echo "<script type='text/javascript'> window.location.href='welcome.php' </script>";  
+	echo "<script type='text/javascript'> window.location.href='yini_welcome.php' </script>";  
 
 
 ?>
