@@ -17,9 +17,16 @@ Created: 24.02.2015
 
 function btn_next_onclick(){
 
-	var user_exp=document.getElementsById("input_experience").value;
+	/*var user_exp=document.getElementsById("input_experience").value;
 	setCookie("userexperience", user_exp);   
-	location.href='yini_register_problem.php';
+	location.href='yini_register_problem.php';*/
+
+
+	var user_exp = $('input[name="register_experience"]:checked').val();
+	
+	$.cookie('userexperience', user_exp);
+	
+	window.location ='yini_register_problem.php';
 }
 
 </script>
@@ -45,14 +52,14 @@ function btn_next_onclick(){
 					</tr>
 					<tr>
 						<td colspan="2">
-							<a href="#" class="option-block register-exercise">< 2 times
-								<input type="radio" name="register_exercise" value="<2" />
+							<a href="#" class="option-block register-experience">< 2 times
+								<input type="radio" name="register_experience" value="<2" />
 							</a>
-							<a href="#" class="option-block register-exercise">2 - 3 times
-								<input type="radio" name="register_exercise" value="2-3" />
+							<a href="#" class="option-block register-experience">2 - 3 times
+								<input type="radio" name="register_experience" value="2-3" />
 							</a>
-							<a href="#" class="option-block register-exercise">> 3 times
-								<input type="radio" name="register_exercise" value=">3" />
+							<a href="#" class="option-block register-experience">> 3 times
+								<input type="radio" name="register_experience" value=">3" />
 							</a>
 						</td>
 					</tr>

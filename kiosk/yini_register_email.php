@@ -26,6 +26,7 @@ function btn_next_onclick(){
 	value.userage = getCookie('userage');
 	value.userexperience = getCookie('userexperience');
 	value.userproblem = getCookie('userproblem');
+	value.userproblemothers = getCookie('userproblemothers');
 	value.useremail = user_email;
 	value.userlanguage = getCookie('language');
 	post('yini_register_receive.php', value);
