@@ -36,7 +36,7 @@ function btn_next_onclick(){
 	var user_age = $('input[name="register_age"]:checked').val();
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
-	window.location.href='yini_register_experience.php';
+	window.location.href='http://sfp.psicode.ru/kiosk/yini_register_experience.php';
 
 	
 }
