@@ -34,7 +34,7 @@ function btn_next_onclick(){
 				<table width="100%">
 					<tr>
 						<td>
-							<input type="text" id="input_name" />
+							<input required="required" type="text" id="input_name" />
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
