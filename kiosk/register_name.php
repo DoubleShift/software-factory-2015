@@ -18,7 +18,7 @@ Created: 6.3.2015
 function btn_next_onclick(){
 	var user_name=document.getElementById("input_name").value;
 	setCookie("username", user_name);   
-	location.href='yini_register_gender.php';
+	location.href='register_general.php';
 }
 
 </script>

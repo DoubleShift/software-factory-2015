@@ -1,11 +1,11 @@
 <?php
 
 /*
-File: report.php
-Description: report a problem.
-Author: Chen Xin
+File: register_general.php
+Description: user general info.
+Author: Yini Wang
 Version: 0.1
-Created: 24.02.2015
+Created: 7.3.2015
 */
 
 	// Include header
@@ -38,7 +38,7 @@ function btn_next_onclick(){
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
 	
-	window.location ='yini_register_experience.php';
+	window.location ='register_experience.php';
 
 	
 }

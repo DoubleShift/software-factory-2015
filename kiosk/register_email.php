@@ -1,11 +1,11 @@
 <?php
 
 /*
-File: email.php
+File: register_email.php
 Description:  user email.
-Author: Chen Xin
+Author: Yini Wang
 Version: 0.1
-Created: 24.02.2015
+Created: 7.3.2015
 */
 
 	// Include header
@@ -29,7 +29,7 @@ function btn_next_onclick(){
 	value.userproblemothers = getCookie('userproblemothers');
 	value.useremail = user_email;
 	value.userlanguage = getCookie('language');
-	post('yini_register_receive.php', value);
+	post('register_receive.php', value);
 		//location.href='welcome.php';
 	
 }

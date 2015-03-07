@@ -1,7 +1,7 @@
 <?php
 
 /*
-File: problem.php
+File: register_problem.php
 Description:  health problem.
 Author: Yini Wang
 Version: 0.1
@@ -30,7 +30,7 @@ function btn_next_onclick(){
 	
 	$.cookie('userproblem', user_problem);
 	
-	window.location ='yini_register_problem_others.php';
+	window.location ='register_problem_others.php';
 }
 
 </script>

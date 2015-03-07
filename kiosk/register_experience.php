@@ -1,11 +1,11 @@
 <?php
 
 /*
-File: experience.php
+File: register_experience.php
 Description: exercise experience
-Author: Chen Xin
+Author: Yini Wang
 Version: 0.1
-Created: 24.02.2015
+Created: 7.3.2015
 */
 
 	// Include header
@@ -26,7 +26,7 @@ function btn_next_onclick(){
 	
 	$.cookie('userexperience', user_exp);
 	
-	window.location ='yini_register_problem.php';
+	window.location ='register_problem.php';
 }
 
 </script>

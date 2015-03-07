@@ -1,10 +1,10 @@
 <?php
 /*
-File: receive.php
+File: register_receive.php
 Description:  receive user register data.
-Author: Chen Xin
-Version: 0.1
-Created: 03.03.2015
+Author: Yini Wang
+Version: 0.2
+Created: 07.03.2015
 */
 
 	// Include header
@@ -23,7 +23,7 @@ Created: 03.03.2015
 
 	//INSERT INTO `user` (`uid`, `name`, `pass`, `email`, `gender`, `age`, `gravatar`, `language`, `experience`, `status`, `scores`) VALUES
 
-	echo "<script type='text/javascript'> window.location.href='yini_welcome.php' </script>";  
+	echo "<script type='text/javascript'> window.location.href='welcome.php' </script>";  
 
 
 ?>
