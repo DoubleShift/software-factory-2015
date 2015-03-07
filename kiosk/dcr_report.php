@@ -34,14 +34,38 @@ function btn_next_onclick(){
 			
 		</div>
 	<div class="body">
-	 <h2>Select the problematic equipment</h2>
-	
-	<table width=100%>
+	<table width="100%">
 	<tr>
-	<h2>Describe the problem</h2>
+	<td colspan="3">
+	 <h2>Select the problematic equipment</h2></td>
+	</tr>
+	
+	<tr>
+	<td class="report_left">
+								
+		<img src="../interface/pictures/icon04.png"></img>
+								
+							
+	</td>
+	<td class="report_center">
+		<img src="../interface/pictures/icon-running.png"></img>
+		
+			
+	</td>
+	<td class="report_right">
+		<img src="../interface/pictures/icon01.png"></img>	
+	</td>
+	</tr>
+	
+	<tr>
+	</tr>
+	<tr ><td colspan="3">
+	<h2>Describe the problem</h2></td>
 	</tr>
 	<tr>
-	<textarea style="width:100%;" id="register_other_problem"></textarea>
+	<td colspan="3">
+	<textarea style="width:100%;" id="report_problem"></textarea>
+	<td>
 	<tr height=20>
 	</tr>
 	<tr>
