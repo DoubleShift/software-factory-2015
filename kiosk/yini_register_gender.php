@@ -34,6 +34,8 @@ function btn_next_onclick(){
 
 	var user_gender = $('input[name="register_gender"]:checked').val();
 	var user_age = $('input[name="register_age"]:checked').val();
+	$.removeCookie('usergender');
+	$.removeCookie('userage');
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
 	window.location.href='http://sfp.psicode.ru/kiosk/yini_register_experience.php';
@@ -93,7 +95,7 @@ function btn_next_onclick(){
 							</a>
 						
 							<a href="#" class="option-block register-age">> 50
-							<input type="radio" name="register_age" value="50+" />
+							<input type="radio" name="register_age" value="50-" />
 							</a>
 						</td>
 
