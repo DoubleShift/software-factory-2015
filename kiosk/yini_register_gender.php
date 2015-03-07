@@ -17,7 +17,7 @@ Created: 24.02.2015
 
 function btn_next_onclick(){
 
-	var user_gender='';
+	/*var user_gender='';
 	if(document.getElementsByName("register_gender").checked){
 		user_gender = document.getElementsByName("register_gender").value;
 		setCookie("usergender", user_gender);   
@@ -29,8 +29,14 @@ function btn_next_onclick(){
 		user_age = document.getElementsByName("register_age").value;
 		setCookie("userage", user_age);  
 		alert(user_age); 
-		location.href='yini_register_experience.php';
-	}
+		
+	}*/
+
+	var user_gender = $('input[name="register_gender"]:checked').val();
+	var user_age = $('input[name="register_age"]:checked').val();
+	$.setCookie('usergender', user_gender);
+	$.setCookie('userage', user_age);
+	location.href='yini_register_experience.php';
 
 	
 }
