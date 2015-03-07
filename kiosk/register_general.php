@@ -23,15 +23,25 @@ function btn_next_onclick(){
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
 
-	var required_input = $('input.required');
+	var required_input_1 = $('input[name="register_gender"]]');
+	var required_input_2 = $('input[name="register_age"]]');
 
 	if(required_input.size()){
+
 		var empty_field = 0;
 
-		required_input.each(function(){
-			var value = $(this).val();
-			if(value == ''){
-				$(this).addClass('highlight');
+		required_input_1.each(function(){
+			var checked = $(this).attr('checked');
+			if(!checked || checked == ''){
+				$(this).parent().addClass('highlight');
+				empty_field = empty_field + 1;
+			}
+		});
+
+		required_input_2.each(function(){
+			var checked = $(this).attr('checked');
+			if(!checked || checked == ''){
+				$(this).parent().addClass('highlight');
 				empty_field = empty_field + 1;
 			}
 		});
@@ -41,6 +51,7 @@ function btn_next_onclick(){
 		}else{
 			window.location='register_experience.php';
 		}
+
 	}else{
 		window.location ='register_experience.php';
 	}
@@ -70,11 +81,11 @@ function btn_next_onclick(){
 						<td width="30">&nbsp;</td>
 						<td>
 							<a href="#" class="option-block register-gender female"><span></span>Female
-								<input type="radio" name="register_gender" value="female" />
+								<input class="required" type="radio" name="register_gender" value="female" />
 							</a>
 						
 							<a href="#" class="option-block register-gender male"><span></span>Male
-								<input type="radio" name="register_gender" value="male" />
+								<input class="required" type="radio" name="register_gender" value="male" />
 							</a>
 						</td>
 					</tr>
