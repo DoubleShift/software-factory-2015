@@ -29,9 +29,10 @@ function btn_next_onclick(){
 		user_age = document.getElementsByName("register_age").value;
 		setCookie("userage", user_age);  
 		alert(user_age); 
+		location.href='yini_register_experience.php';
 	}
 
-	location.href='yini_register_experience.php';
+	
 }
 
 
@@ -74,7 +75,7 @@ function btn_next_onclick(){
 						<td width="30">&nbsp;</td>
 						<td>
 							<a href="#" class="option-block register-age">< 25
-							<input type="radio" name="register_age" value="<25" />
+							<input type="radio" name="register_age" value="-25" />
 							</a>
 						
 							<a href="#" class="option-block register-age">25 - 35
@@ -86,7 +87,7 @@ function btn_next_onclick(){
 							</a>
 						
 							<a href="#" class="option-block register-age">> 50
-							<input type="radio" name="register_age" value=">50" />
+							<input type="radio" name="register_age" value="50+" />
 							</a>
 						</td>
 
