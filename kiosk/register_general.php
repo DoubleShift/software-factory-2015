@@ -37,7 +37,7 @@ function btn_next_onclick(){
 		});
 
 		if(empty_field > 0){
-			alert(translations.empty_field);
+			alert(translations.emptyField);
 		}else{
 			window.location='register_experience.php';
 		}
