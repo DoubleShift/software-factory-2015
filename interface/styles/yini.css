@@ -18,8 +18,8 @@ input[type="text"], input[type="email"], textarea{
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  padding: 5px 10px;
-  height: 50px;
+  padding: 10px 10px;
+  height: 60px;
   line-height: 40px;
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -94,10 +94,10 @@ input.highlight, textarea.highlight{
   text-shadow: 0 -1px 0 #88b547;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  padding: 5px 50px;
-  height: 50px;
+  padding: 10px 50px;
+  height: 60px;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 24px;
   position: relative;
 }
 .btn:hover{
