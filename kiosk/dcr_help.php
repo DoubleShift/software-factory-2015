@@ -23,13 +23,13 @@ Created: 15.02.2015
 			<h1>Help</h1>
 		</div>
 
-	<div class="body">
+	<div class="body" width="100%">
 	
-	<h1> Select the topic you need help from </h1>
+	<h2> Select the topic you need help from </h2>
 	
 	<table  width="100%" cellpadding="5px" cellspacing="20px">
 	<tr>
-    <td colspan="2" height="30"><a href="#" class="help_option">
+    <td colspan="2" height="30" width="100%"><a href="#" class="help_option">
         How to use our system
 	</a> </td>
     
@@ -37,7 +37,7 @@ Created: 15.02.2015
 	<tr>
 	</tr>
 	<tr>
-    <td colspan="2" height="30">
+    <td colspan="2" height="30" width="100%">
 	<a href="#" class="help_option">
        What is the standard of star level evaluation 
 	</a> 
