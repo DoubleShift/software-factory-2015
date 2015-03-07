@@ -61,7 +61,7 @@ input.highlight, textarea.highlight{
   float: left;
 }
 .menu-item.report-problem .menu-image{
-	height: 35px;
+	height: 33px;
 }
 .menu-text {
   height: 40px;
@@ -193,7 +193,7 @@ input.highlight, textarea.highlight{
 	background: #000 url('/interface/pictures/keyboard.jpg') center bottom no-repeat;
 }
 
-.register label{
+.register-wrap label{
 	font-weight: 700;
 	font-size: 120%;
 }
