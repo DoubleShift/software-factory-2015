@@ -29,20 +29,8 @@ function btn_next_onclick(){
 	value.userproblemothers = getCookie('userproblemothers');
 	value.useremail = user_email;
 	value.userlanguage = getCookie('language');
-
-	var required_input = $('input.required');
-
-	if(required_input.size()){
-		required_input.each(function(){
-			var value = $(this).val();
-			if(value == ''){
-				$(this).addClass('highlight');
-			}
-		});
-		alert('Please fill in all the fields!');
-	}else{
-		post('register_receive.php', value);
-	}
+	
+	post('register_receive.php', value);
 	
 	
 }

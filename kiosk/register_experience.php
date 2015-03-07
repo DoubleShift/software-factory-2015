@@ -17,36 +17,11 @@ Created: 7.3.2015
 
 function btn_next_onclick(){
 
-	/*var user_exp=document.getElementsById("input_experience").value;
-	setCookie("userexperience", user_exp);   
-	location.href='yini_register_problem.php';*/
-
-
 	var user_exp = $('input[name="register_experience"]:checked').val();
 	
 	$.cookie('userexperience', user_exp);
 
-	var required_input = $('input.required');
-
-	if(required_input.size()){
-		var empty_field = 0;
-
-		required_input.each(function(){
-			var value = $(this).val();
-			if(value == ''){
-				$(this).addClass('highlight');
-				empty_field = empty_field + 1;
-			}
-		});
-
-		if(empty_field > 0){
-			alert(translations.emptyField);
-		}else{
-			window.location ='register_problem.php';
-		}
-	}else{
-		window.location ='register_problem.php';
-	}
+	window.location ='register_problem.php';
 }
 
 </script>

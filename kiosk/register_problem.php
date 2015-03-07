@@ -29,28 +29,9 @@ function btn_next_onclick(){
 	});
 	
 	$.cookie('userproblem', user_problem);
+
+	window.location ='register_problem_others.php';
 	
-	var required_input = $('input.required');
-
-	if(required_input.size()){
-		var empty_field = 0;
-
-		required_input.each(function(){
-			var value = $(this).val();
-			if(value == ''){
-				$(this).addClass('highlight');
-				empty_field = empty_field + 1;
-			}
-		});
-
-		if(empty_field > 0){
-			alert(translations.emptyField);
-		}else{
-			window.location ='register_problem_others.php';
-		}
-	}else{
-		window.location ='register_problem_others.php';
-	}
 }
 
 </script>

@@ -23,36 +23,7 @@ function btn_next_onclick(){
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
 
-	var required_input_1 = $('input[name="register_gender"]');
-	var required_input_2 = $('input[name="register_age"]');
-
-	
-
-		var empty_field = 0;
-
-		required_input_1.each(function(){
-			var checked = $(this).attr('checked');
-			if(!checked || checked == ''){
-				$(this).parent().addClass('highlight');
-				empty_field = empty_field + 1;
-			}
-		});
-
-		required_input_2.each(function(){
-			var checked = $(this).attr('checked');
-			if(!checked || checked == ''){
-				$(this).parent().addClass('highlight');
-				empty_field = empty_field + 1;
-			}
-		});
-
-		if(empty_field > 0){
-			alert(translations.emptyField);
-		}else{
-			window.location='register_experience.php';
-		}
-
-
+	window.location='register_experience.php';
 	
 }
 

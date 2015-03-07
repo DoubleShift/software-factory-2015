@@ -24,30 +24,8 @@ function btn_next_onclick(){
 	var user_problem_others = $('#register_other_problem').val();
 	
 	$.cookie('userproblemothers', user_problem_others);
-	
-	var required_input = $('input.required');
 
-	if(required_input.size()){
-
-		var empty_field = 0;
-
-		required_input.each(function(){
-			var value = $(this).val();
-			if(value == ''){
-				$(this).addClass('highlight');
-				empty_field = empty_field + 1;
-			}
-		});
-
-		if(empty_field > 0){
-			alert(translations.emptyField);
-		}else{
-			window.location ='register_email.php';
-		}
-		
-	}else{
-		window.location ='register_email.php';
-	}
+	window.location ='register_email.php';
 }
 
 </script>
