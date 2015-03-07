@@ -23,9 +23,9 @@ Created: 15.02.2015
 			<h1>Help</h1>
 		</div>
 
-	<div class="body"
+	<div class="body">
 	
-	<h2> Select the topic you need help from </h2>
+	<h1> Select the topic you need help from </h1>
 	
 	<table  width="100%" cellpadding="5px" cellspacing="20px">
 	<tr>
