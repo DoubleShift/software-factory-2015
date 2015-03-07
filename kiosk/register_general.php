@@ -26,7 +26,7 @@ function btn_next_onclick(){
 	var required_input_1 = $('input[name="register_gender"]');
 	var required_input_2 = $('input[name="register_age"]');
 
-	if(required_input.size()){
+	
 
 		var empty_field = 0;
 
@@ -52,9 +52,6 @@ function btn_next_onclick(){
 			window.location='register_experience.php';
 		}
 
-	}else{
-		window.location ='register_experience.php';
-	}
 
 	
 }
