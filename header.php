@@ -57,9 +57,6 @@ Created: 13.02.2015
 	
 	<title><?php echo $title; ?></title>
 	
-	<!-- Favicon -->
-	<!--<link rel="icon" type="image/ico" href="<?php echo IP_PICTURES ?>favicon.ico" >-->
-	
 	<!-- Add links to stylesheets. Place your css here -->
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>main.css">
 	
