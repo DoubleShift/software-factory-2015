@@ -30,6 +30,8 @@ Created: 13.02.2015
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>yini.css">
 
+	<link rel="shortcut icon" href="../interface/pictures/favicons/favicon.ico">
+
 	<!-- Adjust app for mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale = 0.95, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
