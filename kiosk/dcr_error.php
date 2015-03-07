@@ -13,7 +13,7 @@ changed: 07.03.2015
 
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
-
+<html>
 <div id="welcome-picture"></div>
 
 <div id = "error-tip">
