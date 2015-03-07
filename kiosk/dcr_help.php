@@ -14,26 +14,28 @@ Created: 15.02.2015
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 
-
+<div class="wrapper">
+	<div class="content register-name">
 <div id = "help-body">
 
 
+	<div class="heading">
+			<h1>Help</h1>
+		</div>
 
-<div id="layout" class="content pure-g">
-   <div id="help_topic" class="welcome.row">
-	<h1> Help </h1>
+	
 	<hr/>
 	<h2> Select the topic you need help from </h2>
 	
 	<table border="1" width="100%" cell_pading="" >
 	<tr>
-    <td><a href="#" class="option">
+    <td colspan="2" height="30"><a href="#" class="option">
         How to use our system
 	</a> </td>
     
 	</tr>
 	<tr>
-    <td>
+    <td colspan="2" height="30">
 	<a href="#" class="option">
        What is the standard of star level evaluation 
 	</a> 
@@ -41,7 +43,7 @@ Created: 15.02.2015
     
 	</tr>
 	<tr>
-	<td>
+	<td colspan="2" height="30">
 	<a href="#" class="option">
         How can I get contacted with my Facebook Account
 	</a>  </td>
@@ -63,7 +65,8 @@ Created: 15.02.2015
 
 </div>
 
-
+</div>
+</div>
 
 
 
