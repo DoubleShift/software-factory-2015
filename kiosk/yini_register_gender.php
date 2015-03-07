@@ -18,10 +18,11 @@ Created: 24.02.2015
 function btn_next_onclick(){
 	var user_gender=document.getElementsByName("register_gender")[0].value;
 	setCookie("usergender", user_gender);   
+	alert(user_gender);
 
 	var user_age=document.getElementsByName("register_age")[0].value;
 	setCookie("userage", user_age);   
-	location.href='register_experience.php';
+	location.href='yini_register_experience.php';
 }
 
 
@@ -64,7 +65,7 @@ function btn_next_onclick(){
 						<td width="30">&nbsp;</td>
 						<td>
 							<a href="#" class="option-block register-age">< 25
-							<input type="radio" name="register_age" value="25-" />
+							<input type="radio" name="register_age" value="<25" />
 							</a>
 						
 							<a href="#" class="option-block register-age">25 - 35
@@ -76,7 +77,7 @@ function btn_next_onclick(){
 							</a>
 						
 							<a href="#" class="option-block register-age">> 50
-							<input type="radio" name="register_age" value="50+" />
+							<input type="radio" name="register_age" value=">50" />
 							</a>
 						</td>
 
@@ -86,7 +87,7 @@ function btn_next_onclick(){
 					</tr>
 					<tr>
 						<td colspan="2">
-							<button class="btn prev" onclick="javascript:history.go(-1);">Cancel</button>
+							<button class="btn prev" onclick="javascript:history.go(-1);">Back</button>
 						</td>
 						<td align="right">
 							<button class="btn next" onclick="btn_next_onclick()">Next</button>

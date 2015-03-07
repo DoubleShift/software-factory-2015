@@ -13,6 +13,16 @@ Created: 6.3.2015
 
 ?>
 
+<script type="text/javascript">
+	
+function btn_next_onclick(){
+	var user_name=document.getElementById("input_name").value;
+	setCookie("username", user_name);   
+	location.href='yini_register_gender.php';
+}
+
+</script>
+
 <div class="wrapper">
 	<div class="content register-name">
 		<div class="heading">
@@ -38,15 +48,7 @@ Created: 6.3.2015
 	<div class="keyboard"></div>
 </div>
 
-<script type="text/javascript">
-	
-function btn_next_onclick(){
-	var user_name=document.getElementById("input_name").value;
-	setCookie("username", user_name);   
-	location.href='register_gender.php';
-}
 
-</script>
 
 
 
