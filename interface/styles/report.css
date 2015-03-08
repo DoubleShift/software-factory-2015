@@ -6,7 +6,9 @@
     border-radius: 15px;
     
     overflow: hidden;
-	
+	float: none;
+	display: inline-block;
+	color: #000;
 }
 .report_center{
 	width: 300px;
