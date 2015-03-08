@@ -70,17 +70,18 @@ input.highlight, textarea.highlight{
 	height: 33px;
 }
 .menu-text {
-  height: 40px;
-  line-height: 40px;
-  display: inline-block;
-  color: #FFF;
-  margin-left: 10px;
-  margin-right: 20px;
-  padding: 0;
-  position: inherit;
-  top: 0;
-  font-family: arial;
-  font-size: 18px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	color: #FFF;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding: 0;
+	position: inherit;
+	top: 0;
+	font-family: arial;
+	font-size: 18px;
 }
 .content{
 	width: 924px;
