@@ -56,9 +56,9 @@ function btn_next_onclick(){
 	<tr>
     <td colspan="2" height="80"  >
 	<div class="help_option">
-	<a href="#" > <span></span>
-       What is the standard of star level evaluation	</a>	</td>
-    </div>
+	
+       What is the standard of star level evaluation	
+    </div></td>
 	</tr>
 	<tr height="30">
 	</tr>
