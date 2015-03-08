@@ -40,7 +40,7 @@
 		}
 		else 		//regist
 		{
-			$page = "register.php";
+			$page = "register_name.php";
 		}
 	}
 ?>

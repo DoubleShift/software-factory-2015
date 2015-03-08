@@ -1,7 +1,7 @@
 <?php
 
 /*
-File: fi.php
+File: en.php
 Description: English MUI file.
 Author: Alexander Samodelkin
 Editor: Chen Xin
