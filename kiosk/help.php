@@ -32,7 +32,7 @@ function btn_next_onclick(){
 
 
 	<div class="heading">
-			<h1>Help</h1>
+			<h1>Help<h1>
 		</div>
 
 	<div class="body" >
