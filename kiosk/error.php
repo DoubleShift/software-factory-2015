@@ -18,7 +18,7 @@ changed: 07.03.2015
 
 
 	<div class="error-tip">
-	  <table width="100%" border="0">
+	  <table width="100%" border="0" class="error-tip">
 	  <tr><td>&nbsp
 		&nbsp </td>
 	</tr>
