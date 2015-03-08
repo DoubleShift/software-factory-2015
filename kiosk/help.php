@@ -2,8 +2,8 @@
 
 /*
 File: help.php
-Description: Error page.
-Author: Chen Xin
+Description: Help page.
+Author: Deng Canrong
 Version: 0.1
 Created: 15.02.2015
 */
