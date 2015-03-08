@@ -55,6 +55,12 @@ input.highlight, textarea.highlight{
 .menu-item{
 	padding-right: 0;
 }
+.menu-item.report-problem{
+	width: 280px;
+}
+.menu-item.help{
+	width: 150px;
+}
 .menu-image {
   height: 40px;
   width: auto;
@@ -73,6 +79,8 @@ input.highlight, textarea.highlight{
   padding: 0;
   position: inherit;
   top: 0;
+  font-family: arial;
+  font-size: 18px;
 }
 .content{
 	width: 924px;
