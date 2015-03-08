@@ -41,7 +41,7 @@ function btn_next_onclick(){
 	
 	<table  width="100%" cellpadding="5px" cellspacing="20px" >
 	<tr>
-    <td colspan="5" height="80"  >
+    <td colspan="2" height="80"  >
 	<div class="help_option">
 	<a href="#" >
         How to use our system
@@ -51,7 +51,7 @@ function btn_next_onclick(){
 	
     
 	</tr>
-	<tr height="30">
+	<tr height="20">
 	</tr>
 	<tr>
     <td colspan="2" height="80"  >
@@ -60,7 +60,7 @@ function btn_next_onclick(){
        What is the standard of star level evaluation	
     </div></td>
 	</tr>
-	<tr height="30">
+	<tr height="20">
 	</tr>
 	<tr>
 	<td colspan="2" height="80" border="3px" bordercolor="#000000">
