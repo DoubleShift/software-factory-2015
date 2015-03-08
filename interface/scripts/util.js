@@ -64,6 +64,19 @@ function setCookie(name, value, seconds) {
  document.cookie = name+"="+escape(value)+expires+"; path=/";     
 }  
 
+function removeAllCookies(){
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i <= cookies.length; i++) {
+            var cookie = cookies[i];
+            var eqPos = cookie.indexOf("=");
+            var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+            $.removeCookie(name); 
+    }
+    
+    console.log('remove all cookies ');
+}
+
+
 function post(URL, PARAMS) {        
     var temp = document.createElement("form");        
     temp.action = URL;        

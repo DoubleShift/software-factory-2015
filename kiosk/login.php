@@ -11,7 +11,6 @@ Created: 13.02.2015
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
 
-	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 <div class="wrapper">
 	<div class="content ">
@@ -28,5 +27,11 @@ Created: 13.02.2015
 
 
 
-<?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
+<script>
+//	Todo: clean cookies before login.
+//	clean all cookies, except language
+	$().ready(function(){
+	//	removeAllCookies();
+	})
+</script>
 </body></html>
