@@ -19,6 +19,10 @@ function btn_next_onclick(){
 
 	var user_problem_others = $('#register_other_problem').val();
 	$.cookie('userproblemothers', user_problem_others);
+
+
+	window.location ='register_email.php';
+
 }
 
 </script>
