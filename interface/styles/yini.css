@@ -2,10 +2,11 @@
 *{
 	box-sizing: border-box;
 	font-family: Airal, sans-serif;
+	font-size: 24px;
 }
 body{
 	
-	background: url('/interface/pictures/bg3.jpg') center 80px no-repeat;
+	background: url('../pictures/bg3.jpg') center 80px no-repeat;
 	background-size: cover;
 }
 h1, h2, h3, h4, h5, h6{
@@ -17,12 +18,21 @@ input[type="text"], input[type="email"], textarea{
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  padding: 5px 10px;
-  height: 50px;
+  padding: 10px 10px;
+  height: 60px;
   line-height: 40px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
 }
 textarea{
-	height: 100px;
+	height: 150px;
+}
+input.highlight, textarea.highlight{
+	border-color: #ff0000;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 }
 #header{
 	border-bottom: 3px solid #fff;
@@ -37,7 +47,7 @@ textarea{
 }
 .language{
 	width: auto;
-	height: 30px;
+	height: 40px;
 }
 .language:first-child{
 	margin-left: 50px;
@@ -46,16 +56,16 @@ textarea{
 	padding-right: 0;
 }
 .menu-image {
-  height: 30px;
+  height: 40px;
   width: auto;
   float: left;
 }
 .menu-item.report-problem .menu-image{
-	height: 25px;
+	height: 33px;
 }
 .menu-text {
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
   display: inline-block;
   color: #FFF;
   margin-left: 10px;
@@ -84,10 +94,10 @@ textarea{
   text-shadow: 0 -1px 0 #88b547;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  padding: 5px 50px;
-  height: 50px;
+  padding: 10px 50px;
+  height: 60px;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 24px;
   position: relative;
 }
 .btn:hover{
@@ -106,16 +116,16 @@ textarea{
 	content: '';
 	display: block;
 	position: absolute;
-	top: 12px;
+	top: 18px;
 	width: 12px;
 	height: 21px;
 }
 .btn.prev:before {
-	background: url('/interface/pictures/arrow-white-left.png') no-repeat;
+	background: url('../pictures/arrow-white-left.png') no-repeat;
 	left: 50px;
 }
 .btn.next:before{
-	background: url('/interface/pictures/arrow-white-right.png') no-repeat;
+	background: url('../pictures/arrow-white-right.png') no-repeat;
 	right: 50px;
 }
 
@@ -158,32 +168,33 @@ textarea{
 	left: 40px;
 }
 .welcome .col.exercise:before{
-	background: url('/interface/pictures/icon-running.png') center center no-repeat;
+	background: url('../pictures/icon-running.png') center center no-repeat;
 }
 .welcome .col.goal:before{
-	background: url('/interface/pictures/icon-note.png') center center no-repeat;
+	background: url('../pictures/icon-note.png') center center no-repeat;
 }
 .welcome .col.profile:before{
-	background: url('/interface/pictures/icon-profile.png') center center no-repeat;
+	background: url('../pictures/icon-profile.png') center center no-repeat;
 }
 .welcome .col.rank:before{
-	background: url('/interface/pictures/icon-star.png') center center no-repeat;
+	background: url('../pictures/icon-star.png') center center no-repeat;
 }
 
 #input_name{
 	width: 100%;
 }
 .keyboard{
+	display: none;
 	width: 100%;
   	height: 297px;
   	margin: 20px auto 0;
   	position: absolute;
   	left: 0;
   	bottom: 0;
-	background: #000 url('/interface/pictures/keyboard.jpg') center bottom no-repeat;
+	background: #000 url('../pictures/keyboard.jpg') center bottom no-repeat;
 }
 
-.register label{
+.register-wrap label{
 	font-weight: 700;
 	font-size: 120%;
 }

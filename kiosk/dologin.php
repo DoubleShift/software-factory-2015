@@ -11,31 +11,34 @@
 	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
 		or die( "MySQL connection error: " . mysqli_connect_error() );
 		
-	$query = "SELECT * FROM users WHERE id = ".$_POST['id'];
+	$query = "SELECT * FROM user WHERE id = ".$_POST['id'];
 	$result = mysqli_query( $db, $query );
 	
 	if($row = mysqli_fetch_assoc($result))
 	{
 		setcookie("user-id", $_POST['id'], time()+3600);
-	
+		setcookie("user-name",$row['name']);	//get user name, for the welcome page
+
 		$query = "SELECT * FROM exercise_plan WHERE user_id = ".$_POST['id'];
 		$result = mysqli_query( $db, $query );
 		if($row = mysqli_fetch_assoc($result))
 		{
+			//don't have exercise plan
 			$page = "exercise-plan.php";
 		}
 		else
 		{
+			// 
 			$page = "welcome.php";
 		}
 	}
-	else
+	else   // new user
 	{
-		if($_POST['id']<0)
+		if($_POST['id']<0)   // card read error
 		{
 			$page = "error.php";
 		}
-		else
+		else 		//regist
 		{
 			$page = "register.php";
 		}

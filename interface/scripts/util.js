@@ -1,6 +1,39 @@
 /**
 * JS functions
 **/
+
+
+$(document).ready(function(){
+
+    //On register pages, select of info block
+    $('.option-block').each(function(){
+
+        $(this).click(function(e){
+
+            e.preventDefault();
+
+            if($(this).find('input[type="radio"]').size()){
+
+                $(this).siblings().removeClass('selected').find('input').removeAttr('checked');
+
+                if(!$(this).hasClass('selected')){
+                    $(this).addClass('selected').find('input').attr('checked','checked');
+                }
+
+            }else{
+
+                if($(this).hasClass('selected')){
+                    $(this).removeClass('selected').find('input').removeAttr('checked');
+                }else{
+                    $(this).addClass('selected').find('input').attr('checked','checked');
+                }
+            }
+
+        });
+        
+    });
+})
+
 function getCookie(name) {  
  var nameEQ = name + "=";  
  var ca = document.cookie.split(';');      
@@ -30,6 +63,19 @@ function setCookie(name, value, seconds) {
  }  
  document.cookie = name+"="+escape(value)+expires+"; path=/";     
 }  
+
+function removeAllCookies(){
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i <= cookies.length; i++) {
+            var cookie = cookies[i];
+            var eqPos = cookie.indexOf("=");
+            var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+            $.removeCookie(name); 
+    }
+    
+    console.log('remove all cookies ');
+}
+
 
 function post(URL, PARAMS) {        
     var temp = document.createElement("form");        

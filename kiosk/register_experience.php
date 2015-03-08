@@ -23,6 +23,7 @@ function btn_next_onclick(){
 	}else{
 		alert('please choose one!');
 	}
+
 }
 
 </script>
@@ -75,5 +76,4 @@ function btn_next_onclick(){
 		</div>
 	</div>
 </div>
-
 </body></html>

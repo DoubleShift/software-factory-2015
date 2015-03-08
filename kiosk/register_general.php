@@ -20,7 +20,7 @@ function btn_next_onclick(){
 	
 	$.cookie('usergender', user_gender);
 	$.cookie('userage', user_age);
-	
+
 	if(!user_gender){
 		alert('please choose your gender!');
 		return;
@@ -30,6 +30,7 @@ function btn_next_onclick(){
 	}else{
 		window.location='register_experience.php';
 	}
+
 	
 }
 
@@ -106,5 +107,4 @@ function btn_next_onclick(){
 		</div>
 	</div>
 </div>
-
 </body></html>

@@ -1,4 +1,4 @@
-#error-tip {
+.error-tip {
     width: 600px;
     height: 400px;
     border: 2px solid;
@@ -12,7 +12,7 @@
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
-#error-image {
+.error-image {
     margin-top: 100px;
     margin-left: 60px;
     height: 64px;
@@ -20,7 +20,7 @@
     background-image: url("../pictures/icon-warn.png");
     background-repeat: no-repeat;
 }
-#error-text {
+.error-text {
     font-size: 36px;
     text-align: center;
     color: #FFF;
