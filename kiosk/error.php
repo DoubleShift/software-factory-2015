@@ -29,7 +29,7 @@ changed: 07.03.2015
 		</td>
 		
 		
-		<td> <h2>Ooops! Card can not be found!</h2></td>
+		<td> <h2><br> <br>Ooops! Card can not be found!</h2></td>
 		
 		
       </tr>
