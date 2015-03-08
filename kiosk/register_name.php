@@ -18,8 +18,34 @@ Created: 6.3.2015
 function btn_next_onclick(){
 	var user_name=document.getElementById("input_name").value;
 	setCookie("username", user_name);   
-	location.href='register_general.php';
+
+	var required_input = $('input.required');
+
+	if(required_input.size()){
+
+		var empty_field = 0;
+
+		required_input.each(function(){
+			var value = $(this).val();
+			if(value == ''){
+				$(this).addClass('highlight');
+				empty_field = empty_field + 1;
+			}
+		});
+
+		if(empty_field > 0){
+			alert(translations.emptyField);
+		}else{
+			window.location='register_general.php';
+		}
+		
+	}else{
+		window.location='register_general.php';
+	}
+	
 }
+
+
 
 </script>
 
@@ -34,7 +60,7 @@ function btn_next_onclick(){
 				<table width="100%">
 					<tr>
 						<td>
-							<input required="required" type="text" id="input_name" />
+							<input class="required" type="text" id="input_name" />
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
@@ -49,8 +75,4 @@ function btn_next_onclick(){
 </div>
 
 
-
-
-
-<?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>

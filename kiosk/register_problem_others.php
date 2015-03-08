@@ -17,14 +17,8 @@ Created: 7.3.2015
 
 function btn_next_onclick(){
 
-	/*var user_problem=document.getElementById("input_problem").value;
-	setCookie("userproblem", user_problem);   
-	location.href='yini_register_email.php';*/
-
 	var user_problem_others = $('#register_other_problem').val();
-	
 	$.cookie('userproblemothers', user_problem_others);
-	
 	window.location ='register_email.php';
 }
 
@@ -66,4 +60,5 @@ function btn_next_onclick(){
 </div>
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
+
 </body></html>

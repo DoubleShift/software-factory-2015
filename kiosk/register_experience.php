@@ -10,23 +10,19 @@ Created: 7.3.2015
 
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
-
-	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 <script>
 
 function btn_next_onclick(){
 
-	/*var user_exp=document.getElementsById("input_experience").value;
-	setCookie("userexperience", user_exp);   
-	location.href='yini_register_problem.php';*/
-
-
 	var user_exp = $('input[name="register_experience"]:checked').val();
 	
 	$.cookie('userexperience', user_exp);
-	
-	window.location ='register_problem.php';
+	if(user_exp){
+		window.location ='register_problem.php';
+	}else{
+		alert('please choose one!');
+	}
 }
 
 </script>
@@ -80,6 +76,4 @@ function btn_next_onclick(){
 	</div>
 </div>
 
-
-<?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>

@@ -10,8 +10,6 @@ Created: 7.3.2015
 
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
-
-	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 <script>
 
@@ -29,8 +27,9 @@ function btn_next_onclick(){
 	});
 	
 	$.cookie('userproblem', user_problem);
-	
+
 	window.location ='register_problem_others.php';
+	
 }
 
 </script>
@@ -87,5 +86,4 @@ function btn_next_onclick(){
 	</div>
 </div>
 
-<?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>

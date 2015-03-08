@@ -29,8 +29,9 @@ function btn_next_onclick(){
 	value.userproblemothers = getCookie('userproblemothers');
 	value.useremail = user_email;
 	value.userlanguage = getCookie('language');
+	
 	post('register_receive.php', value);
-		//location.href='welcome.php';
+	
 	
 }
 
@@ -73,4 +74,5 @@ function btn_next_onclick(){
 
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
+
 </body></html>
