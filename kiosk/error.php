@@ -17,7 +17,7 @@ changed: 07.03.2015
 	<div class="content register-name">
 
 
-	<div class="error-tip">
+	<div class="error_tip">
 	  <table width="100%" class="error-tip">
 	  <tr><td>&nbsp
 		&nbsp </td>
