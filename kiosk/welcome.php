@@ -7,7 +7,14 @@
 ?>
 
 <div class="wrapper">
+<script>
+$().ready(function(){
+	var name = $.cookie("user-name");
+    $("#text-name").append(' '+name+'!');
+})
+</script>
 	<div class="content welcome">
+   		<h1 id='text-name'><?=WELCOME?></h1>
 		<div class="row">
 			<a href="#" class="col left exercise">Exercise</a>
 			<a href="#" class="col right goal">Goals</a>
@@ -19,5 +26,4 @@
 	</div>
 </div>
 
-<?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>

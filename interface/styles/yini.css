@@ -6,7 +6,7 @@
 }
 body{
 	
-	background: url('/interface/pictures/bg3.jpg') center 80px no-repeat;
+	background: url('../pictures/bg3.jpg') center 80px no-repeat;
 	background-size: cover;
 }
 h1, h2, h3, h4, h5, h6{
@@ -121,11 +121,11 @@ input.highlight, textarea.highlight{
 	height: 21px;
 }
 .btn.prev:before {
-	background: url('/interface/pictures/arrow-white-left.png') no-repeat;
+	background: url('../pictures/arrow-white-left.png') no-repeat;
 	left: 50px;
 }
 .btn.next:before{
-	background: url('/interface/pictures/arrow-white-right.png') no-repeat;
+	background: url('../pictures/arrow-white-right.png') no-repeat;
 	right: 50px;
 }
 
@@ -168,16 +168,16 @@ input.highlight, textarea.highlight{
 	left: 40px;
 }
 .welcome .col.exercise:before{
-	background: url('/interface/pictures/icon-running.png') center center no-repeat;
+	background: url('../pictures/icon-running.png') center center no-repeat;
 }
 .welcome .col.goal:before{
-	background: url('/interface/pictures/icon-note.png') center center no-repeat;
+	background: url('../pictures/icon-note.png') center center no-repeat;
 }
 .welcome .col.profile:before{
-	background: url('/interface/pictures/icon-profile.png') center center no-repeat;
+	background: url('../pictures/icon-profile.png') center center no-repeat;
 }
 .welcome .col.rank:before{
-	background: url('/interface/pictures/icon-star.png') center center no-repeat;
+	background: url('../pictures/icon-star.png') center center no-repeat;
 }
 
 #input_name{
@@ -191,7 +191,7 @@ input.highlight, textarea.highlight{
   	position: absolute;
   	left: 0;
   	bottom: 0;
-	background: #000 url('/interface/pictures/keyboard.jpg') center bottom no-repeat;
+	background: #000 url('../pictures/keyboard.jpg') center bottom no-repeat;
 }
 
 .register-wrap label{

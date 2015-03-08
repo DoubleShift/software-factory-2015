@@ -26,8 +26,6 @@ Created: 13.02.2015
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>rank.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>welcome.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>register.css">
-	<!-- avaliable for help.css,delete soon-->
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>yini.css">
 
 	<link rel="shortcut icon" href="../interface/pictures/favicons/favicon.ico">
@@ -39,10 +37,10 @@ Created: 13.02.2015
 	<meta http-equiv="Content-Type" content="text/html; charset=utf8" >
 
 	<!-- Script -->
-	<script src="jquery-2.1.3.min.js"></script>
-	<script src="jquery.cookie.js"></script>
+	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>jquery.cookie.js"></script>
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>util.js"></script>
-	<script src="javascript.js"></script>
+
 	<script type="text/javascript">
 	var translations = {
 		emptyField:'Please recheck and fill in all the fields!'
