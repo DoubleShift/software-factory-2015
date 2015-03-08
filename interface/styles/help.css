@@ -3,10 +3,8 @@
  * Most of these are inherited from Base, but I want to change a few.
  */
 .help_option{
-	float: none;
-	
-	height: 80px;
-	
+	float: none;	
+	height: 80px;	
 	padding: 10px 20px;
 	font-size: 100%;
 	color: #000;
@@ -15,7 +13,7 @@
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	position: relative;
-	line-height: 80px;
+	line-height: 40px;
 }
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
