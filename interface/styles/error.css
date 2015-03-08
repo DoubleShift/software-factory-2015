@@ -1,10 +1,10 @@
 .error_tip {
-    width: 700px;
+    width: 600px;
     height: 400px;
     border: 2px;
     position: absolute;
     margin-left: 50%;
-    left: -500px;
+    left: -600px;
     top: 200px;
     color: black;
     background: white;
