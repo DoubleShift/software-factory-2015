@@ -43,7 +43,7 @@ function btn_next_onclick(){
 	<tr>
     <td colspan="2" height="80"  >
 	<div class="help_option">
-	<a href="#" >
+	<a href="../help_detail.php" >
         How to use our system
 	</a> 
 	</div>
@@ -56,8 +56,8 @@ function btn_next_onclick(){
 	<tr>
     <td colspan="2" height="80"  >
 	<div class="help_option">
-	
-       What is the standard of star level evaluation	
+	<a href="#" color="black">
+       What is the standard of star level evaluation	</a>
     </div></td>
 	</tr>
 	<tr height="20">
