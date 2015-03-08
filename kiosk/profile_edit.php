@@ -1,8 +1,8 @@
 <?php
 
 /*
-File: profile.php
-Description: user profile.
+File: profile_edit.php
+Description: edit user profile. is it really necessary?
 Author: Chen Xin
 Version: 0.1
 Created: 08.03.2015
@@ -49,7 +49,7 @@ Created: 08.03.2015
 	<div id="user-profile-right">
 		<table cellpadding="2" cellspacing="3" >
 		   <tbody>
-				<tr><td><h1><?= $row['name'] ?></h1></td></tr>
+				<tr><td><input id="user-name" type="text" style="height:40px;" value="<?= $row['name'] ?>"></td></tr>
 				<tr><td><h1><?php 
 				if($row['gender']){
 					echo 'female';
@@ -58,7 +58,7 @@ Created: 08.03.2015
 				}  ?>
 				</h1></td></tr>
 				<tr><td><h1><?= $row['age'] ?></h1></td></tr>
-				<tr><td><h1><?= $row['email'] ?></h1></td></tr>
+				<tr><td><input id="user-email" type="text" style="height:40px;" value="<?= $row['email'] ?>"></td></tr>
 				<tr><td><h1><?php 
 				if($row['status'] == ''){
 					echo 'no';
@@ -83,8 +83,8 @@ Created: 08.03.2015
 	</div>
 
 
-	<button class="btn prev" onclick="javascript:window.location.href='welcome.php';"><?=BACK?></button>
-	<button class="btn next" onclick="onBtnClick()"><?=MODIFY?></button>
+	<button class="btn prev" onclick="javascript:window.location.href='profile.php?id=<?=$id?>';"><?=BACK?></button>
+	<button class="btn next" onclick="onBtnClick()"><?=SAVE?></button>
 
 
 </div>
@@ -92,8 +92,22 @@ Created: 08.03.2015
 <script>
 
 	function onBtnClick(){
-		var uid = $.cookie('user-id');
-		window.location ='profile_edit.php?id='+uid;	
+
+		var value 	= {};
+		value.id 	= $.cookie('user-id');
+		value.name 	= $("#user-name").val();
+		value.email = $("#user-email").val();
+	
+		if(value.name == ''){
+			alert('name should not be empty!');
+			return;
+		}else if(value.email ==''){
+			alert('email should not be empty!');
+			return;
+		}
+
+		post('profile_receive.php', value);
+
 	}
 	
 </script>
