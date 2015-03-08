@@ -19,12 +19,13 @@ changed: 07.03.2015
 
 	<div class="error_tip">
 	  <table width="100%" class="error-tip">
-	  <tr><td>&nbsp
+	  <tr><td><br/>
 		&nbsp </td>
 	</tr>
       <tr>
 		
-        <td rowspan="1">
+        <td rowspan="2"><br/>
+		<br/>
 		<img  src="../interface/pictures/icon-warn.png" style="margin-left: 20px; margin-right: 20px;"></img>
 		</td>
 		
@@ -34,7 +35,7 @@ changed: 07.03.2015
 		
       </tr>
 	  <tr height="2px">
-	  <td></td>
+	  
 	  <td >
 	 
 	  <hr   color=#000000 SIZE=3 noShade width="550px" align="left"></td>

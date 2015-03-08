@@ -59,7 +59,7 @@ function btn_next_onclick(){
 	</td>
 	<td>
 		<div class="report_right">
-		<h3 align="center"> <br /><br />Dumbbell</h3>
+		<h3 align="center"> <br />Dumbbell</h3>
 		<div class="report_img">
 		<img src="../interface/pictures/icon01.png"></img>	
 		</div>
@@ -68,7 +68,7 @@ function btn_next_onclick(){
 	
 	<tr>
 	</tr>
-	<tr ><td colspan="3">
+	<tr ><td colspan="3"><br />
 	<h2>Describe the problem</h2></td>
 	</tr>
 	<tr>
