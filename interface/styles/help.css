@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
@@ -40,3 +41,47 @@
     }
 }
 
+=======
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+.help_option{
+	float: none;
+	
+	height: 80px;
+	
+	padding: 10px 20px;
+	font-size: 100%;
+	color: #000;
+	border: 3px solid #2b2b2b;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	position: relative;
+	line-height: 60px;
+}
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ * On desktops and other large-sized devices, we want to customize some
+ * of the mobile styles.
+ */
+@media (min-width: 60em) {
+
+    /* This will take up the entire height, and be a little thinner */
+    #list {
+        margin-left: -350px;
+        width:350px;
+        height: 100%;
+        border-right: 1px solid #ddd;
+    }
+
+    /* This will now take up it's own column, so don't need position: fixed; */
+    #main {
+        position: static;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+>>>>>>> 3784f8ce353be9eea40819d98fc8b53922e3438f

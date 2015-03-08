@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Codes made by Yini - Start*/
 *{
 	box-sizing: border-box;
@@ -224,4 +225,232 @@ input.highlight, textarea.highlight{
 .option-block span{
 	display: inline-block;
 }
+=======
+/*Codes made by Yini - Start*/
+*{
+	box-sizing: border-box;
+	font-family: Airal, sans-serif;
+	font-size: 24px;
+}
+body{
+	
+	background: url('/interface/pictures/bg3.jpg') center 80px no-repeat;
+	background-size: cover;
+}
+h1, h2, h3, h4, h5, h6{
+	margin-top: 0;
+	font-family: Arial, sans-serif;
+}
+input[type="text"], input[type="email"], textarea{
+  border: 2px solid #000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 10px 10px;
+  height: 60px;
+  line-height: 40px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+}
+textarea{
+	height: 150px;
+}
+input.highlight, textarea.highlight{
+	border-color: #ff0000;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+#header{
+	border-bottom: 3px solid #fff;
+	background: #454545; /* Old browsers */
+	background: -moz-linear-gradient(top,  #454545 0%, #2b2b2b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#454545), color-stop(100%,#2b2b2b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #454545 0%,#2b2b2b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #454545 0%,#2b2b2b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #454545 0%,#2b2b2b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #454545 0%,#2b2b2b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+}
+.language{
+	width: auto;
+	height: 40px;
+}
+.language:first-child{
+	margin-left: 50px;
+}
+.menu-item{
+	padding-right: 0;
+}
+.menu-image {
+  height: 40px;
+  width: auto;
+  float: left;
+}
+.menu-item.report-problem .menu-image{
+	height: 33px;
+}
+.menu-text {
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  color: #FFF;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 0;
+  position: inherit;
+  top: 0;
+}
+.content{
+	width: 924px;
+	margin: 0 auto;
+	padding: 50px 0 0;
+}
+.heading{
+	border-bottom: 2px solid #000;
+}
+.body{
+  padding: 20px 0;
+}
+.btn{
+  border: 2px solid #fff;
+  background: #97c950;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 0 #88b547;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 10px 50px;
+  height: 60px;
+  line-height: 40px;
+  font-size: 24px;
+  position: relative;
+}
+.btn:hover{
+	background: #A0D357;
+}
+.btn:focus{
+	background: #A7DA5F;
+}
+.btn.prev{
+	padding-left: 72px;
+}
+.btn.next{
+	padding-right: 72px;
+}
+.btn:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 18px;
+	width: 12px;
+	height: 21px;
+}
+.btn.prev:before {
+	background: url('/interface/pictures/arrow-white-left.png') no-repeat;
+	left: 50px;
+}
+.btn.next:before{
+	background: url('/interface/pictures/arrow-white-right.png') no-repeat;
+	right: 50px;
+}
+
+
+.welcome .row{
+	width: 100%;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.welcome .row .col:first-child{
+	margin-right: 50px;
+}
+.welcome .col{
+	float: none;
+	display: inline-block;
+	width: 430px;
+	height: 170px;
+	padding-left: 100px;
+	text-transform: uppercase;
+	font-size: 230%;
+	color: #000;
+	border: 3px solid #2b2b2b;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-top: 45px;
+	position: relative;
+	line-height: 80px;
+}
+.welcome .col:hover{
+	color: #97c950;
+	background: rgba(255,255,255,.6);
+	border-color: #fff;
+}
+.welcome .col:before{
+	content: '';
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 40px;
+}
+.welcome .col.exercise:before{
+	background: url('/interface/pictures/icon-running.png') center center no-repeat;
+}
+.welcome .col.goal:before{
+	background: url('/interface/pictures/icon-note.png') center center no-repeat;
+}
+.welcome .col.profile:before{
+	background: url('/interface/pictures/icon-profile.png') center center no-repeat;
+}
+.welcome .col.rank:before{
+	background: url('/interface/pictures/icon-star.png') center center no-repeat;
+}
+
+#input_name{
+	width: 100%;
+}
+.keyboard{
+	display: none;
+	width: 100%;
+  	height: 297px;
+  	margin: 20px auto 0;
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+	background: #000 url('/interface/pictures/keyboard.jpg') center bottom no-repeat;
+}
+
+.register-wrap label{
+	font-weight: 700;
+	font-size: 120%;
+}
+.option-block{
+	float: none;
+	display: inline-block;
+	height: 80px;
+	margin-right: 30px;
+	padding: 10px 20px;
+	font-size: 120%;
+	color: #000;
+	border: 3px solid #2b2b2b;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	position: relative;
+	line-height: 60px;
+}
+.option-block.selected{
+	color: #97c950;
+	background: rgba(255,255,255,.6);
+	border-color: #fff;
+}
+.option-block input{
+	display: none;
+}
+.option-block span{
+	display: inline-block;
+}
+>>>>>>> 3784f8ce353be9eea40819d98fc8b53922e3438f
 /*Codes made by Yini - End */
