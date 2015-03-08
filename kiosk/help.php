@@ -43,7 +43,7 @@ function btn_next_onclick(){
 	<tr>
     <td colspan="5" height="80"  >
 	<div class="help_option">
-	<a href="#" class="help_option">
+	<a href="#" >
         How to use our system
 	</a> 
 	</div>
@@ -55,16 +55,18 @@ function btn_next_onclick(){
 	</tr>
 	<tr>
     <td colspan="2" height="80"  >
-	<a href="#" class="help_option" > <span></span>
+	<div class="help_option">
+	<a href="#" > <span></span>
        What is the standard of star level evaluation	</a>	</td>
-    
+    </div>
 	</tr>
 	<tr height="30">
 	</tr>
 	<tr>
 	<td colspan="2" height="80" border="3px" bordercolor="#000000">
-	<a href="#" class="help_option" >
-        How can I get contacted with my Facebook Account	</a>	</td>
+	<div class="help_option">
+	<a href="#" >
+        How can I get contacted with my Facebook Account	</a>	</div></td>
 	</tr>
 	<tr height="20">
 	</tr>
