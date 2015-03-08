@@ -44,7 +44,7 @@ function btn_next_onclick(){
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
-	<table width="100%" border="1">
+	<table width="100%" >
       <tr>
        
 						<td>
