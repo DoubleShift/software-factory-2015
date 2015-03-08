@@ -39,13 +39,16 @@ function btn_next_onclick(){
 	
 	<h2> Select the topic you need help from </h2>
 	
-	<table  width="100%" cellpadding="5px" cellspacing="20px" border="2px">
+	<table  width="100%" cellpadding="5px" cellspacing="20px" >
 	<tr>
     <td colspan="5" height="80"  >
+	<div class="help_option">
 	<a href="#" class="help_option">
         How to use our system
 	</a> 
+	</div>
 	</td>
+	
     
 	</tr>
 	<tr height="30">
