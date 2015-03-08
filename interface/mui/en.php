@@ -33,7 +33,7 @@ define("EXERCISE_DESC_2", "Increase your stamina");
 define("EXERCISE_DESC_3", "Strength your press");
 define("EXERCISE_DESC_4", "Keep all muscles in shape");
 
-//welcome.php
+//login.php
 define("PRESENT_YOUR_CARD", "Please insert your card");
 
 //error.php
@@ -52,5 +52,16 @@ define("EXERCISE","EXERCISE");
 define("GOALS","GOALS");
 define("PROFILE","PROFILE");
 define("RANK","RANK");
+define("WELCOME","Welcome");
+
+//profile.php
+define("MODIFY","MODIFY");
+define("NAME","Name:");
+define("GENDER","Gender:");
+define("AGE","Age:");
+define("EMAIL","Email:");
+define("HEALTH_STATUS","Health status:");
+define("STAR","Star level:");
+define("SAVE","SAVE");
 
 ?>

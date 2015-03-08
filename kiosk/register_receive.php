@@ -1,3 +1,4 @@
+
 <?php
 /*
 File: register_receive.php
@@ -22,8 +23,18 @@ Created: 07.03.2015
 	$query = 'insert into "user" (,'.$username.',,'.$useremail.','.$usergender.','.$userage.',,'.$userlanguage.','.$userexperience.','.$userproblem.','.$userproblemothers.',),';	
 
 	//INSERT INTO `user` (`uid`, `name`, `pass`, `email`, `gender`, `age`, `gravatar`, `language`, `experience`, `status`, `scores`) VALUES
+	
+	// Connect to DB
+	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
+		or die( "MySQL connection error: " . mysqli_connect_error() );
+		
+	$result = mysqli_query( $db, $query );
+	
+	if($result){ 
+		echo "<script type='text/javascript'> window.location.href='welcome.php' </script>";  
+	}else{//what if failed?
 
-	echo "<script type='text/javascript'> window.location.href='welcome.php' </script>";  
+	}
 
 
 ?>

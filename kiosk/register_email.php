@@ -74,4 +74,5 @@ function btn_next_onclick(){
 
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
+
 </body></html>
