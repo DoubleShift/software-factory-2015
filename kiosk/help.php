@@ -39,7 +39,7 @@ function btn_next_onclick(){
 	
 	<h2> Select the topic you need help from </h2>
 	
-	<table  width="100%" cellpadding="5px" cellspacing="20px" >
+	<table  width="100%" cellpadding="5px" cellspacing="10px" >
 	<tr>
     <td colspan="2" height="80"  >
 	<div class="help_option">
@@ -65,7 +65,7 @@ function btn_next_onclick(){
 	<tr>
 	<td colspan="2" height="80" border="3px" bordercolor="#000000">
 	<div class="help_option">
-	<a href="#" >
+	<a href="#" color="black">
         How can I get contacted with my Facebook Account	</a>	</div></td>
 	</tr>
 	<tr height="20">
