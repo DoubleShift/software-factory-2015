@@ -41,25 +41,25 @@ function btn_next_onclick(){
 	
 	<table  width="100%" cellpadding="5px" cellspacing="20px">
 	<tr>
-    <td colspan="2" height="30" >
+    <td colspan="2" height="80"  >
 	<a href="#" class="help_option">
         How to use our system
 	</a> 
 	</td>
     
 	</tr>
-	<tr>
+	<tr height="30">
 	</tr>
 	<tr>
-    <td colspan="2" height="46"  >
+    <td colspan="2" height="80"  >
 	<a href="#" class="help_option" >
        What is the standard of star level evaluation	</a>	</td>
     
 	</tr>
-	<tr>
+	<tr height="30">
 	</tr>
 	<tr>
-	<td colspan="2" height="45">
+	<td colspan="2" height="80">
 	<a href="#" class="help_option" >
         How can I get contacted with my Facebook Account	</a>	</td>
 	</tr>
