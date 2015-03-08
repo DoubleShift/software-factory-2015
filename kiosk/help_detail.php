@@ -32,55 +32,32 @@ function btn_next_onclick(){
 
 
 	<div class="heading">
-			<h1>Help</h1>
+			<h1>How to use our system </h1>
 		</div>
 
 	<div class="body" >
 	
-	<h2> Select the topic you need help from </h2>
-	
-	<table  width="100%" cellpadding="5px" cellspacing="20px">
-	<tr>
-    <td colspan="2" height="30" >
-	<a href="#" class="help_option">
-        How to use our system
-	</a> 
-	</td>
-    
-	</tr>
-	<tr>
-	</tr>
-	<tr>
-    <td colspan="2" height="30"  >
-	<a href="#" class="help_option" >
-       What is the standard of star level evaluation 
-	</a> 
-	</td>
-    
-	</tr>
-	<tr>
-	</tr>
-	<tr>
-	<td colspan="2" height="30">
-	<a href="#" class="help_option" >
-        How can I get contacted with my Facebook Account
-	</a>  
-	</td>
-	</tr>
-	<tr height="20">
-	</tr>
-	<tr>
+	<h2>lalalalalalalalalalalalal</h2>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<table width="100%" border="1">
+      <tr>
+       
 						<td>
 							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
 						</td>
-						<td align="right">
-							<button class="btn next" onclick="btn_next_onclick()">Next</button>
-						</td>
-					</tr>
-	</table>
-	
-   </div>
-   </div>    
+						
+					
+      </tr>
+    </table>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	</div>
+</div>    
     </div>
 
 

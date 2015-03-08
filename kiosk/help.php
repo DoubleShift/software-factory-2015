@@ -56,7 +56,7 @@ function btn_next_onclick(){
 	<tr>
     <td colspan="2" height="80"  >
 	<div class="help_option">
-	<a href="#" color="black">
+	<a href="help_detail.php" color="black">
        What is the standard of star level evaluation	</a>
     </div></td>
 	</tr>
@@ -65,7 +65,7 @@ function btn_next_onclick(){
 	<tr>
 	<td colspan="2" height="80" border="3px" bordercolor="#000000">
 	<div class="help_option">
-	<a href="#" color="black">
+	<a href="help_detail.php" >
         How can I get contacted with my Facebook Account	</a>	</div></td>
 	</tr>
 	<tr height="20">
