@@ -43,7 +43,7 @@ function btn_next_onclick(){
 	<tr>
     <td colspan="2" height="80"  >
 	<div class="help_option">
-	<a href="../help_detail.php" >
+	<a href="help_detail.php" >
         How to use our system
 	</a> 
 	</div>
