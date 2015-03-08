@@ -1,4 +1,3 @@
-
 <?php
 
 /*
@@ -11,8 +10,12 @@ Created: 23.02.2015
 
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
-	
-	/* PAGE CODE STARTS AFTER THIS SECTION */ 
+
+	$query = "SELECT * FROM `user` order by scores desc limit 10";
+	$result = mysqli_query( $db, $query );
+	$row = mysqli_fetch_all($result);
+					
+					
 ?>
 
 <div id="welcome-picture"></div>
@@ -26,6 +29,28 @@ Created: 23.02.2015
 				</thead>
 		   
 				<tbody>
+				<?php
+					$length = count($row);
+					for($i=0;$i<10;$i++){
+						if($i%2){
+							echo '<tr class="rankitem2"><td>';
+						}else{
+							echo '<tr class="rankitem"><td>';
+						};
+
+						if( $i<$length ){
+							// How to count stars?
+							$width = $row[$i]['10'] * 16 / 100;
+							echo $row[$i][0].'</td><td>'.$row[$i]['1'].'</td><td><div class ="starbox"><div class="star" style = "width:'.$width.'px"></div></td><td>'.$row[$i]['10'].'</td></tr>';
+							
+						}else{
+							$num = $i+1;
+							echo $num.'</td><td></td><td><div class ="starbox"><div class="star" style = "width:0px"></div></td><td></td></tr>';
+						}
+
+					}
+
+					/*
 					<tr class="rankitem"><td>1</td><td>Anna</td><td><div class="starbox"><div class="star" style="width:240px"></div></div></td><td>1807</td></tr>
 					<tr class="rankitem2"><td>2</td><td>Kenny</td><td><div class="star" style="width:224px"></div></td><td>1612</td></tr>
 					<tr class="rankitem"><td>3</td><td>Jarmo</td><td><div class="star" style="width:208px"></div></td><td>1400</td></tr>
@@ -36,7 +61,10 @@ Created: 23.02.2015
 					<tr class="rankitem2"><td>8</td><td>Jenny</td><td><div class="star" style="width:48px"></div></td><td>487</td></tr>
 					<tr class="rankitem"><td>9</td><td>Steven</td><td><div class="star" style="width:32px"></div></td><td>325</td></tr>
 					<tr class="rankitem2"><td>10</td><td>Green</td><td><div class="star" style="width:16px"></div></td><td>171</td></tr>
-				</tbody>
+					*/
+					
+				?>
+					</tbody>
 			
 		   </table>
 		   </div>
