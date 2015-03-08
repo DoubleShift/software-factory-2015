@@ -2,10 +2,10 @@
 
 /*
 File: help.php
-Description: Error page.
-Author: Chen Xin
-Version: 0.1
-Created: 15.02.2015
+Description: Help page.
+Author: Deng Canrong
+Version: 0.2
+Created: 08.03.2015
 */
 
 	// Include header
@@ -32,40 +32,41 @@ function btn_next_onclick(){
 
 
 	<div class="heading">
-			<h1>Help</h1>
+			<h1>Help<h1>
 		</div>
 
 	<div class="body" >
 	
 	<h2> Select the topic you need help from </h2>
 	
-	<table  width="100%" cellpadding="5px" cellspacing="20px">
+	<table  width="100%" cellpadding="5px" cellspacing="10px" >
 	<tr>
-    <td colspan="2" height="30" >
-	<a href="#" class="help_option">
+    <td colspan="2" height="80"  >
+	<div class="help_option">
+	<a href="help_detail.php" >
         How to use our system
 	</a> 
+	</div>
 	</td>
+	
     
 	</tr>
-	<tr>
+	<tr height="20">
 	</tr>
 	<tr>
-    <td colspan="2" height="30"  >
-	<a href="#" class="help_option" >
-       What is the standard of star level evaluation 
-	</a> 
-	</td>
-    
+    <td colspan="2" height="80"  >
+	<div class="help_option">
+	<a href="help_detail.php" color="black">
+       What is the standard of star level evaluation	</a>
+    </div></td>
+	</tr>
+	<tr height="20">
 	</tr>
 	<tr>
-	</tr>
-	<tr>
-	<td colspan="2" height="30">
-	<a href="#" class="help_option" >
-        How can I get contacted with my Facebook Account
-	</a>  
-	</td>
+	<td colspan="2" height="80" border="3px" bordercolor="#000000">
+	<div class="help_option">
+	<a href="help_detail.php" >
+        How can I get contacted with my Facebook Account	</a>	</div></td>
 	</tr>
 	<tr height="20">
 	</tr>
@@ -74,7 +75,7 @@ function btn_next_onclick(){
 							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
 						</td>
 						<td align="right">
-							<button class="btn next" onclick="btn_next_onclick()">Next</button>
+							<button class="btn next" onclick="btn_next_onclick()">Send</button>
 						</td>
 					</tr>
 	</table>

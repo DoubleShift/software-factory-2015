@@ -28,7 +28,7 @@ Created: 13.02.2015
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>register.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>profile.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>yini.css">
-
+	<link rel="stylesheet" type="text/css" href="<?php echo IP_CSS ?>report.css">
 	<link rel="shortcut icon" href="../interface/pictures/favicons/favicon.ico">
 
 	<!-- Adjust app for mobile -->

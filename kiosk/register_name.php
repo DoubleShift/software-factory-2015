@@ -74,5 +74,4 @@ function btn_next_onclick(){
 	<div class="keyboard"></div>
 </div>
 
-
 </body></html>

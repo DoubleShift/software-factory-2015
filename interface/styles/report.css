@@ -1,0 +1,42 @@
+.report_left{
+	
+	width: 250px;
+    height: 250px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    
+    overflow: hidden;
+	float: none;
+	display: inline-block;
+	color: #000;
+}
+.report_center{
+	width: 250px;
+    height: 250px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    
+    overflow: hidden;
+	float: none;
+	display: inline-block;
+	color: #000;
+	
+}
+.report_img{
+	display: block;
+    width: 150px;
+    height: 150px;
+    text-align: center ;
+    margin-left: 60px;
+	}
+.report_right{
+	width: 250px;
+    height: 250px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    
+    overflow: hidden;
+	float: none;
+	display: inline-block;
+	color: #000;
+}
