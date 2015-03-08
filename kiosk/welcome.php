@@ -11,12 +11,12 @@
 	<div class="content welcome">
    		<h1 id='text-name'><?=WELCOME?></h1>
 		<div class="row">
-			<a href="#" class="col left exercise">Exercise</a>
-			<a href="#" class="col right goal">Goals</a>
+			<a href="#" class="col left exercise" onclick=onBtnClick('exercise')>Exercise</a>
+			<a href="#" class="col right goal" onclick=onBtnClick('goal')>Goals</a>
 		</div>
 		<div class="row">
 			<a href="#" class="col left profile" onclick=onBtnClick('profile')>Profile</a>
-			<a href="#" class="col right rank">Top users</a>
+			<a href="#" class="col right rank" onclick=onBtnClick('rank')>Top users</a>
 		</div>
 	</div>
 </div>

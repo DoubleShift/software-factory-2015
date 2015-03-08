@@ -1,0 +1,32 @@
+#user-profile{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width:700px;
+	margin-top: 100px;
+}
+
+#user-profile-left{
+	border-collapse: collapse;
+	border-spacing: 0;
+	float:left;
+	width:200px;
+}
+
+#user-profile-right{
+	border-collapse: collapse;
+	border-spacing: 0;
+	float:left;
+	width:300px;
+}
+
+#user-profile-gravatar{
+	float:left;
+	width:200px;
+	height:300px;
+}
+
+#user-profile-star {
+ 	background-image: url("../pictures/star-32.png");
+  	background-repeat: repeat-x;
+  	height: 48px;
+}

@@ -54,4 +54,14 @@ define("PROFILE","PROFILE");
 define("RANK","RANK");
 define("WELCOME","Welcome");
 
+//profile.php
+define("MODIFY","MODIFY");
+define("NAME","Name:");
+define("GENDER","Gender:");
+define("AGE","Age:");
+define("EMAIL","Email:");
+define("HEALTH_STATUS","Health status:");
+define("STAR","Star level:");
+
+
 ?>
