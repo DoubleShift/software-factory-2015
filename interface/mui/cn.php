@@ -52,5 +52,15 @@ define("EXERCISE","运动");
 define("GOALS","目标");
 define("PROFILE","档案");
 define("RANK","排行");
+define("WELCOME","欢迎");
 
+//profile.php
+define("MODIFY","修改");
+define("NAME","姓名:");
+define("GENDER","性别:");
+define("AGE","年龄:");
+define("EMAIL","邮件:");
+define("HEALTH_STATUS","健康状况:");
+define("STAR","星级:");
+define("SAVE","保存");
 ?>

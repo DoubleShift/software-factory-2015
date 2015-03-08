@@ -51,5 +51,15 @@ define("EXERCISE","HARJOITUS");
 define("GOALS","TAVOITTEET");
 define("PROFILE","PROFIILI");
 define("RANK","SIJOITUS");
+define("WELCOME","Tervetuloa");
 
+//profile.php
+define("MODIFY","MUUTA");
+define("NAME","Nimi:");
+define("GENDER","Sukupuoli:");
+define("AGE","Ikä:");
+define("EMAIL","Sähköposti:");
+define("HEALTH_STATUS","Terveydentila:");
+define("STAR","Star tasolla:");
+define("SAVE","SAVE");
 ?>
