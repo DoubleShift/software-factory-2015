@@ -37,13 +37,13 @@ function btn_next_onclick(){
 	<table width="100%">
 	<tr>
 	<td colspan="3">
-	 <h2>Select the problematic equipment</h2></td>
+	 <h2 >Select the problematic equipment</h2></td>
 	</tr>
 	
 	<tr>
 	<td >
 		<div class="report_left">
-		<h3>Bicycle</h3>
+		<h3 align="center"> <br /> Bicycle</h3>
 		<div class="report_img">						
 		<img src="../interface/pictures/icon04.png"></img>
 		</div>						
@@ -51,7 +51,7 @@ function btn_next_onclick(){
 	</td>
 	<td >
 		<div class="report_center">
-		<h3>Running machine</h3>
+		<h3 align="center"><br /> Running machine</h3>
 		<div class="report_img">
 		<img src="../interface/pictures/icon-running.png"></img>
 		</div>
@@ -59,7 +59,7 @@ function btn_next_onclick(){
 	</td>
 	<td>
 		<div class="report_right">
-		<h3>Dumbbell</h3>
+		<h3 align="center"> <br />Dumbbell</h3>
 		<div class="report_img">
 		<img src="../interface/pictures/icon01.png"></img>	
 		</div>
@@ -68,7 +68,7 @@ function btn_next_onclick(){
 	
 	<tr>
 	</tr>
-	<tr ><td colspan="3">
+	<tr ><td colspan="3"><br />
 	<h2>Describe the problem</h2></td>
 	</tr>
 	<tr>
@@ -80,6 +80,8 @@ function btn_next_onclick(){
 	<tr>
 						<td>
 							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
+						</td>
+						<td>
 						</td>
 						<td align="right">
 							<button class="btn next" onclick="btn_next_onclick()">Send</button>

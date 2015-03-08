@@ -17,24 +17,25 @@ changed: 07.03.2015
 	<div class="content register-name">
 
 
-	<div class="error-tip">
-	  <table width="100%" border="0">
-	  <tr><td>&nbsp
+	<div class="error_tip">
+	  <table width="100%" class="error-tip">
+	  <tr><td><br/>
 		&nbsp </td>
 	</tr>
       <tr>
 		
-        <td rowspan="1">
+        <td rowspan="2"><br/>
+		<br/>
 		<img  src="../interface/pictures/icon-warn.png" style="margin-left: 20px; margin-right: 20px;"></img>
 		</td>
 		
 		
-		<td> <h2>Ooops! Card can not be found!</h2></td>
+		<td> <h2><br> <br>Ooops! Card can not be found!</h2></td>
 		
 		
       </tr>
 	  <tr height="2px">
-	  <td></td>
+	  
 	  <td >
 	 
 	  <hr   color=#000000 SIZE=3 noShade width="550px" align="left"></td>
