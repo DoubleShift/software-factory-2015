@@ -1,5 +1,5 @@
 .error_tip {
-    width: 600px;
+    width: 800px;
     height: 400px;
     border: 2px;
     position: absolute;
@@ -7,7 +7,7 @@
     left: -300px;
     top: 200px;
     color: black;
-    background: white;
+    
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
