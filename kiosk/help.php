@@ -4,8 +4,8 @@
 File: help.php
 Description: Help page.
 Author: Deng Canrong
-Version: 0.1
-Created: 15.02.2015
+Version: 0.2
+Created: 08.03.2015
 */
 
 	// Include header
@@ -41,7 +41,7 @@ function btn_next_onclick(){
 	
 	<table  width="100%" cellpadding="5px" cellspacing="20px">
 	<tr>
-    <td colspan="2" height="80"  >
+    <td colspan="5" height="80"  >
 	<a href="#" class="help_option">
         How to use our system
 	</a> 
@@ -52,14 +52,14 @@ function btn_next_onclick(){
 	</tr>
 	<tr>
     <td colspan="2" height="80"  >
-	<a href="#" class="help_option" >
+	<a href="#" class="help_option" > <span></span>
        What is the standard of star level evaluation	</a>	</td>
     
 	</tr>
 	<tr height="30">
 	</tr>
 	<tr>
-	<td colspan="2" height="80">
+	<td colspan="2" height="80" border="3px" bordercolor="#000000">
 	<a href="#" class="help_option" >
         How can I get contacted with my Facebook Account	</a>	</td>
 	</tr>
