@@ -17,10 +17,12 @@ Created: 7.03.2015
 /* waiting to write*/
 function btn_next_onclick(){
 
-	/*var user_problem=document.getElementById("input_problem").value;
-	setCookie("userproblem", user_problem);   
-	location.href='yini_register_email.php';*/
-
+	var value = {};
+	value.id = getCookie('userid'); 
+	value.type = document.getElementById("input_problem").value;
+	value.problem = getCookie('usergender');
+	
+	post('problem_receive.php', value);
 	
 }
 
@@ -31,7 +33,6 @@ function btn_next_onclick(){
 
 	<div class="heading">
 			<h1>Report a problem</h1>
-			
 		</div>
 	<div class="body">
 	<table width="100%">

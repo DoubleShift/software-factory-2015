@@ -28,7 +28,7 @@ Created: 07.03.2015
 	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
 		or die( "MySQL connection error: " . mysqli_connect_error() );
 		
-	echo $query;
+	//echo $query;
 	$result = mysqli_query( $db, $query );
 	//var_dump($result);
 	if($result){ 
