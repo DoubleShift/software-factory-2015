@@ -66,13 +66,13 @@ input.highlight, textarea.highlight{
 	height: 40px;
 }
 .language:first-child{
-	margin-left: 50px;
+	/*margin-left: 50px;*/
 }
 .menu-item{
 	padding-right: 0;
 }
 .menu-item.report-problem{
-	width: 280px;
+	width: 220px;
 }
 .menu-item.help{
 	width: 150px;
