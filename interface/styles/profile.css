@@ -5,6 +5,10 @@
 	margin-top: 0 auto;
 }
 
+#user-profile-left .label{
+	font-weight: bold;
+}
+
 #user-profile-left{
 	border-collapse: collapse;
 	border-spacing: 0;

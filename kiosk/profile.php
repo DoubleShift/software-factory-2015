@@ -70,7 +70,7 @@ Created: 08.03.2015
 				<tr><td><div id="user-profile-star" style="width:<?php
 					$score = floor($row['scores'] / 320);
 					echo $score * 32;
-					?>px"><h1><?=$score?>/8</h1></div> </td></tr>
+					?>px"><?=$score?>/8</div> </td></tr>
 			</tbody>
 			
 		</table>
