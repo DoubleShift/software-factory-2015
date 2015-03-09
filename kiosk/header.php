@@ -44,7 +44,7 @@ Created: 13.02.2015
 
 	<script type="text/javascript">
 	var translations = {
-		emptyField:'Please recheck and fill in all the fields!'
+		emptyField: 	'Please recheck and fill in all the fields!'
 	}
 	</script>
 
