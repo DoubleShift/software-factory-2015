@@ -34,7 +34,7 @@ function btn_next_onclick(){
 		});
 
 		if(empty_field > 0){
-			alert(translations.emptyField);
+			alert(LAN.EMPTY);
 		}else{
 			window.location='register_general.php';
 		}

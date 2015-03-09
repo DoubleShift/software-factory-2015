@@ -28,7 +28,7 @@
 	})
 
 	function onBtnClick(pagename){
-		var uid = $.cookie('user-id');
+		var uid = $.cookie('userid');
 		switch(pagename){
 			case 'exercise':
 				window.location ='exercise.php?id='+uid;

@@ -42,11 +42,6 @@ Created: 13.02.2015
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>jquery.cookie.js"></script>
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>util.js"></script>
 
-	<script type="text/javascript">
-	var translations = {
-		emptyField:'Please recheck and fill in all the fields!'
-	}
-	</script>
 
 </head>
 <body>

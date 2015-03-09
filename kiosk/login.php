@@ -17,9 +17,9 @@ Created: 13.02.2015
 		<div id="login-image"></div>
 		<div id="login-text"><?=PRESENT_YOUR_CARD?></div>
 
-		<form action="dologin.php" class="center" method="post">
-		<input type="text" name="id">
-		<input type="submit"> 
+		<form action="dologin.php" class="center" method="post" onsubmit="return btn_onClick()">
+		<input type="text" name="id" id="uid">
+		<input type="submit" class="btn"> 
 		</form>
 	</div>
 </div>
@@ -33,5 +33,15 @@ Created: 13.02.2015
 	$().ready(function(){
 	//	removeAllCookies();
 	})
+
+function btn_onClick(){
+	var id=document.getElementById("uid").value;
+	if(!id){
+		alert(LAN.EMPTY);
+		return false;
+	}
+	setCookie("userid", id);   
+	return true;
+}
 </script>
 </body></html>

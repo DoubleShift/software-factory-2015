@@ -1,7 +1,12 @@
 /**
 * JS functions
 **/
-
+    var LAN = {
+        EMPTY:'Please recheck and fill in all the fields!',
+        LOGIN:'Please login!',
+        GENDER:'Please choose your gender!',
+        AGE:'Please choose your age!'
+    }
 
 $(document).ready(function(){
 

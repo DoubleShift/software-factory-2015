@@ -18,9 +18,17 @@ Created: 7.3.2015
 function btn_next_onclick(){
 
 	var user_email=document.getElementById("input_email").value;
+	var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+    if(!reg.test(user_email)){
+    	alert('Please input a correct email!');
+    	return ; 
+    };
+
+
 	setCookie("useremail", user_email);
 
 	var value = {};
+	value.userid = getCookie('userid'); 
 	value.username = getCookie('username'); 
 	value.usergender = getCookie('usergender');
 	value.userage = getCookie('userage');

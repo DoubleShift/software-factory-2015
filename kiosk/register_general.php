@@ -18,20 +18,25 @@ function btn_next_onclick(){
 	var user_gender = $('input[name="register_gender"]:checked').val();
 	var user_age = $('input[name="register_age"]:checked').val();
 	
-	$.cookie('usergender', user_gender);
-	$.cookie('userage', user_age);
 
 	if(!user_gender){
-		alert('please choose your gender!');
+		alert(LAN.GENDER);
 		return;
 	}else if(!user_age){
-		alert('please choose your age!');
+		alert(LAN.AGE);
 		return;
 	}else{
+		if(user_gender == 'female'){
+			user_gender = 0;
+		}else{
+			user_gender = 1;
+		}
+	
+		$.cookie('usergender', user_gender);
+		$.cookie('userage', user_age);
 		window.location='register_experience.php';
 	}
 
-	
 }
 
 

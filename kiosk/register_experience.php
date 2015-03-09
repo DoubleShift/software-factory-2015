@@ -16,9 +16,9 @@ Created: 7.3.2015
 function btn_next_onclick(){
 
 	var user_exp = $('input[name="register_experience"]:checked').val();
-	
-	$.cookie('userexperience', user_exp);
+
 	if(user_exp){
+		$.cookie('userexperience', user_exp);
 		window.location ='register_problem.php';
 	}else{
 		alert('please choose one!');

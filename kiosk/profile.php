@@ -92,7 +92,7 @@ Created: 08.03.2015
 <script>
 
 	function onBtnClick(){
-		var uid = $.cookie('user-id');
+		var uid = $.cookie('userid');
 		window.location ='profile_edit.php?id='+uid;	
 	}
 	

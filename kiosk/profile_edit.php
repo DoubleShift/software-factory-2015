@@ -94,7 +94,7 @@ Created: 08.03.2015
 	function onBtnClick(){
 
 		var value 	= {};
-		value.id 	= $.cookie('user-id');
+		value.id 	= $.cookie('userid');
 		value.name 	= $("#user-name").val();
 		value.email = $("#user-email").val();
 	

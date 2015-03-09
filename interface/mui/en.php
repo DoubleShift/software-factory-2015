@@ -64,4 +64,6 @@ define("HEALTH_STATUS","Health status:");
 define("STAR","Star level:");
 define("SAVE","SAVE");
 
+define("EMPTY","Please recheck and fill in all the fields!");
+       
 ?>
