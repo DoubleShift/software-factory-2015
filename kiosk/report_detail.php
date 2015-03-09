@@ -36,21 +36,19 @@ function btn_next_onclick(){
 		<div class="body">
 			<table width="100%">
 				<tr>
-				<td colspan="3">
-				 <h2>Problematic equipment: <span id="problem-equipment"></span></h2></td>
+					<td colspan="3">
+						<h2>Problematic equipment: <span id="problem-equipment"></span></h2>
+					</td>
 				</tr>
 				<tr>
-				</tr>
-				<tr >
-					<td colspan="3"><br />
+					<td colspan="3">
 						<p>Describe the problem:</p>
 					</td>
 				</tr>
 				<tr>
-				<td colspan="3">
-				<textarea style="width:100%;" id="report_problem_detail"></textarea>
-				<td>
-				<tr height="20">
+					<td colspan="3">
+						<textarea style="width:100%;" id="report_problem_detail"></textarea>
+					<td>
 				</tr>
 				<tr>
 					<td>
