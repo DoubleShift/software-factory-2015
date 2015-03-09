@@ -51,7 +51,7 @@ Created: 13.02.2015
 	<td width="50">&nbsp;</td>
 	<td width="180"><a class="logo" href="welcome.php"><img src="../interface/pictures/logo.png" alt="Health Ex" /></a></td>
 	<!--<td id="header-text"><span class="green">H</span>ealth<span class="green">E</span>x</td>-->
-	<td width="400">
+	<td width="340">
 		<img class="language<?php if($_SESSION['language']!='fi') echo ' opacity' ?>" src="<?=IP_PICTURES;?>fi.png" onclick="location.href='<?php echo curPage();?>?lang=fi'" />
 		<img class="language<?php if($_SESSION['language']!='en') echo ' opacity' ?>" src="<?=IP_PICTURES;?>en.png" onclick="location.href='<?php echo curPage();?>?lang=en'"  />
 		<img class="language<?php if($_SESSION['language']!='ru') echo ' opacity' ?>" src="<?=IP_PICTURES;?>ru.png" onclick="location.href='<?php echo curPage();?>?lang=ru'"  />

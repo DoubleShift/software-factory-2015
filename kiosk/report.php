@@ -72,6 +72,9 @@ function btn_next_onclick(){
 					</td>
 				</tr>
 				<tr>
+					<td colspan="3" height="30"></td>
+				</tr>
+				<tr>
 					<td>
 						<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
 					</td>

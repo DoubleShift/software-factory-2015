@@ -19,9 +19,16 @@ Created: 13.02.2015
 
 
 		<form action="dologin.php" class="center" method="post" onsubmit="return btn_onClick()">
-		<input type="text" name="id" id="uid">
-
-		<input type="submit" class="btn"> 
+		<table style="margin: 0 auto;">
+		<tr>
+		<td>
+		<input type="text" style="width: 300px;" name="id" id="uid">
+		</td>
+		<td>
+		<input type="submit" value="Submit" class="btn"> 
+		</td>
+		</tr>
+		</table>
 		</form>
 	</div>
 </div>

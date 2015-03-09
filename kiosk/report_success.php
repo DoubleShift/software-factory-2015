@@ -29,7 +29,8 @@ Created: 7.03.2015
 
 		<div class="body">
 
-			<p>Thanks for your report!<br>We will look into the problem as soon as possible and fix the problem.</p>
+			<p>Thanks for your report!</p>
+			<p>We will look into the problem as soon as possible and fix the problem.</p>
 
 			<table width="100%">
 				<tr>
