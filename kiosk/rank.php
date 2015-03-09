@@ -13,9 +13,9 @@ Created: 23.02.2015
 
 	$query = "SELECT * FROM `user` order by scores desc limit 10";
 	$result = mysqli_query( $db, $query );
-	$row = mysqli_fetch_all($result);
-					
-					
+	// $row = mysqli_fetch_all($result); // not avaliable after 5.3
+	$row = $result->fetch_all();
+			
 ?>
 
 <div id="welcome-picture"></div>
