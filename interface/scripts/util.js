@@ -10,7 +10,7 @@
 
 function on_logout_click(){
 
-    for(var i=1;i<=5;i++){
+
         clearCookie('userid');
         clearCookie('username');
         clearCookie('userage');
@@ -21,8 +21,10 @@ function on_logout_click(){
         clearCookie('userproblemothers');
         clearCookie('report_problem_detail');
         clearCookie('problemequipment');
-    }
-   
+    
+   //why should I clear it for twice    
+    $.removeCookie('userid');
+    $.removeCookie('username');
 
     window.location.href='login.php' ;  
 
