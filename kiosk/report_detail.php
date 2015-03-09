@@ -19,7 +19,7 @@ function btn_next_onclick(){
 
 	var user_problem=document.getElementById("report_problem_detail").value;
 	setCookie("report_problem_detail", user_problem);   
-	location.href='report_succuss.php';
+	location.href='report_success.php';
 
 	
 }
@@ -41,8 +41,10 @@ function btn_next_onclick(){
 				</tr>
 				<tr>
 				</tr>
-				<tr ><td colspan="3"><br />
-				<h2>Describe the problem</h2></td>
+				<tr >
+					<td colspan="3"><br />
+						<p>Describe the problem:</p>
+					</td>
 				</tr>
 				<tr>
 				<td colspan="3">
