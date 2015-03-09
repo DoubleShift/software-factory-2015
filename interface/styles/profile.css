@@ -6,7 +6,8 @@
 }
 
 #user-profile table td{
-	padding: 10px 5px;
+	padding: 0px 5px;
+	height: 60px;
 }
 
 #user-profile-left .label{
