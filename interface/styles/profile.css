@@ -2,25 +2,33 @@
 	border-collapse: collapse;
 	border-spacing: 0;
 	width:700px;
-	margin-top: 100px;
+	margin: 0 auto;
+}
+
+#user-profile table td{
+	padding: 10px 5px;
+}
+
+#user-profile-left .label{
+	font-weight: bold;
 }
 
 #user-profile-left{
 	border-collapse: collapse;
 	border-spacing: 0;
 	float:left;
-	width:200px;
+	/*width:200px;*/
 }
 
 #user-profile-right{
 	border-collapse: collapse;
 	border-spacing: 0;
 	float:left;
-	width:300px;
+	/*width:300px;*/
 }
 
 #user-profile-gravatar{
-	float:left;
+	float:right;
 	width:200px;
 	height:300px;
 }

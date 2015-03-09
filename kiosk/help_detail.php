@@ -37,10 +37,8 @@ function btn_next_onclick(){
 
 	<div class="body" >
 	
-	<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+	<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
 	<p>Pellentesque iaculis nisi accumsan sem tincidunt, sit amet convallis diam aliquet. Aenean ac tempus elit. Integer non risus nulla. Curabitur semper nunc vitae libero laoreet efficitur. Sed ut erat et metus volutpat lobortis. Suspendisse cursus mauris massa, sit amet iaculis magna sagittis a. Aenean tincidunt et ligula at ultrices. Nunc volutpat eu magna sit amet mattis. Morbi in nibh rutrum, malesuada mauris vel, posuere risus.</p>
-	<h3>Donec nec consequat neque.</h3>
-	<p>Vestibulum vel convallis justo. Proin dignissim diam quis nibh suscipit congue. Pellentesque sapien mi, ultricies a nulla pharetra, fermentum rutrum enim. Ut eu ipsum eget leo consectetur pretium sit amet ac neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a sapien ac mi sollicitudin porta in id ipsum. Mauris ultrices porta orci in convallis.</p>
 	<table width="100%" >
       <tr>
        

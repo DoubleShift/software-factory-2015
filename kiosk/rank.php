@@ -20,11 +20,16 @@ Created: 23.02.2015
 	};	
 ?>
 
-<div id="welcome-picture"></div>
-		<div id = "UserRank">
-			<div id="MainContent">
+<div class="wrapper">
+	<div class="content">
+
+		<div class="heading">
 			<h1 class="title"><?=RANK_TOP_USERS?></h1>
-			<table cellpadding="0" cellspacing="1" id="ranktable">
+		</div>
+
+		<div class="body">
+		
+			<table width="100%" cellpadding="0" cellspacing="1" id="ranktable">
 		   
 				<thead>
 					<tr class="ranktitle"><th><?=RANK_RANK?></th><th><?=RANK_NAME?></th><th><?=RANK_STAR_LEVEL?></th><th><?=RANK_SCORES?></th></tr>
@@ -66,13 +71,15 @@ Created: 23.02.2015
 					*/
 					
 				?>
+					<tr>
+					   <td colspan="4" style="padding:0;">
+					   	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
+					   </td>
+					</tr>
 					</tbody>
-			
-		   </table>
-		   </div>
-		</div>
-
-		<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
+			</table>
+	   </div>
+	</div>
 </div>
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>

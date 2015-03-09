@@ -31,63 +31,70 @@ Created: 08.03.2015
 
 <div class="wrapper">
 
-	<div id="MainContent">
-	<div id="user-profile">
-	<div id="user-profile-left">
-		<table cellpadding="2" cellspacing="3" >
-		   <tbody align="right">
-				<tr><td><h1><?=NAME?></h1></td></tr>
-				<tr><td><h1><?=GENDER?></h1></td></tr>
-				<tr><td><h1><?=AGE?></h1></td></tr>
-				<tr><td><h1><?=EMAIL?></h1></td></tr>
-				<tr><td><h1><?=HEALTH_STATUS?></h1></td></tr>
-				<tr><td><h1><?=STAR?></h1></td></tr>
-			</tbody>
-			
-		</table>
+	<div class="content">
+		<div class="body">
+			<div id="user-profile">
+				<div id="user-profile-left">
+					<table cellpadding="2" cellspacing="3" >
+					   <tbody align="right">
+							<tr><td><span class="label"><?=NAME?></span></td></tr>
+							<tr><td><span class="label"><?=GENDER?></span></td></tr>
+							<tr><td><span class="label"><?=AGE?></span></td></tr>
+							<tr><td><span class="label"><?=EMAIL?></span></td></tr>
+							<tr><td><span class="label"><?=HEALTH_STATUS?></span></td></tr>
+							<tr><td><span class="label"><?=STAR?></span></td></tr>
+						</tbody>
+						
+					</table>
+				</div>
+
+				<div id="user-profile-right">
+					<table cellpadding="2" cellspacing="3" >
+					   <tbody>
+							<tr><td><?= $row['name'] ?></td></tr>
+							<tr><td><?php 
+							if($row['gender']){
+								echo 'female';
+							}else{
+								echo 'male';
+							}  ?>
+							</td></tr>
+							<tr><td><?= $row['age'] ?></td></tr>
+							<tr><td><?= $row['email'] ?></td></tr>
+							<tr><td><?php 
+							if($row['status'] == ''){
+								echo 'no';
+							}else{
+								echo $row['status'];
+							}  ?>
+							</td></tr>
+							<tr><td><div id="user-profile-star" style="width:<?php
+								$score = floor($row['scores'] / 320);
+								echo $score * 32;
+								?>px"><?=$score?>/8</div> </td></tr>
+						</tbody>
+						
+					</table>
+				</div>
+
+				<div id="user-profile-gravatar">
+					<img src='../interface/pictures/gravatar.jpg'/>
+				</div>
+
+			</div>
+
+			<table width="100%">
+			<tr>
+			<td>
+				<button class="btn prev" onclick="javascript:window.location.href='welcome.php';"><?=BACK?></button>
+			</td>
+			<td align="right">
+				<button class="btn next" onclick="onBtnClick()"><?=MODIFY?></button>
+			</td>
+			</tr>
+			</table>
+		</div>
 	</div>
-
-	<div id="user-profile-right">
-		<table cellpadding="2" cellspacing="3" >
-		   <tbody>
-				<tr><td><h1><?= $row['name'] ?></h1></td></tr>
-				<tr><td><h1><?php 
-				if($row['gender']){
-					echo 'female';
-				}else{
-					echo 'male';
-				}  ?>
-				</h1></td></tr>
-				<tr><td><h1><?= $row['age'] ?></h1></td></tr>
-				<tr><td><h1><?= $row['email'] ?></h1></td></tr>
-				<tr><td><h1><?php 
-				if($row['status'] == ''){
-					echo 'no';
-				}else{
-					echo $row['status'];
-				}  ?>
-				</h1></td></tr>
-				<tr><td><div id="user-profile-star" style="width:<?php
-					$score = floor($row['scores'] / 320);
-					echo $score * 32;
-					?>px"><h1><?=$score?>/8</h1></div> </td></tr>
-			</tbody>
-			
-		</table>
-	</div>
-
-	<div id="user-profile-gravatar">
-		<img src='../interface/pictures/gravatar.jpg'/>
-	</div>
-
-	</div>
-	</div>
-
-
-	<button class="btn prev" onclick="javascript:window.location.href='welcome.php';"><?=BACK?></button>
-	<button class="btn next" onclick="onBtnClick()"><?=MODIFY?></button>
-
-
 </div>
 
 <script>
