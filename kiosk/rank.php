@@ -72,11 +72,11 @@ Created: 23.02.2015
 					
 				?>
 					</tbody>
-				<tfooter>
-				   <td>
+				<tfoot>
+				   <td colspan="4" style="padding:0;">
 				   	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
 				   </td>
-				   </tfooter>
+				</tfoot>
 			</table>
 	   </div>
 	</div>
