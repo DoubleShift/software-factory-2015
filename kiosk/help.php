@@ -32,12 +32,10 @@ function btn_next_onclick(){
 
 
 	<div class="heading">
-			<h1>Help<h1>
+			<h1>Help, select the topic you need help from<h1>
 		</div>
 
 	<div class="body" >
-	
-	<h2> Select the topic you need help from </h2>
 	
 	<table  width="100%" cellpadding="5px" cellspacing="10px" >
 	<tr>

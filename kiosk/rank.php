@@ -24,7 +24,7 @@ Created: 23.02.2015
 	<div class="content">
 
 		<div class="heading">
-			<h1 class="title"><?=RANK_TOP_USERS?></h1>
+			<h1 class=""><?=RANK_TOP_USERS?></h1>
 		</div>
 
 		<div class="body">
@@ -71,9 +71,10 @@ Created: 23.02.2015
 					*/
 					
 				?>
+					<tr><td colspan="4" height="20">&nbsp;</td></tr>
 					<tr>
 					   <td colspan="4" style="padding:0;">
-					   	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
+					   	<button class="btn prev" onclick="javascript:history.go(-1);"><?=BACK?></button>
 					   </td>
 					</tr>
 					</tbody>
