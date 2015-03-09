@@ -19,7 +19,7 @@ Created: 13.02.2015
 
 
 		<form action="dologin.php" class="center" method="post" onsubmit="return btn_onClick()">
-		<table>
+		<table style="margin: 0 auto;">
 		<tr>
 		<td>
 		<input type="text" style="width: 300px;" name="id" id="uid">
