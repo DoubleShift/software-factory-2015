@@ -18,6 +18,8 @@
     border-radius: 15px;
     background-color: #FFF;
     overflow: hidden;
+    display: block;
+    box-sizing: content-box !important;
 }
 .exercise-level {
     font-size: 24px;
@@ -45,8 +47,8 @@
     display: block;
     width: 160px;
     height: 160px;
-    background-color: red;
     margin: 20px;
+    box-sizing: content-box !important;
 }
 .deficulty {
     display: inline-block;
@@ -64,6 +66,7 @@
 }
 .exercise-description {
     margin: 18px;
+    font-size: 20px;
     margin-top: 50px;
     text-align: center;
 }

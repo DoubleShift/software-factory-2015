@@ -30,10 +30,10 @@
 		var uid = $.cookie('userid');
 		switch(pagename){
 			case 'exercise':
-				window.location ='exercise.php?id='+uid;
+				window.location ='exercise-plan.php';
 				break;
 			case 'goal':
-				window.location ='goal.php?id='+uid;
+				window.location ='goal.php';
 			break;
 			case 'profile':
 				window.location ='profile.php?id='+uid;

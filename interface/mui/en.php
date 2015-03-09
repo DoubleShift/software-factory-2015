@@ -22,6 +22,17 @@ define("MINUTES", "minutes");
 define("CHANGE_TYPE", "Change exercise type");
 define("EXERCISE_DIFFICULTY", "Exercise difficulty");
 
+
+define("SELECT_EXERCISE_TYPE", "Select exercise type");
+define("FITNESS", "Fitness");
+define("AEROBIC", "Aerobic");
+define("POWER", "Power");
+define("FITNESS_DSCR", "Light exercises for keeping you in shape");
+define("AEROBIC_DSCR", "Increase your oxygen level and remove toxins");
+define("POWER_DSCR", "Heavy exercises for strength");
+
+define("GO_TO_EXERCISE", "Now you can go for your firs exercise");
+
 // exercie titles
 define("EXERCISE_NAME_1", "Lifting");
 define("EXERCISE_NAME_2", "Running");

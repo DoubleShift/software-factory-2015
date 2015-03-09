@@ -11,7 +11,7 @@
 	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
 		or die( "MySQL connection error: " . mysqli_connect_error() );
 		
-	$query = "SELECT * FROM user WHERE id = ".$_POST['id'];
+	$query = "SELECT * FROM user WHERE uid = ".$_POST['id'];
 	$result = mysqli_query( $db, $query );
 	
 	if($row = mysqli_fetch_assoc($result))
@@ -24,12 +24,12 @@
 		if($row = mysqli_fetch_assoc($result))
 		{
 			//don't have exercise plan
-			$page = "exercise-plan.php";
+			$page = "exercise-type.php";
 		}
 		else
 		{
 			// 
-			$page = "welcome.php";
+			$page = "exercise-plan.php";
 		}
 	}
 	else   // new user

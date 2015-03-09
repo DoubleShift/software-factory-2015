@@ -119,6 +119,11 @@ div
 	color: #97c740;
 }
 
+.center
+{
+	text-align: center;
+}
+
 .bottom
 {
 	position: absolute;
@@ -126,6 +131,20 @@ div
 	width: 100%;
 	padding-bottom: 30px;
 	text-align: center;
+    box-sizing: content-box !important;
+}
+
+.no-button
+{
+	min-width: 25%;
+	text-align: center;
+	padding: 20px;
+	font-size: 24px;
+	color: #FFF;
+    border-radius: 10px;	
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
 }
 
 .button
@@ -141,6 +160,7 @@ div
     margin-left: 2%;
     margin-right: 2%;
     display: inline-block;
+    box-sizing: content-box !important;
 }
 
 .orange-bg
