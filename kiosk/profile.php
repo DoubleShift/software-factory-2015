@@ -22,6 +22,7 @@ Created: 08.03.2015
 	if($row = mysqli_fetch_assoc($result))
 	{
 		//print_r($row);
+		setcookie('username',$row['name']);
 	}else {
 		//what if get nothing?
 	}

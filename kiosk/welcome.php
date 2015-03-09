@@ -3,7 +3,6 @@
 // Include header
 	include( dirname(__FILE__) . '/header.php' );
 
-	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 
 <div class="wrapper">
