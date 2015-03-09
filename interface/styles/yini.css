@@ -61,6 +61,9 @@ input.highlight, textarea.highlight{
 	background: linear-gradient(to bottom,  #454545 0%,#2b2b2b 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
 }
+.logo{
+	margin-right: 30px;
+}
 .language{
 	width: auto;
 	height: 40px;
