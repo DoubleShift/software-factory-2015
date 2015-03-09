@@ -37,5 +37,6 @@
 #user-profile-star {
  	background-image: url("../pictures/star-32.png");
   	background-repeat: repeat-x;
-  	height: 48px;
+  	background-position: left center;
+  	height: 60px;
 }
