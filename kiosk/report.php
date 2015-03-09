@@ -21,7 +21,7 @@ function btn_next_onclick(){
 
 	$('input[name="problem_equipment"]:checked').each(function(){
 		var equipment_name = $(this).val();
-		problem_equipment.push(equipment_name)
+		problem_equipment.push(equipment_name);
 	});
 	
 	$.cookie('problemequipment', problem_equipment);

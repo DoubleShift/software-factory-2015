@@ -40,7 +40,15 @@ Created: 13.02.2015
 //	Todo: clean cookies before login.
 //	clean all cookies, except language
 	$().ready(function(){
-	//	removeAllCookies();
+		clearCookie('userid');
+		clearCookie('username');
+		clearCookie('userage');
+		clearCookie('useremail');
+		clearCookie('usergender');
+		clearCookie('userexperience');
+		clearCookie('userproblem');
+		clearCookie('userproblemothers');
+
 	})
 
 function btn_onClick(){
