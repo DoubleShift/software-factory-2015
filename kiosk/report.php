@@ -43,7 +43,7 @@ function btn_next_onclick(){
 	<tr>
 	<td >
 		<div class="option-block report-block">
-			<h3 align="center"> <br /> Bicycle</h3>
+			<span class="block-title">Bicycle</span>
 			<div class="report_img">						
 			<img src="../interface/pictures/icon-bicycle.png"></img>
 			<input type="checkbox" name="problem_report" value="bicycle" />
@@ -52,7 +52,7 @@ function btn_next_onclick(){
 	</td>
 	<td >
 		<div class="option-block report-block">
-			<h3 align="center"><br /> Running machine</h3>
+			<span class="block-title">Running machine</span>
 			<div class="report_img">
 			<img src="../interface/pictures/icon-running.png"></img>
 			<input type="checkbox" name="problem_report" value="running_machine" />
@@ -61,7 +61,7 @@ function btn_next_onclick(){
 	</td>
 	<td>
 		<div class="option-block report-block">
-			<h3 align="center"> <br />Dumbbell</h3>
+			<span class="block-title">Dumbbell</span>
 			<div class="report_img">
 			<img src="../interface/pictures/icon-dumbbell.png"></img>	
 			<input type="checkbox" name="problem_report" value="dumbbell" />
