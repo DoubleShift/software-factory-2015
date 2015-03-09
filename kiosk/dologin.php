@@ -16,7 +16,7 @@
 	
 	if($row = mysqli_fetch_assoc($result))
 	{
-		setcookie("userid", $_POST['id'], time()+3600);
+		setcookie("userid", $_POST['id']);
 		setcookie("username",$row['name']);	//get user name, for the welcome page
 
 		$query = "SELECT * FROM exercise_plan WHERE user_id = ".$_POST['id'];

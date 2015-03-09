@@ -71,13 +71,13 @@ function btn_next_onclick(){
 	<tr height="20">
 	</tr>
 	<tr>
-						<td>
-							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
-						</td>
-						<td align="right">
-							<button class="btn next" onclick="btn_next_onclick()">Send</button>
-						</td>
-					</tr>
+		<td>
+			<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
+		</td>
+		<!--<td align="right">
+			<button class="btn next" onclick="btn_next_onclick()">Send</button>
+		</td>-->
+	</tr>
 	</table>
 	
    </div>
