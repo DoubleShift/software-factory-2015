@@ -5,6 +5,10 @@
 	margin: 0 auto;
 }
 
+#user-profile table td{
+	padding: 10px 5px;
+}
+
 #user-profile-left .label{
 	font-weight: bold;
 }
