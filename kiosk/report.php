@@ -21,79 +21,73 @@ function btn_next_onclick(){
 	setCookie("userproblem", user_problem);   
 	location.href='yini_register_email.php';*/
 
+	var problem_equipment = [];
+
+	$('input[name="problem_equipment"]:checked').each(function(){
+		var equipment_name = $(this).val();
+		problem_equipment.push(equipment_name)
+	});
 	
+	$.cookie('problemequipment', problem_equipment);
+
+	window.location ='report_detail.php';
 }
 
 </script>
 <div class="wrapper">
-	<div class="content register-name">
-<div id="report"></div>
 
-	<div class="heading">
-			<h1>Report a problem</h1>
-			
+	<div class="content register-name">
+
+		<div class="heading">
+				<h1>Report a problem</h1>
 		</div>
-	<div class="body">
-	<table width="100%">
-	<tr>
-	<td colspan="3">
-	 <h2 >Select the problematic equipment</h2></td>
-	</tr>
-	
-	<tr>
-	<td >
-		<div class="option-block report-block">
-			<span class="block-title">Bicycle</span>
-			<div class="report_img">						
-			<img src="../interface/pictures/icon-bicycle.png"></img>
-			<input type="checkbox" name="problem_report" value="bicycle" />
-		</div>						
-							
-	</td>
-	<td >
-		<div class="option-block report-block">
-			<span class="block-title">Running machine</span>
-			<div class="report_img">
-			<img src="../interface/pictures/icon-running.png"></img>
-			<input type="checkbox" name="problem_report" value="running_machine" />
+
+		<div class="body">
+			<table width="100%">
+				<tr>
+					<td colspan="3">
+						<h2 >Select the problematic equipment</h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="option-block report-block">
+							<span class="block-title">Bicycle</span>
+							<div class="report_img">						
+							<img src="../interface/pictures/icon-bicycle.png"></img>
+							<input type="checkbox" name="problem_equipment" value="bicycle" />
+						</div>				
+					</td>
+					<td >
+						<div class="option-block report-block">
+							<span class="block-title">Running machine</span>
+							<div class="report_img">
+							<img src="../interface/pictures/icon-running.png"></img>
+							<input type="checkbox" name="problem_equipment" value="running_machine" />
+						</div>
+					</td>
+					<td>
+						<div class="option-block report-block">
+							<span class="block-title">Dumbbell</span>
+							<div class="report_img">
+							<img src="../interface/pictures/icon-dumbbell.png"></img>	
+							<input type="checkbox" name="problem_equipment" value="dumbbell" />
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
+					</td>
+					<td>
+					</td>
+					<td align="right">
+						<button class="btn next" onclick="btn_next_onclick()">Next</button>
+					</td>
+				</tr>
+			</table>
 		</div>
-			
-	</td>
-	<td>
-		<div class="option-block report-block">
-			<span class="block-title">Dumbbell</span>
-			<div class="report_img">
-			<img src="../interface/pictures/icon-dumbbell.png"></img>	
-			<input type="checkbox" name="problem_report" value="dumbbell" />
-		</div>
-	</td>
-	</tr>
-	
-	<tr>
-	</tr>
-	<tr ><td colspan="3"><br />
-	<h2>Describe the problem</h2></td>
-	</tr>
-	<tr>
-	<td colspan="3">
-	<textarea style="width:100%;" id="report_problem"></textarea>
-	<td>
-	<tr height=20>
-	</tr>
-	<tr>
-						<td>
-							<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
-						</td>
-						<td>
-						</td>
-						<td align="right">
-							<button class="btn next" onclick="btn_next_onclick()">Send</button>
-						</td>
-					</tr>
-	</table>
-</div>
-</div>
-</div>
+	</div>
 </div>
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
