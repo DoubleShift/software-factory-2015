@@ -8,6 +8,9 @@ Version: 0.1
 Created: 13.02.2015
 */
 
+    setcookie('userid', null, time()-3600);	
+    setcookie('username', null, time()-3600);	
+
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
 	
@@ -20,6 +23,10 @@ Created: 13.02.2015
 	//echo "[".mysqli_num_rows($result)."]";
 	
 	$row = mysqli_fetch_assoc($result);
+
+
+    
+    
 
 ?>
 <div class="wrapper">
