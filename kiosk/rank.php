@@ -71,9 +71,10 @@ Created: 23.02.2015
 					*/
 					
 				?>
+					<tr><td colspan="4" height="20">&nbsp;</td></tr>
 					<tr>
 					   <td colspan="4" style="padding:0;">
-					   	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
+					   	<button class="btn" onclick="javascript:history.go(-1);"><?=BACK?></button>
 					   </td>
 					</tr>
 					</tbody>
