@@ -67,7 +67,7 @@ Created: 13.02.2015
 		</div>
 	</td>
 	<td>
-		<a class="menu-text" id="logout" href="#">Log out</a>
+		<a class="menu-text" id="logout" href="#" onclick="on_logout_click()">Log out</a>
 	</td>
 	<td width="50">&nbsp;</td>
 </tr></table>

@@ -34,22 +34,7 @@ Created: 13.02.2015
 </div>
 
 
-
-
 <script>
-//	Todo: clean cookies before login.
-//	clean all cookies, except language
-	$().ready(function(){
-		clearCookie('userid');
-		clearCookie('username');
-		clearCookie('userage');
-		clearCookie('useremail');
-		clearCookie('usergender');
-		clearCookie('userexperience');
-		clearCookie('userproblem');
-		clearCookie('userproblemothers');
-
-	})
 
 function btn_onClick(){
 	var id=document.getElementById("uid").value;
@@ -60,5 +45,6 @@ function btn_onClick(){
 	setCookie("userid", id);   
 	return true;
 }
+
 </script>
 </body></html>

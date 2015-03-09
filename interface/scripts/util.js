@@ -8,6 +8,27 @@
         AGE:'Please choose your age!'
     }
 
+function on_logout_click(){
+
+    for(var i=1;i<=5;i++){
+        clearCookie('userid');
+        clearCookie('username');
+        clearCookie('userage');
+        clearCookie('useremail');
+        clearCookie('usergender');
+        clearCookie('userexperience');
+        clearCookie('userproblem');
+        clearCookie('userproblemothers');
+        clearCookie('report_problem_detail');
+        clearCookie('problemequipment');
+    }
+   
+
+    window.location.href='login.php' ;  
+
+}
+
+
 $(document).ready(function(){
 
     //On register pages, select of info block
