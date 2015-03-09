@@ -24,7 +24,7 @@ Created: 23.02.2015
 	<div class="content">
 
 		<div class="heading">
-			<h1 class="title"><?=RANK_TOP_USERS?></h1>
+			<h1 class=""><?=RANK_TOP_USERS?></h1>
 		</div>
 
 		<div class="body">
