@@ -42,7 +42,7 @@ function btn_next_onclick(){
 	
 	<tr>
 	<td >
-		<div class="option-block report_left">
+		<div class="option-block report-block">
 			<h3 align="center"> <br /> Bicycle</h3>
 			<div class="report_img">						
 			<img src="../interface/pictures/icon04.png"></img>
@@ -51,7 +51,7 @@ function btn_next_onclick(){
 							
 	</td>
 	<td >
-		<div class="option-block report_center">
+		<div class="option-block report-block">
 			<h3 align="center"><br /> Running machine</h3>
 			<div class="report_img">
 			<img src="../interface/pictures/icon-running.png"></img>
@@ -60,7 +60,7 @@ function btn_next_onclick(){
 			
 	</td>
 	<td>
-		<div class="option-block report_right">
+		<div class="option-block report-block">
 			<h3 align="center"> <br />Dumbbell</h3>
 			<div class="report_img">
 			<img src="../interface/pictures/icon01.png"></img>	
