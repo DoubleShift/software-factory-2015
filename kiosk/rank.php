@@ -14,8 +14,10 @@ Created: 23.02.2015
 	$query = "SELECT * FROM `user` order by scores desc limit 10";
 	$result = mysqli_query( $db, $query );
 	// $row = mysqli_fetch_all($result); // not avaliable after 5.3
-	$row = $result->fetch_all();
-			
+	$row = array();
+	while($r = mysqli_fetch_assoc($result)){
+			$row[] = $r;
+	};	
 ?>
 
 <div id="welcome-picture"></div>
@@ -40,8 +42,8 @@ Created: 23.02.2015
 
 						if( $i<$length ){
 							// How to count stars?
-							$width = $row[$i]['11'] * 16 / 100;
-							echo $row[$i][1].'</td><td>'.$row[$i]['2'].'</td><td><div class ="starbox"><div class="star" style = "width:'.$width.'px"></div></td><td>'.$row[$i]['11'].'</td></tr>';
+							$width = $row[$i]['scores'] * 16 / 100;
+							echo $row[$i]['uid'].'</td><td>'.$row[$i]['name'].'</td><td><div class ="starbox"><div class="star" style = "width:'.$width.'px"></div></td><td>'.$row[$i]['scores'].'</td></tr>';
 							
 						}else{
 							$num = $i+1;
