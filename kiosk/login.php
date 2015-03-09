@@ -19,7 +19,7 @@ Created: 13.02.2015
 
 		<form action="dologin.php" class="center" method="post">
 		<input type="text" name="id">
-		<input type="submit"> 
+		<input type="submit" class="btn"> 
 		</form>
 	</div>
 </div>
