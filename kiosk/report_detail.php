@@ -10,8 +10,6 @@ Created: 7.03.2015
 
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
-
-	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 <script>
 /* waiting to write*/
@@ -19,9 +17,13 @@ function btn_next_onclick(){
 
 	var user_problem=document.getElementById("report_problem_detail").value;
 	setCookie("report_problem_detail", user_problem);   
-	location.href='report_success.php';
 
+	var value 	= {};
+	value.id 	= $.cookie('userid');
+	value.problem 	= $.cookie('report_problem_detail');
+	value.equipment = $.cookie('problemequipment');
 	
+	post('report_receive.php', value);
 }
 
 </script>

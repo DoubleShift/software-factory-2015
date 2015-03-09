@@ -15,10 +15,6 @@ Created: 7.3.2015
 
 function btn_next_onclick(){
 
-	/*var user_problem=document.getElementById("input_problem").value;
-	setCookie("userproblem", user_problem);   
-	location.href='yini_register_problem_others.php';*/
-
 	var user_problem = [];
 
 	$('input[name="register_problem"]:checked').each(function(){
@@ -27,7 +23,6 @@ function btn_next_onclick(){
 	});
 	
 	$.cookie('userproblem', user_problem);
-
 	window.location ='register_problem_others.php';
 	
 }

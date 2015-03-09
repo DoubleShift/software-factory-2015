@@ -12,7 +12,7 @@ Created: 09.03.2015
 	include( dirname(__FILE__) . '/header.php' );
 
 	$id = $_POST['id']; 
-	$type = $_POST['type']; 
+	$type = $_POST['equipment']; 
 	$problem = $_POST['problem'];
 
 	$query = "insert into `problem` (`uid`, `type`, `problem`) VALUES($id,'$type','$problem')";	
@@ -23,9 +23,9 @@ Created: 09.03.2015
 		
 	//echo $query;
 	$result = mysqli_query( $db, $query );
-	//var_dump($result);
+
 	if($result){ 
-		echo "<script type='text/javascript'> window.location.href='welcome.php' </script>";  
+		echo "<script type='text/javascript'> window.location.href='report_success.php' </script>";  
 	}else{//what if failed?
 		echo "<script>alert('Report Failed!'); </script>";
 	}
