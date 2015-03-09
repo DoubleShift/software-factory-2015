@@ -86,10 +86,10 @@ Created: 08.03.2015
 			<table width="100%">
 			<tr>
 			<td>
-			<button class="btn prev" onclick="javascript:window.location.href='welcome.php';"><?=BACK?></button>
+				<button class="btn prev" onclick="javascript:window.location.href='welcome.php';"><?=BACK?></button>
 			</td>
 			<td align="right">
-			<button class="btn next" onclick="onBtnClick()"><?=MODIFY?></button>
+				<button class="btn next" onclick="onBtnClick()"><?=MODIFY?></button>
 			</td>
 			</tr>
 			</table>
