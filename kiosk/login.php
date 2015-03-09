@@ -17,8 +17,10 @@ Created: 13.02.2015
 		<div id="login-image"></div>
 		<div id="login-text"><?=PRESENT_YOUR_CARD?></div>
 
+
 		<form action="dologin.php" class="center" method="post" onsubmit="return btn_onClick()">
 		<input type="text" name="id" id="uid">
+
 		<input type="submit" class="btn"> 
 		</form>
 	</div>

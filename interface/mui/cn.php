@@ -63,4 +63,5 @@ define("EMAIL","邮件:");
 define("HEALTH_STATUS","健康状况:");
 define("STAR","星级:");
 define("SAVE","保存");
+
 ?>

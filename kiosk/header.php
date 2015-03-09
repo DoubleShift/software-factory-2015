@@ -43,6 +43,7 @@ Created: 13.02.2015
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>util.js"></script>
 
 
+
 </head>
 <body>
 <table id="header" cellpadding="0" cellspacing="0" border="0">
