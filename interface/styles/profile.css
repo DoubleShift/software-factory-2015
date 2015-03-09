@@ -6,7 +6,8 @@
 }
 
 #user-profile table td{
-	padding: 10px 5px;
+	padding: 0px 5px;
+	height: 60px;
 }
 
 #user-profile-left .label{
@@ -36,5 +37,6 @@
 #user-profile-star {
  	background-image: url("../pictures/star-32.png");
   	background-repeat: repeat-x;
-  	height: 48px;
+  	background-position: left center;
+  	height: 60px;
 }
