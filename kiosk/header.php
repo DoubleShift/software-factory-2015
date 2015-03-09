@@ -66,5 +66,8 @@ Created: 13.02.2015
 		<span class="menu-text"><?=HELP?></span>
 		</div>
 	</td>
+	<td>
+		<a id="logout" href="#">Log out</a>
+	</td>
 	<td width="50">&nbsp;</td>
 </tr></table>

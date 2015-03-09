@@ -71,12 +71,12 @@ input.highlight, textarea.highlight{
 .menu-item{
 	padding-right: 0;
 }
-.menu-item.report-problem{
+/*.menu-item.report-problem{
 	width: 220px;
 }
 .menu-item.help{
 	width: 150px;
-}
+}*/
 .menu-image {
   height: 40px;
   width: auto;
@@ -117,6 +117,7 @@ input.highlight, textarea.highlight{
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 -1px 0 #88b547;
+  border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   padding: 10px 50px;
