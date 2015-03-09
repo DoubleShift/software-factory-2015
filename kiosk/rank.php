@@ -72,16 +72,12 @@ Created: 23.02.2015
 					
 				?>
 					</tbody>
-			
-		   </table>
-
-		   <table width="100%">
-		   <tr>
-		   <td>
-		   	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
-		   </td>
-		   </tr>
-		   </table>
+				<tfooter>
+				   <td>
+				   	<button class="button-back" onclick="javascript:history.go(-1);"><?=BACK?></button>
+				   </td>
+				   </tfooter>
+			</table>
 	   </div>
 	</div>
 </div>
