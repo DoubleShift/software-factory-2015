@@ -40,8 +40,8 @@ Created: 23.02.2015
 
 						if( $i<$length ){
 							// How to count stars?
-							$width = $row[$i]['10'] * 16 / 100;
-							echo $row[$i][0].'</td><td>'.$row[$i]['1'].'</td><td><div class ="starbox"><div class="star" style = "width:'.$width.'px"></div></td><td>'.$row[$i]['10'].'</td></tr>';
+							$width = $row[$i]['11'] * 16 / 100;
+							echo $row[$i][1].'</td><td>'.$row[$i]['2'].'</td><td><div class ="starbox"><div class="star" style = "width:'.$width.'px"></div></td><td>'.$row[$i]['11'].'</td></tr>';
 							
 						}else{
 							$num = $i+1;
