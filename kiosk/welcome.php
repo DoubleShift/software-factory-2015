@@ -23,7 +23,7 @@
 
 <script>
 	$().ready(function(){
-		var name = $.cookie("user-name");
+		var name = $.cookie("username");
     	$("#text-name").append(' '+name+'!');
 	})
 
