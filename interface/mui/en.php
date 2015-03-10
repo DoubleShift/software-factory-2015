@@ -35,11 +35,18 @@ define("GO_TO_EXERCISE", "Now you can go for your firs exercise");
 
 define("YOUR_GOALS", "Your goals");
 define("ADD_GOAL", "Add goal");
+define("YOUR_GOALS_ADD", "Add new goal");
+
+
 
 define("GOAL1", "Calories burned");
 define("GOAL2", "Run distance");
 define("GOAL3", "Max lifts");
 define("GOAL4", "Press total");
+
+
+
+define("AMOUNT", "Target");
 
 // exercie titles
 define("EXERCISE_NAME_1", "Lifting");

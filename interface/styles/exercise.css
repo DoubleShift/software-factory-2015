@@ -98,3 +98,13 @@
 	height: 40px;
 	outline: thin solid #AAA;
 }
+
+.goal-select
+{
+	min-width: 100px;
+}
+
+.frm-goal
+{
+	text-align: center;
+}
