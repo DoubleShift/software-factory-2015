@@ -7,8 +7,17 @@ Author: Alexander Samodelkin
 Version: 0.1
 Created: 13.02.2015
 */
+	$addr = $_SERVER['REMOTE_ADDR'];
+	if(($addr=='127.0.0.1')||($addr=='localhost')){
+		define( 'IP_ROOT', 'http://127.0.0.1/swf/' );
+		define( 'SQL_USER', 'root' );
+		define( 'SQL_PASS', '' );
+	}else{
+		define( 'IP_ROOT', 'http://sfp.psicode.ru/' );
+		define( 'SQL_USER', 'psicoderu_sfp' );
+		define( 'SQL_PASS', 'sfp12345' );
 
-	define( 'IP_ROOT', 'http://10.211.55.8/sfp/' );
+	};
 	define( 'IP_INTERFACE', IP_ROOT . 'interface/' );
 	define( 'IP_CSS', IP_INTERFACE . 'styles/' );
 	define( 'IP_PICTURES', IP_INTERFACE . 'pictures/' );
@@ -17,10 +26,9 @@ Created: 13.02.2015
 	define( 'P_INTERFACE', P_ROOT . 'interface/' );
 	define( 'P_LANGUAGE', P_INTERFACE . 'mui/' ); 
 
-	define( 'SQL_HOST', '127.0.0.1' );
-	define( 'SQL_DB', 'sfp' );
-	define( 'SQL_USER', 'sfp' );
-	define( 'SQL_PASS', 'J3zauTFda7JUxSvz' );
+	define( 'SQL_HOST', 'localhost' );
+	define( 'SQL_DB', 'psicoderu_sfp' );
+	
 
-	define( 'DEBUG', '0' );
+	define( 'DEBUG', '0' ); // didn't work
 ?>
