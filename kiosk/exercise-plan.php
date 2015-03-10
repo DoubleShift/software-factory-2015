@@ -119,7 +119,10 @@ Created: 13.02.2015
 	<div class="right green-bg button" onclick="location.href='go.php'"><?=START_EXERCISE?></div> 
 </div>-->
 
-<table width="100%">	
+<table width="924" style="margin: 0 auto;">	
+<tr>
+	<td height="20">&nbsp;</td>
+</tr>
 <tr>
 <td>
 	<div class="btn" onclick="location.href='exercise-type.php'"><?=CHANGE_TYPE?></div>

@@ -135,6 +135,15 @@ input.highlight, textarea.highlight{
 .btn:focus{
 	background: #A7DA5F;
 }
+.btn.orange{
+	background: ##ff910c;
+}
+.btn.orange:hover{
+	background: #FFB20C;
+}
+.btn.orange:focus{
+	background: #FFB923;
+}
 .btn.prev{
 	padding-left: 72px;
 }
