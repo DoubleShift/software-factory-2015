@@ -31,9 +31,9 @@ function btn_next_onclick(){
 
 </script>
 
-<div id="welcome-picture"></div>
-<div id="background-picture"></div>
-<div class="page-title"><?=YOUR_GOALS_ADD?></div>
+<div class="body" style="width: 1000px; margin: 0 auto;">
+<!--<div id="background-picture"></div>-->
+<div class="page-title" style="margin: 0 0 20px;"><?=YOUR_GOALS_ADD?></div>
 
 
 
@@ -65,9 +65,25 @@ function btn_next_onclick(){
 </form>
 
 
-<div class="bottom">
+<!--<div class="bottom">
 	<div class="left green-bg button" onclick="location.href='goals.php'"><?=BACK?></div>
 	<div class="right green-bg button" onclick="document.forms['frm-goal'].submit();"><?=ADD_GOAL?></div> 
+</div>-->
+
+<table width="100%" style="margin: 0 auto;">	
+<tr>
+	<td colspan="2" height="10">&nbsp;</td>
+</tr>
+<tr>
+	<td>
+		<button class="btn prev" onclick="location.href='goals.php'"><?=BACK?></button>
+	</td>
+	<td align="right">
+		<button class="btn next" onclick="document.forms['frm-goal'].submit();"><?=ADD_GOAL?></button> 
+	</td>
+</tr>
+</table>
+
 </div>
 
 
