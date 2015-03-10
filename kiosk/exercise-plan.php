@@ -66,7 +66,7 @@ Created: 13.02.2015
 	
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
-<div class="body" style="width: 1000px; margin：0 auto;">
+<div class="body" style="width: 1000px; margin: 0 auto;">
 <!--<div id="background-picture"></div>-->
 <div class="page-title" style="margin: 0 0 20px;"><?=YOUR_EXERCISE_PLAN?> <?php echo round(20*$row['difficulty']/5);?> <?=MINUTES?></div>
 <table cellpadding="3" cellspacing="10" border="0" id="exercise-plan">
