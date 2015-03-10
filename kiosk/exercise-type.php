@@ -15,8 +15,8 @@ Created: 24.02.2015
 ?>
 
 <!--<div id="background-picture"></div>-->
-<div class="body" style="width: 1000px;">
-<div class="page-title" style="margin-top: 0;"><?=SELECT_EXERCISE_TYPE?></div>
+<div class="body" style="width: 1000px; margin: 0 auto;">
+<div class="page-title" style="margin: 0 0 20px;"><?=SELECT_EXERCISE_TYPE?></div>
 <table cellpadding="3" cellspacing="10" border="0" id="exercise-plan">
 <tr valign="middle">
 <td align="center"><div class="exercise-item" onclick="location.href='exercise-plan.php?type=1'">
@@ -45,7 +45,7 @@ Created: 24.02.2015
 
 <table width="100%" style="margin: 0 auto;">	
 <tr>
-	<td height="20">&nbsp;</td>
+	<td height="10">&nbsp;</td>
 </tr>
 <tr>
 	<td align="center">
