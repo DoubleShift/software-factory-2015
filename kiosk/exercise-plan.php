@@ -120,7 +120,7 @@ Created: 13.02.2015
 	<div class="right green-bg button" onclick="location.href='go.php'"><?=START_EXERCISE?></div> 
 </div>-->
 
-<table width="100%" style="margin: 0 auto;">	
+<table width="940" style="margin: 0 auto;">	
 <tr>
 	<td colspan="3" height="20">&nbsp;</td>
 </tr>
