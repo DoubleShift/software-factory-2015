@@ -14,7 +14,7 @@ Created: 24.02.2015
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 
-<div id="background-picture"></div>
+<!--<div id="background-picture"></div>-->
 
 <div class="page-title"><?=SELECT_EXERCISE_TYPE?></div>
 <table cellpadding="3" cellspacing="10" border="0" id="exercise-plan">
@@ -39,10 +39,20 @@ Created: 24.02.2015
 </div></td>
 </tr></table>
 
-<div class="bottom">
+<!--<div class="bottom">
 	<div class="orange-bg button" onclick="location.href='welcome.php'"><?=MENU?></div>
-</div>
+</div>-->
 
+<table width="924" style="margin: 0 auto;">	
+<tr>
+	<td height="20">&nbsp;</td>
+</tr>
+<tr>
+	<td align="center">
+		<div style="width: 200px;" class="btn orange" onclick="location.href='welcome.php'"><?=MENU?></div>
+	</td>
+</tr>
+</table>
 
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>

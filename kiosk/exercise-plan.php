@@ -121,18 +121,18 @@ Created: 13.02.2015
 
 <table width="924" style="margin: 0 auto;">	
 <tr>
-	<td height="20">&nbsp;</td>
+	<td colspan="3" height="20">&nbsp;</td>
 </tr>
 <tr>
-<td>
-	<div class="btn" onclick="location.href='exercise-type.php'"><?=CHANGE_TYPE?></div>
-</td>
-<td align="center">
-	<div class="btn orange" onclick="location.href='welcome.php'"><?=MENU?></div>
-</td>
-<td align="right">
-	<div class="btn" onclick="location.href='go.php'"><?=START_EXERCISE?></div> 
-</td>
+	<td>
+		<div class="btn" onclick="location.href='exercise-type.php'"><?=CHANGE_TYPE?></div>
+	</td>
+	<td align="center">
+		<div class="btn orange" onclick="location.href='welcome.php'"><?=MENU?></div>
+	</td>
+	<td align="right">
+		<div class="btn" onclick="location.href='go.php'"><?=START_EXERCISE?></div> 
+	</td>
 </tr>
 </table>
 

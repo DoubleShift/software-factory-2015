@@ -137,6 +137,7 @@ input.highlight, textarea.highlight{
 }
 .btn.orange{
 	background: #ff910c;
+	text-shadow: 0 -1px 0 #EA850A;
 }
 .btn.orange:hover{
 	background: #FFB20C;
