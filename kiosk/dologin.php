@@ -21,7 +21,7 @@
 
 		$query = "SELECT * FROM exercise_plan WHERE user_id = ".$_POST['id'];
 		$result = mysqli_query( $db, $query );
-		if($row = mysqli_fetch_assoc($result))
+		if(mysqli_num_rows($result)<1)
 		{
 			//don't have exercise plan
 			$page = "exercise-type.php";

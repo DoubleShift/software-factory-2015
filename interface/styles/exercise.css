@@ -70,3 +70,31 @@
     margin-top: 50px;
     text-align: center;
 }
+
+.goal-description
+{
+	width: 200px;
+	text-align: right;
+}
+
+.goal-progress
+{
+	background-color: #EEE;
+}
+
+.progress-bar
+{
+	height: 34px;
+	background: linear-gradient(to top, #97c740, #c2f26a);
+}
+
+.goal-numbers
+{
+	width: 100px;
+}
+
+.goal-row
+{
+	height: 40px;
+	outline: thin solid #AAA;
+}

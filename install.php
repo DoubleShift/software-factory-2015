@@ -17,6 +17,9 @@
 	
 	$query = "DROP TABLE `exercise_plan`;";
 	$result = mysqli_query( $link, $query ); //or die ( "Error while processing request.<br>Server returned error: ".mysqli_error() );
+	
+	$query = "DROP TABLE `goals`;";
+	$result = mysqli_query( $link, $query ); //or die ( "Error while processing request.<br>Server returned error: ".mysqli_error() );
 
 
 	///////////////////////////////////////////////////////////////////////////////
@@ -52,6 +55,17 @@
 				) ENGINE = MYISAM ;";
 		
 	$result = mysqli_query( $link, $query ) or die ( "Error while processing request.<br>Server returned error: ".mysqli_error($link) );
+	
+	$query = "CREATE TABLE `goals` (
+				`id` 			INT NOT NULL AUTO_INCREMENT,
+				`user_id` 		INT NOT NULL,
+				`type` 			INT NOT NULL,	
+				`max` 			INT NOT NULL,	
+				`current` 		INT NOT NULL,						
+				INDEX ( `id` )
+				) ENGINE = MYISAM ;";
+		
+	$result = mysqli_query( $link, $query ) or die ( "Error while processing request.<br>Server returned error: ".mysqli_error($link) );
 
 
 	///////////////////////////////////////////////////////////////////////////////
@@ -69,6 +83,20 @@
 	VALUES ( 1, 1, 5, 1, 10, 2, 10, 3, 10, 4, 10 )";
 	
 	$result = mysqli_query( $link, $query ) or die ( "Error while processing request.<br>Server returned error: ".mysqli_error($link) );
+	
+	
+	$query = "INSERT INTO `goals` 
+	( `user_id`, `type`, `max`, `current`) 
+	VALUES ( 1, 1, 100, 5 )";
+	
+	$result = mysqli_query( $link, $query ) or die ( "Error while processing request.<br>Server returned error: ".mysqli_error($link) );
+	
+	$query = "INSERT INTO `goals` 
+	( `user_id`, `type`, `max`, `current`) 
+	VALUES ( 1, 1, 100, 24 )";
+	
+	$result = mysqli_query( $link, $query ) or die ( "Error while processing request.<br>Server returned error: ".mysqli_error($link) );
+	
 	
 	mysqli_close($link);
 	

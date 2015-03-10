@@ -44,4 +44,16 @@
 		return 'Title undefined';
 	}
 	
+	function GoalDescription($id)
+	{
+		switch($id)
+		{
+			case 1: return GOAL1;
+			case 2: return GOAL2;
+			case 3: return GOAL3;
+			case 4: return GOAL4;
+		}
+		return 'Title undefined';
+	}
+	
 ?>

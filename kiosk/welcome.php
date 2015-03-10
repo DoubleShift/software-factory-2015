@@ -33,7 +33,7 @@
 				window.location ='exercise-plan.php';
 				break;
 			case 'goal':
-				window.location ='goal.php';
+				window.location ='goals.php';
 			break;
 			case 'profile':
 				window.location ='profile.php?id='+uid;
