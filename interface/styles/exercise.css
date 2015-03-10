@@ -21,6 +21,9 @@
     display: block;
     box-sizing: content-box !important;
 }
+.exercise-type .exercise-item{
+    height: 375px;
+}
 .exercise-level {
     font-size: 24px;
     color: #FFF;

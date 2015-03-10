@@ -23,12 +23,11 @@ Created: 24.02.2015
 	$query = "SELECT * FROM goals WHERE user_id = ".$_COOKIE['userid']." ORDER BY current DESC";
 	
 	
-	
-	
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
-<div id="background-picture"></div>
-<div class="page-title"><?=YOUR_GOALS?></div>
+<div class="body" style="width: 1000px; margin: 0 auto;">
+<!--<div id="background-picture"></div>-->
+<div class="page-title" style="margin: 0 0 20px;"><?=YOUR_GOALS?></div>
 <table cellpadding="3" cellspacing="10" id="exercise-plan">
 
 <?php 
@@ -45,11 +44,26 @@ if($result = mysqli_query( $db, $query ))
 </table>
 
 
-<div class="bottom">
+<!--<div class="bottom">
 	<div class="left green-bg button" onclick="location.href='welcome.php'"><?=MENU?></div>
 	<div class="right green-bg button" onclick="location.href='goal-select.php'"><?=ADD_GOAL?></div> 
-</div>
+</div>-->
 
+<table width="100%" style="margin: 0 auto;">	
+<tr>
+	<td colspan="2" height="10">&nbsp;</td>
+</tr>
+<tr>
+	<td>
+		<button class="btn" onclick="location.href='welcome.php'"><?=MENU?></button>
+	</td>
+	<td align="right">
+		<button class="btn next" onclick="location.href='goal-select.php'"><?=ADD_GOAL?></button>
+	</td>
+</tr>
+</table>
+
+</div>
 
 <?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>
