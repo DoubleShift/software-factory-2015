@@ -66,7 +66,7 @@ Created: 13.02.2015
 	
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
-<div id="background-picture"></div>
+<!--<div id="background-picture"></div>-->
 <div class="page-title"><?=YOUR_EXERCISE_PLAN?> <?php echo round(20*$row['difficulty']/5);?> <?=MINUTES?></div>
 <table cellpadding="3" cellspacing="10" border="0" id="exercise-plan">
 <tr valign="middle">
@@ -113,11 +113,25 @@ Created: 13.02.2015
 	<div class="button level-button green-bg" onclick="location.href='<?php echo curPage();?>?level=1'">+</div>
 </div>
 
-<div class="bottom">
+<!--<div class="bottom">
 	<div class="left green-bg button" onclick="location.href='exercise-type.php'"><?=CHANGE_TYPE?></div>
 	<div class="orange-bg button" onclick="location.href='welcome.php'"><?=MENU?></div>
 	<div class="right green-bg button" onclick="location.href='go.php'"><?=START_EXERCISE?></div> 
-</div>
+</div>-->
+
+<table width="100%">	
+<tr>
+<td>
+	<div class="btn" onclick="location.href='exercise-type.php'"><?=CHANGE_TYPE?></div>
+</td>
+<td align="center">
+	<div class="btn orange" onclick="location.href='welcome.php'"><?=MENU?></div>
+</td>
+<td align="right">
+	<div class="btn" onclick="location.href='go.php'"><?=START_EXERCISE?></div> 
+</td>
+</tr>
+</table>
 
 
 
