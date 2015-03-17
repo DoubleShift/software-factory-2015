@@ -9,24 +9,24 @@
     }
 
 function on_logout_click(){
-
-
-        clearCookie('userid');
-        clearCookie('username');
-        clearCookie('userage');
-        clearCookie('useremail');
-        clearCookie('usergender');
-        clearCookie('userexperience');
-        clearCookie('userproblem');
-        clearCookie('userproblemothers');
-        clearCookie('report_problem_detail');
-        clearCookie('problemequipment');
-    
    //why should I clear it for twice    
-    $.removeCookie('userid');
-    $.removeCookie('username');
+    for(var i=0;i<2;i++){
 
-    window.location.href='login.php' ;  
+        $.removeCookie('userid');
+        $.removeCookie('username');
+        $.removeCookie('userage');
+        $.removeCookie('useremail');
+        $.removeCookie('usergender');
+        $.removeCookie('userexperience');
+        $.removeCookie('userproblem');
+        $.removeCookie('userproblemothers');
+        $.removeCookie('report_problem_detail');
+        $.removeCookie('problemequipment');
+    }
+       
+    
+
+    //window.location.href='login.php' ;  
 
 }
 

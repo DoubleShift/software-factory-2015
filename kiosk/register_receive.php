@@ -32,7 +32,7 @@ Created: 07.03.2015
 	$result = mysqli_query( $db, $query );
 	//var_dump($result);
 	if($result){ 
-		echo "<script type='text/javascript'> window.location.href='welcome.php' </script>";  
+		echo "<script type='text/javascript'> window.location.href='welcome.php?id=".$_POST['userid']."' </script>";  
 	}else{//what if failed?
 		echo "<script>alert('Register Failed!'); </script>";
 	}

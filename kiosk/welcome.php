@@ -3,12 +3,29 @@
 // Include header
 	include( dirname(__FILE__) . '/header.php' );
 
-?>
+	//$id = $_GET['id'];
+	$id = $_COOKIE['userid'];
+	
+	// Connect to DB
+	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
+		or die( "MySQL connection error: " . mysqli_connect_error() );
+		
+	$query = "SELECT * FROM user WHERE id = $id";
+	$result = mysqli_query( $db, $query );
+	
+	if($row = mysqli_fetch_assoc($result))
+	{
+		$name = $row['name'];
+		setcookie('username',$name);
+	}else {
+		//what if get nothing?
+		$name = "Mr. Error";
+	}?>
 
 <div class="wrapper">
 
 	<div class="content welcome">
-   		<h1 id='text-name'><?=WELCOME?></h1>
+   		<h1 id='text-name'><?=WELCOME?><?php echo " ".$name."!"?></h1>
 		<div class="row">
 			<a href="#" class="col left exercise" onclick=onBtnClick('exercise')>Exercise</a>
 			<a href="#" class="col right goal" onclick=onBtnClick('goal')>Goals</a>
@@ -21,10 +38,10 @@
 </div>
 
 <script>
-	$().ready(function(){
+/*	$().ready(function(){
 		var name = $.cookie("username");
     	$("#text-name").append(' '+name+'!');
-	})
+	})*/
 
 	function onBtnClick(pagename){
 		var uid = $.cookie('userid');

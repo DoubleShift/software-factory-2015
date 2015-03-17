@@ -24,12 +24,12 @@
 		if(mysqli_num_rows($result)<1)
 		{
 			//don't have exercise plan
-			$page = "exercise-type.php";
+			$page = "exercise-type.php?id=".$_POST['id'];
 		}
 		else
 		{
 			// 
-			$page = "exercise-plan.php";
+			$page = "exercise-plan.php?id=".$_POST['id'];
 		}
 	}
 	else   // new user

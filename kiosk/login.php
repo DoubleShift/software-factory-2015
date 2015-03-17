@@ -35,6 +35,9 @@ Created: 13.02.2015
 
 
 <script>
+$( document ).ready(function() {
+	on_logout_click();
+});
 
 function btn_onClick(){
 	var id=document.getElementById("uid").value;
