@@ -18,7 +18,7 @@ Created: 7.3.2015
 function btn_next_onclick(){
 
 	var user_email=document.getElementById("input_email").value;
-	var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+	var reg =/^(\w)+(\.\w+)*@(\w)+((\.\w{2,3}){1,3})$/;
     if(!reg.test(user_email)){
     	alert('Please input a correct email!');
     	return ; 
