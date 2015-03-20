@@ -16,17 +16,24 @@ Created: 24.02.2015
 
 <script>
 
-function btn_next_onclick(){
+function btn_next_onclick()
+{
 
 	var user_exp = $('input[name="register_experience"]:checked').val();
 
-	if(user_exp){
+	if(user_exp)
+	{
 		$.cookie('userexperience', user_exp);
 		window.location ='register_problem.php';
 	}else{
 		alert('please choose one!');
 	}
 
+}
+
+function settext(str)
+{
+	document.getElementById("value_key").innerHTML = str;
 }
 
 </script>
@@ -41,18 +48,18 @@ function btn_next_onclick(){
 
 <table id="goals-items" cellspacing="10" border="0" align="center">
 <tr><td>
-	<a href="#" class="option-block register-experience goal-select" onclick="document.getElementById("value_key").innerHTML = '<?=GOALKEY1?>'"><?=GOAL1?>
+	<a href="#" class="option-block register-experience goal-select" onclick="settext('<?=GOALKEY1?>')"><?=GOAL1?>
 		<input type="radio" name="action" value="1" />
 	</a>
 	
-	<a href="#" class="option-block register-experience goal-select" onclick="document.getElementById("value_key").innerHTML = '<?=GOALKEY2?>'"><?=GOAL2?>
+	<a href="#" class="option-block register-experience goal-select" onclick="settext('<?=GOALKEY2?>')"><?=GOAL2?>
 		<input type="radio" name="action" value="2" />
 	</a>
 	
-	<a href="#" class="option-block register-experience goal-select" onclick="document.getElementById("value_key").innerHTML = '<?=GOALKEY3?>'"><?=GOAL3?>
+	<a href="#" class="option-block register-experience goal-select" onclick="settext('<?=GOALKEY3?>')"><?=GOAL3?>
 		<input type="radio" name="action" value="3" />
 	</a>
-	<a href="#" class="option-block register-experience goal-select" onclick="document.getElementById("value_key").innerHTML = '<?=GOALKEY4?>'"><?=GOAL4?>
+	<a href="#" class="option-block register-experience goal-select" onclick="settext('<?=GOALKEY4?>')"><?=GOAL4?>
 		<input type="radio" name="action" value="4" />
 	</a>
 </td></tr><tr><td>&nbsp;</td></tr>
