@@ -78,7 +78,7 @@
 {
 	width: 200px;
 	text-align: right;
-    background: rgba(255,255,255,.6);
+    ~background: rgba(255,255,255,.6);
 }
 
 .goal-progress
@@ -94,13 +94,14 @@
 
 .goal-numbers
 {
-	width: 100px;
+	width: 200px;
 }
 
 .goal-row
 {
 	height: 40px;
 	outline: thin solid #AAA;
+	background: rgba(255,255,255,.6);
 }
 
 .goal-select

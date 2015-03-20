@@ -36,7 +36,7 @@ if($result = mysqli_query( $db, $query ))
 <tr valign="middle" class="goal-row">
 	<td class="goal-description"><?php echo GoalDescription($row['type'])?></td>
 	<td class="goal-progress"><div class="green-bg progress-bar" style="width:<?php echo 100*$row['current']/$row['max'];?>%">&nbsp;</div></td>
-	<td class="goal-numbers"><?php echo $row['current'].'/'.$row['max']." ".GoalKey($row['type']));?></td>
+	<td class="goal-numbers"><?php echo $row['current'].'/'.$row['max']." ".GoalKey($row['type']);?></td>
 </tr>
 
 <?php }} ?>
