@@ -41,24 +41,24 @@ function btn_next_onclick(){
 
 <table id="goals-items" cellspacing="10" border="0" align="center">
 <tr><td>
-	<a href="#" class="option-block register-experience goal-select"><?=GOAL1?>
+	<a href="#" class="option-block register-experience goal-select" onclick="document.getElementById("value_key").innerHTML = '<?=GOALKEY1?>'"><?=GOAL1?>
 		<input type="radio" name="action" value="1" />
 	</a>
 	
-	<a href="#" class="option-block register-experience goal-select"><?=GOAL2?>
+	<a href="#" class="option-block register-experience goal-select" onclick="document.getElementById("value_key").innerHTML = '<?=GOALKEY2?>'"><?=GOAL2?>
 		<input type="radio" name="action" value="2" />
 	</a>
 	
-	<a href="#" class="option-block register-experience goal-select"><?=GOAL3?>
+	<a href="#" class="option-block register-experience goal-select" onclick="document.getElementById("value_key").innerHTML = '<?=GOALKEY3?>'"><?=GOAL3?>
 		<input type="radio" name="action" value="3" />
 	</a>
-	<a href="#" class="option-block register-experience goal-select"><?=GOAL4?>
+	<a href="#" class="option-block register-experience goal-select" onclick="document.getElementById("value_key").innerHTML = '<?=GOALKEY4?>'"><?=GOAL4?>
 		<input type="radio" name="action" value="4" />
 	</a>
 </td></tr><tr><td>&nbsp;</td></tr>
 <tr><td align="center">
 	
-			<?=AMOUNT?> <input type="text" style="width: 300px;" name="value" id="uid">
+			<?=AMOUNT?> <input type="text" style="width: 300px;" name="value" id="uid"> <span id="value_key"></span>
 </td></tr>
 </table>
 
