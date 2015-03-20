@@ -13,7 +13,7 @@ Created: 14.02.2015
 define("REPORT_PROBLEM", "Report a problem");
 define("HELP", "Help");
 define("BACK", "Back");
-define("MENU", "Menu");
+define("MENU", "Home");
 
 // ecercise-plan
 define("START_EXERCISE", "Start exercise");
