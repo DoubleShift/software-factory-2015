@@ -41,6 +41,8 @@ Created: 13.02.2015
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>jquery.cookie.js"></script>
 	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>util.js"></script>
+	<!-- circle progress lib -->
+	<script type="text/javascript" src="<?php echo IP_SCRIPTS ?>radialIndicator.min.js"></script>
 
 
 
