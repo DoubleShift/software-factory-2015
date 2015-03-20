@@ -64,6 +64,8 @@ Created: 13.02.2015
 	
 	$row = mysqli_fetch_assoc($result);
 	
+	$difficulty = $row['difficulty'];
+	
 	/* PAGE CODE STARTS AFTER THIS SECTION */ 
 ?>
 <div class="body" style="width: 1000px; margin: 0 auto;">
@@ -109,9 +111,9 @@ Created: 13.02.2015
 </tr></table>
 
 <div class="center difficulty-wrapper">
-	<div class="button level-button green-bg" onclick="location.href='<?php echo curPage();?>?level=-1'">-</div>
+	<div class="button level-button green-bg" <?php if($difficulty>5) {?> onclick="location.href='<?php echo curPage();?>?level=-1'" <?php }?>>-</div>
 	<div class="deficulty button"><?=EXERCISE_DIFFICULTY?> <?php echo $row['difficulty'] ?></div>
-	<div class="button level-button green-bg" onclick="location.href='<?php echo curPage();?>?level=1'">+</div>
+	<div class="button level-button green-bg" <?php if($difficulty<20) {?> onclick="location.href='<?php echo curPage();?>?level=1'" <?php }?>>+</div>
 </div>
 
 <!--<div class="bottom">

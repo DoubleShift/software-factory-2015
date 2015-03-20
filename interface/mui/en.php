@@ -44,6 +44,11 @@ define("GOAL2", "Run distance");
 define("GOAL3", "Max lifts");
 define("GOAL4", "Press total");
 
+define("GOALKEY1", "Kkal");
+define("GOALKEY2", "Km");
+define("GOALKEY3", "times");
+define("GOALKEY4", "times");
+
 
 
 define("AMOUNT", "Target");

@@ -73,6 +73,11 @@ define("GOAL2", "Дистанция");
 define("GOAL3", "Макс. нагрузка");
 define("GOAL4", "Пресс");
 
+define("GOALKEY1", "Ккал");
+define("GOALKEY2", "Км");
+define("GOALKEY3", "раз");
+define("GOALKEY4", "раз");
+
 define("AMOUNT", "Цель");
 
 //profile.php

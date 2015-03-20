@@ -56,4 +56,16 @@
 		return 'Title undefined';
 	}
 	
+	function GoalKey($id)
+	{
+		switch($id)
+		{
+			case 1: return GOALKEY1;
+			case 2: return GOALKEY2;
+			case 3: return GOALKEY3;
+			case 4: return GOALKEY4;
+		}
+		return 'Title undefined';
+	}
+	
 ?>
