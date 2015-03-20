@@ -17,47 +17,52 @@ Created: 20.03.2015
 
 
 
-<!--<div id="background-picture"></div>-->
-<div class="body exercise-type" style="width: 1000px; margin: 0 auto;">
-<div class="page-title" style="margin: 0 0 20px;">Challenge your friends: </div>
 
+<div class="wrapper">
+	<div class="content register-name">
+		<div class="heading">
+			<h1>Challenge your friends!</h1>
+		</div>
+		<div class="body">
+		
+			<div class="register-wrap register-email">
+				<table width="100%">
+					<tr>
+						<td colspan="2" height="30">&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<p>My Name</p>
+							<div id='indicatorContainer1' style="position:absolute; left:220px; top:240px"></div>
+							<img  src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:235px; top:255px"/>
+						</td>
+						<td colspan="2">
+							<img class="exercise-image" style="position:absolute; left:520px; top:240px" src="<?=IP_PICTURES?>vs.jpg" />
+						</td>
+						<td colspan="2">
+							<p>Penny</p>
+							<div id='indicatorContainer2' style="position:absolute; left:720px; top:240px"></div>
+							<img  src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:735px; top:255px"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" height="50">&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="btn prev" onclick="javascript:history.go(-1);">Back</button>
+						</td>
+						<td align="right">
+							<button class="btn next" onclick="btn_next_onclick()">Next</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="keyboard"></div>
+</div>
 
-<table cellpadding="3" cellspacing="10" border="0" id="exercise-plan">
-<tr valign="middle">
-<td align="center"><div>
-	<div class="exercise-title">Penny</div>
-	<div id='indicatorContainer1' style="position:absolute; left:220px; top:240px"></div>
-	<img  src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:235px; top:255px"/>
-</div></td>
-
-<td align="center"><div>
-	<img class="exercise-image" src="<?=IP_PICTURES?>vs.jpg" />
-</div></td>
-
-<td align="center"><div>
-<div class="exercise-title">Penny</div>
-	<div id='indicatorContainer2' style="position:absolute; left:620px; top:240px"></div>
-	<img  src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:635px; top:255px"/>
-</div></td>
-</tr></table>
-
-
-
-
-<table width="1024" style="margin: 0 auto;">	
-<tr>
-	<td colspan="3" height="10">&nbsp;</td>
-</tr>
-<tr>
-	<td align="left">
-		<div class="btn" onclick="location.href='exercise-type.php'">Back</div>
-	</td>
-	
-	<td align="right">
-		<div class="btn" onclick="location.href='go.php'">Continue</div> 
-	</td>
-</tr>
-</table>
 
 
 
@@ -73,7 +78,7 @@ Created: 20.03.2015
 
    $('#indicatorContainer2').radialIndicator({
         barColor: '#87CEEB',
-        radius: 100,
+        radius: 105,
         barWidth: 10,
         initValue: 70,
         roundCorner : true,
