@@ -48,7 +48,8 @@ Created: 23.02.2015
 						if( $i<$length ){
 							// How to count stars?
 							$width = $row[$i]['scores'] * 16 / 100;
-							echo $row[$i]['uid'].'</td><td>'.$row[$i]['name'].'</td><td><div class ="starbox"><div class="star" style = "width:'.$width.'px"></div></td><td>'.$row[$i]['scores'].'</td></tr>';
+							$num = $i+1;
+							echo $num.'</td><td>'.$row[$i]['name'].'</td><td><div class ="starbox"><div class="star" style = "width:'.$width.'px"></div></td><td>'.$row[$i]['scores'].'</td></tr>';
 							
 						}else{
 							$num = $i+1;
