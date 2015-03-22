@@ -25,24 +25,33 @@ Created: 20.03.2015
 		</div>
 		<div class="body">
 		
-			<div class="register-wrap register-email">
+			<div >
 				<table width="100%">
 					<tr>
 						<td colspan="2" height="30">&nbsp;</td>
 					</tr>
 					<tr>
-						<td colspan="2">
-							<p>My Name</p>
-							<div id='indicatorContainer1' style="position:absolute; left:220px; top:240px"></div>
-							<img  src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:235px; top:255px"/>
+						<td  >
+						<div style="position:relative; width: 300px; height: 300px" >
+							<h1 style="position:absolute; left:100px; top:0px">My Name</h1>
+							<div id='indicatorContainer1'  style="position:absolute; left:60px; top:50px">	</div>
+							<img src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:75px; top:65px"/>
+						</div>
+							
 						</td>
-						<td colspan="2">
-							<img class="exercise-image" style="position:absolute; left:520px; top:240px" src="<?=IP_PICTURES?>vs.jpg" />
+
+						<td >
+						<div style="position:relative; width: 200px; height: 300px">
+							<img src="<?=IP_PICTURES?>vs.jpg" style="position:absolute; top:50px; left:45px; height: 200px; width: 150px"/>
+						</div>
 						</td>
-						<td colspan="2">
-							<p>Penny</p>
-							<div id='indicatorContainer2' style="position:absolute; left:720px; top:240px"></div>
-							<img  src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:735px; top:255px"/>
+
+						<td >
+							<div style="position:relative; width: 300px; height: 300px" >
+								<h1 style="position:absolute; left:100px; top:0px">Click Me!</h1>
+								<div id='indicatorContainer2'  style="position:absolute; left:60px; top:50px">	</div>
+								<img src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:75px; top:65px"/>
+							</div>
 						</td>
 					</tr>
 					<tr>
@@ -52,6 +61,7 @@ Created: 20.03.2015
 						<td>
 							<button class="btn prev" onclick="javascript:history.go(-1);">Back</button>
 						</td>
+						<td></td>
 						<td align="right">
 							<button class="btn next" onclick="btn_next_onclick()">Next</button>
 						</td>
