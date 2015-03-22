@@ -14,9 +14,6 @@ Created: 22.03.2015
 
 	$id = $_COOKIE['userid'];
 
-	
-
-
 ?>
 
 
@@ -54,9 +51,10 @@ Created: 22.03.2015
 							if($result){
 								while($row = mysqli_fetch_assoc($result)){
 									echo "<td align='center'>
-							<div class='name-item' onclick=''>
+							<div class='name-item' onclick='onBtnClick();'>
 								<img class='exercise-image' src='".IP_PICTURES."gravatar.jpg'/>
-								<div class='exercise-description'>".$name."</div>
+								<div class='exercise-description'>".$row['name']."</div>
+								<input type='hidden' id ='cid' value='".$row['uid']."'/>
 							</div>
 						</td>";
 								};	
@@ -81,7 +79,13 @@ Created: 22.03.2015
 	</div>
 </div>
 <script>
-
+function onBtnClick(){
+		var value = {};
+		value.uid = <?php echo $id ?>; 
+		value.cid = $("#cid").value; 
+	
+		post('challenge_receive.php', value);
+	}
 </script>
 
 </body></html>

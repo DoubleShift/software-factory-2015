@@ -154,5 +154,4 @@ Created: 20.03.2015
 </script>
 
 
-<?php /* CLOSE THIS TAGS THAT WERE OPENED IN HEADER */ ?>
 </body></html>
