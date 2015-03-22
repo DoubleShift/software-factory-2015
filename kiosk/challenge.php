@@ -11,11 +11,41 @@ Created: 20.03.2015
 	// Include header
 	include( dirname(__FILE__) . '/header.php' );
 
-	/* PAGE CODE STARTS AFTER THIS SECTION */ 
+	$id = $_GET['id'];
+	// Connect to DB
+	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
+		or die( "MySQL connection error: " . mysqli_connect_error() );
+		
+	$query = "SELECT * FROM user WHERE id = $id";
+	$result = mysqli_query( $db, $query );
+	
+	$name = $cname = $totalminus = '';
+	if($row = mysqli_fetch_assoc($result))
+	{
+		setcookie('username',$row['name']);
+		$name = $row['name'];
+		//search challenge record
+		$query = "SELECT * FROM challenge WHERE uid = $id";
+		$result = mysqli_query($db,$query);
+		if($row = mysqli_fetch_assoc($result)){
+			$totalminus = $row['total'];
+			$cid = $row['cid'];
+
+			//search competitor's name
+			$query = "SELECT * FROM user WHERE id = $cid";
+			$result = mysqli_query( $db, $query );
+			$row = mysqli_fetch_assoc($result);
+			$cname = $row['name'];
+		}else{
+			// no record, add one
+		}
+	}else {
+		//what if get nothing?
+	}
+// you could use: $id $name $totalminus $cid $cname
+
+
 ?>
-
-
-
 
 
 <div class="wrapper">
@@ -33,7 +63,7 @@ Created: 20.03.2015
 					<tr>
 						<td  >
 						<div style="position:relative; width: 300px; height: 300px" >
-							<h1 style="position:absolute; left:100px; top:0px">My Name</h1>
+							<h1 style="position:absolute; left:100px; top:0px; width:200px"><?php echo $name ?></h1>
 							<div id='indicatorContainer1'  style="position:absolute; left:60px; top:50px">	</div>
 							<img src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:75px; top:65px"/>
 						</div>
@@ -48,9 +78,16 @@ Created: 20.03.2015
 
 						<td >
 							<div style="position:relative; width: 300px; height: 300px" >
-								<h1 style="position:absolute; left:100px; top:0px">Click Me!</h1>
+								<h1 style="position:absolute; left:100px; top:0px"><?php if($cname){ echo $cname;}else{ echo 'Click Me!';}?></h1>
 								<div id='indicatorContainer2'  style="position:absolute; left:60px; top:50px">	</div>
-								<img src="<?=IP_PICTURES?>gravatar2.png" style="position:absolute; left:75px; top:65px"/>
+								<img src="<?php 
+												if($totalminus){
+													echo IP_PICTURES.'gravatar2.png' ;
+												}else{
+													echo IP_PICTURES.'add.png' ;
+												}
+
+								?>" style="position:absolute; left:75px; top:65px; width;200px; height:200px" onclick="onBtnClick()"/>
 							</div>
 						</td>
 					</tr>
@@ -63,7 +100,6 @@ Created: 20.03.2015
 						</td>
 						<td></td>
 						<td align="right">
-							<button class="btn next" onclick="btn_next_onclick()">Next</button>
 						</td>
 					</tr>
 				</table>
@@ -74,26 +110,47 @@ Created: 20.03.2015
 </div>
 
 
-
+<?php 
+	function getColor($percent){
+		if($percent > 50){
+			$color = '#FF0000';
+		}else{
+			$color = '#87CEEB';
+		}
+		return $color;
+	}
+	
+?>
 
 <script>
+	function onBtnClick(){
+		var uid = $.cookie('userid');
+		window.location ='challenge_add.php?id='+uid;	
+	}
+
+
   $('#indicatorContainer1').radialIndicator({
-        barColor: '#87CEEB',
+        barColor: '<?php echo getColor(40);?>',
         radius: 105,
         barWidth: 10,
         initValue: 40,
         roundCorner : true,
         percentage: true
     });
-
-   $('#indicatorContainer2').radialIndicator({
+  //don't have a competitor, hide it
+<?php
+	if($totalminus){
+	echo "$('#indicatorContainer2').radialIndicator({
         barColor: '#87CEEB',
         radius: 105,
         barWidth: 10,
         initValue: 70,
         roundCorner : true,
         percentage: true
-    });
+    });";
+	}
+ ?>
+   
 </script>
 
 
