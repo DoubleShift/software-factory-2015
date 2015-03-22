@@ -25,11 +25,13 @@ Created: 20.03.2015
 		setcookie('username',$row['name']);
 		$name = $row['name'];
 		//search challenge record
-		$query = "SELECT * FROM challenge WHERE uid = $id";
+		$query = "SELECT * FROM challenge WHERE uid = $id or cid = $id";
 		$result = mysqli_query($db,$query);
 		if($row = mysqli_fetch_assoc($result)){
 			$totalminus = $row['total'];
-			$cid = $row['cid'];
+
+			//decided who is the challenge owner
+			$cid = ($id == $row['cid'])?$row['uid']:$row['cid'];
 
 			//search competitor's name
 			$query = "SELECT * FROM user WHERE id = $cid";
@@ -125,7 +127,7 @@ Created: 20.03.2015
 <script>
 	function onBtnClick(){
 		var uid = $.cookie('userid');
-		window.location ='challenge_add.php?id='+uid;	
+		window.location ='challenge_add.php';	
 	}
 
 
