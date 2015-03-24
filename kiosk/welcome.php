@@ -25,7 +25,16 @@
 <div class="wrapper">
 
 	<div class="content welcome">
-   		<h1 id='text-name'><?=WELCOME?><?php echo " ".$name."!"?></h1>
+   		<h1 id='text-name'><?=WELCOME?>
+   		<?php 
+   			if($_COOKIE['isfirst']){
+   				echo " ".$name."!";
+   			}else{
+   				echo "Back".$name."!";
+   			}
+
+
+   		?></h1>
 		<div class="row">
 			<a href="#" class="col left exercise" onclick=onBtnClick('exercise')>Exercise</a>
 			<a href="#" class="col right goal" onclick=onBtnClick('goal')>Goals</a>

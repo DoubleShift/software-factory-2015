@@ -26,7 +26,8 @@ function btn_next_onclick(){
 
 
 	setCookie("useremail", user_email);
-
+	setCookie("isfirst",1);
+	
 	var value = {};
 	value.userid = getCookie('userid'); 
 	value.username = getCookie('username'); 

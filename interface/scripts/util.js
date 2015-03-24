@@ -22,6 +22,7 @@ function on_logout_click(){
         $.removeCookie('userproblemothers');
         $.removeCookie('report_problem_detail');
         $.removeCookie('problemequipment');
+        $.removeCookie('isfirst');
     }
        
     

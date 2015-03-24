@@ -37,6 +37,7 @@ Created: 13.02.2015
 <script>
 $( document ).ready(function() {
 	on_logout_click();
+	setCookie('isfirst',0);
 });
 
 function btn_onClick(){

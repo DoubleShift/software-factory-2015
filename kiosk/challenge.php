@@ -74,7 +74,7 @@ Created: 20.03.2015
 
 						<td >
 						<div style="position:relative; width: 200px; height: 300px">
-							<img src="<?=IP_PICTURES?>vs.jpg" style="position:absolute; top:50px; left:45px; height: 200px; width: 150px"/>
+							<img src="<?=IP_PICTURES?>vs.png" style="position:absolute; top:80px; left:45px; height: 150px; width: 150px"/>
 						</div>
 						</td>
 
