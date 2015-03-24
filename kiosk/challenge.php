@@ -73,8 +73,8 @@ Created: 20.03.2015
 						</td>
 
 						<td >
-						<div style="position:relative; width: 200px; height: 300px">
-							<img src="<?=IP_PICTURES?>vs.png" style="position:absolute; top:80px; left:45px; height: 150px; width: 150px"/>
+						<div style="height: 300px;padding-top: 120px;text-align: center;">
+							<img src="<?=IP_PICTURES?>vs.png" style=""/>
 						</div>
 						</td>
 
