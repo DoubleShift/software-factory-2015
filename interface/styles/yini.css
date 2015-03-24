@@ -230,6 +230,7 @@ input.highlight, textarea.highlight{
 	padding-top: 0;
 	padding-left: 0;
 	font-size: 100%;
+	box-shadow: 0 0 20px rgba(202, 215, 194, 1);
 }
 #welcome .col:before{
 	display: none;
@@ -252,7 +253,7 @@ input.highlight, textarea.highlight{
 #welcome .col.goal{
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: 10px;
 	width: 200px;
 	height: 200px;
 	line-height: 200px;
@@ -260,7 +261,7 @@ input.highlight, textarea.highlight{
 #welcome .col.profile{
 	position: absolute;
 	right: 20px;
-	top: 0;
+	top: -20px;
 	width: 160px;
 	height: 160px;
 	line-height: 160px;
@@ -268,7 +269,7 @@ input.highlight, textarea.highlight{
 #welcome .col.rank{
 	position: absolute;
 	bottom: -50px;
-  	left: 40px;
+  	left: 70px;
 	width: 140px;
 	height: 140px;
 	line-height: 140px;
