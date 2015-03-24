@@ -243,6 +243,7 @@ input.highlight, textarea.highlight{
 	padding-left: 100px;
 	margin: 0;
 	font-size: 180%;
+	top: 20px;
 }
 #welcome .col.exercise:before{
 	top: 150px;
@@ -258,7 +259,7 @@ input.highlight, textarea.highlight{
 }
 #welcome .col.profile{
 	position: absolute;
-	right: 0;
+	right: 20px;
 	top: 0;
 	width: 160px;
 	height: 160px;
@@ -266,16 +267,16 @@ input.highlight, textarea.highlight{
 }
 #welcome .col.rank{
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	bottom: -50px;
+  	left: 40px;
 	width: 140px;
 	height: 140px;
 	line-height: 140px;
 }
 #welcome .col.challenge{
 	position: absolute;
-	right: 0;
-	bottom: 0;
+	right: 50px;
+  	bottom: -50px;
 	width: 180px;
 	height: 180px;
 	line-height: 180px;
