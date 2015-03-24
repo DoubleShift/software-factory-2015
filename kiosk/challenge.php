@@ -25,7 +25,7 @@ Created: 20.03.2015
 		setcookie('username',$row['name']);
 		$name = $row['name'];
 		//search challenge record
-		$query = "SELECT * FROM challenge WHERE uid = $id or cid = $id";
+		$query = "SELECT * FROM challenge WHERE uid = $id or cid = $id order by id desc limit 10";
 		$result = mysqli_query($db,$query);
 		if($row = mysqli_fetch_assoc($result)){
 			$totalminus = $row['total'];

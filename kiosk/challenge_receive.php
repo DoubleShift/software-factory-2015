@@ -16,7 +16,7 @@ Created: 20.03.2015
 	$cid = $_POST['cid']; 
 
 
-	$query = "insert into `challenge` ( `uid`, `cid`, `total`) VALUES('$uid','$cid',100)";	
+	$query = "insert into `challenge` (`uid`, `cid`, `total`) VALUES('$uid','$cid',100)";	
 		
 	// Connect to DB
 	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
