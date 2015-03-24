@@ -84,8 +84,9 @@ Created: 22.03.2015
 function onBtnClick(){
 		var value = {};
 		value.uid = <?php echo $id ?>; 
-		value.cid = $("#cid").value; 
-	
+		//value.cid = $("input#cid").value; 
+		value.cid = document.getElementById('cid').value;
+
 		post('challenge_receive.php', value);
 	}
 </script>

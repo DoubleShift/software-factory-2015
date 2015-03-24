@@ -16,7 +16,7 @@ Created: 20.03.2015
 	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
 		or die( "MySQL connection error: " . mysqli_connect_error() );
 		
-	$query = "SELECT * FROM user WHERE id = $id";
+	$query = "SELECT * FROM user WHERE uid = $id";
 	$result = mysqli_query( $db, $query );
 	
 	$name = $cname = $totalminus = '';
