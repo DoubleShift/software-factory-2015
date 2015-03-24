@@ -40,7 +40,7 @@
 			<a href="#" class="col right goal" onclick=onBtnClick('goal')>Goals</a>
 		</div>
 		<div class="row">
-			<a href="#" class="col left profile" onclick=onBtnClick('profile')>Profile</a>
+			<a href="#" class="col left profile" onclick=onBtnClick('challenge')>Challenge</a>
 			<a href="#" class="col right rank" onclick=onBtnClick('rank')>Top users</a>
 		</div>
 	</div>
@@ -56,7 +56,7 @@
 		var uid = $.cookie('userid');
 		switch(pagename){
 			case 'exercise':
-				window.location ='exercise-plan.php';
+				window.location ='exercise-type.php';
 				break;
 			case 'goal':
 				window.location ='goals.php';
@@ -66,6 +66,9 @@
 			break;
 			case 'rank':
 				window.location ='rank.php';
+			break;
+			case 'challenge':
+				window.location='challenge.php?id=<?php echo $id?>';
 			break;
 		}
 	}
