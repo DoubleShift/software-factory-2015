@@ -26,18 +26,16 @@ Created: 22.03.2015
 		
 			<table width="100%">
 					<tr>
+					<td>
 						<form action="" method="get">
-						<td>
+						
 							<input class="required" type="text" id="input_name" name='name' style='width:500px'/>
-
-						</td>
-						<td>
+							</br>
     						<input class="btn" type="submit"  value="submit" />
-						</td>
+						
 						</form>
-
-					</tr>
-					<tr style="float: left">
+					</td>
+					<td>
 						<?php
 						if($_GET){
 							$name = $_GET['name'];
@@ -74,6 +72,10 @@ Created: 22.03.2015
 						
 						
 
+
+					</td>
+					</tr>
+					<tr>
 
 					</tr>
 				</table>
