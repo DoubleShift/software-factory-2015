@@ -76,7 +76,7 @@ function btn_next_onclick(){
 				</tr>
 				<tr>
 					<td>
-						<button class="btn prev" onclick="JavaScript:history.go(-1);">Back</button>
+						<button class="btn prev" onclick="javascript:window.location.href='welcome.php';">Back</button>
 					</td>
 					<td>
 					</td>
