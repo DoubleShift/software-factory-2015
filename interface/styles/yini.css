@@ -237,7 +237,7 @@ input.highlight, textarea.highlight{
 	display: none;
 }
 #welcome .col:hover{
-	background: rgba(111,40,126,.2);
+	background: rgba(255,255,255,1);
 }
 #welcome .col.exercise{
 	border-radius: 400px;
