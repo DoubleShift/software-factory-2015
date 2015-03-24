@@ -231,7 +231,7 @@ input.highlight, textarea.highlight{
 	padding-left: 0;
 	font-size: 100%;
 	box-shadow: 0 0 20px rgba(202, 215, 194, 1);
-	transition: all .5s ease;
+	transition: all .3s ease;
 }
 #welcome .col:before{
 	display: none;
