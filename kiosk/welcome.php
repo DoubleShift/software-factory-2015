@@ -10,7 +10,7 @@
 	$db = mysqli_connect(SQL_HOST, SQL_USER, SQL_PASS, SQL_DB )
 		or die( "MySQL connection error: " . mysqli_connect_error() );
 		
-	$query = "SELECT * FROM user WHERE id = $id";
+	$query = "SELECT * FROM user WHERE uid = $id";
 	$result = mysqli_query( $db, $query );
 	
 	if($row = mysqli_fetch_assoc($result))
@@ -19,7 +19,7 @@
 		setcookie('username',$name);
 	}else {
 		//what if get nothing?
-		$name = "Mr. Error";
+		$name = $row;
 	}?>
 
 <div class="wrapper">
