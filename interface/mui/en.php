@@ -17,7 +17,7 @@ define("MENU", "Home");
 
 // ecercise-plan
 define("START_EXERCISE", "Start exercise");
-define("YOUR_EXERCISE_PLAN", "Your exercise plan for ");
+define("YOUR_EXERCISE_PLAN", "System recommend :");
 define("MINUTES", "minutes");
 define("CHANGE_TYPE", "Change exercise type");
 define("EXERCISE_DIFFICULTY", "Exercise difficulty");
@@ -31,7 +31,7 @@ define("FITNESS_DSCR", "Light exercises for keeping you in shape");
 define("AEROBIC_DSCR", "Increase your oxygen level and remove toxins");
 define("POWER_DSCR", "Heavy exercises for strength");
 
-define("GO_TO_EXERCISE", "Now you can go for your firs exercise");
+define("GO_TO_EXERCISE", "Now you can go for your first exercise");
 
 define("YOUR_GOALS", "Your goals");
 define("ADD_GOAL", "Add goal");
