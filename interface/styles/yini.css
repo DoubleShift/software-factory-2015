@@ -219,23 +219,48 @@ input.highlight, textarea.highlight{
 	background: url('../pictures/icon-star.png') center center no-repeat;
 }
 
+#welcome .row{
+	position: relative;
+}
 #welcome .col{
 	border-radius: 160px;
 	width: 160px;
 	height: 160px;
 	line-height: 160px;
-	padding: 0;
+	padding-top: 0;
 }
 #welcome .col.exercise{
 	border-radius: 400px;
 	width: 400px;
 	height: 400px;
 	line-height: 400px;
-	padding: 0;
+	padding-top: 0;
 }
 #welcome .col.exercise:before{
-	top: 200px;
+	top: 150px;
 }
+#welcome .col.goal{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#welcome .col.profile{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#welcome .col.rank{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#welcome .col.challenge{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
 
 #input_name{
 	width: 100%;
