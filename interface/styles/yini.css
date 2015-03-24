@@ -261,6 +261,7 @@ input.highlight, textarea.highlight{
 	width: 200px;
 	height: 200px;
 	line-height: 200px;
+	font-size: 130%;
 }
 #welcome .col.profile{
 	position: absolute;
@@ -277,6 +278,7 @@ input.highlight, textarea.highlight{
 	width: 140px;
 	height: 140px;
 	line-height: 140px;
+	font-size: 90%;
 }
 #welcome .col.challenge{
 	position: absolute;
