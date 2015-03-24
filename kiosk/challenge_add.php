@@ -26,16 +26,18 @@ Created: 22.03.2015
 		
 			<table width="100%">
 					<tr>
-					<td>
 						<form action="" method="get">
-						
+						<td>
 							<input class="required" type="text" id="input_name" name='name' style='width:500px'/>
-							</br>
+
+						</td>
+						<td>
     						<input class="btn" type="submit"  value="submit" />
-						
+						</td>
 						</form>
-					</td>
-					<td>
+
+					</tr>
+					<tr style="float: left">
 						<?php
 						if($_GET){
 							$name = $_GET['name'];
@@ -49,14 +51,14 @@ Created: 22.03.2015
 							if($result){
 								echo "Click his name to challenge him!";
 								while($row = mysqli_fetch_assoc($result)){
-									echo "
+									echo "<td align='center'>
 							<div class='name-item' onclick='onBtnClick();'>
 
 								<img class='exercise-image' src='".IP_PICTURES."gravatar.jpg'/>
 								<div class='exercise-description'>".$row['name']."</div>
 								<input type='hidden' id ='cid' value='".$row['uid']."'/>
 							</div>
-						";
+						</td>";
 								};	
 
 								
@@ -72,10 +74,6 @@ Created: 22.03.2015
 						
 						
 
-
-					</td>
-					</tr>
-					<tr>
 
 					</tr>
 				</table>
