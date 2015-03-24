@@ -49,14 +49,14 @@ Created: 22.03.2015
 							if($result){
 								echo "Click his name to challenge him!";
 								while($row = mysqli_fetch_assoc($result)){
-									echo "<td align='center'>
+									echo "
 							<div class='name-item' onclick='onBtnClick();'>
 
 								<img class='exercise-image' src='".IP_PICTURES."gravatar.jpg'/>
 								<div class='exercise-description'>".$row['name']."</div>
 								<input type='hidden' id ='cid' value='".$row['uid']."'/>
 							</div>
-						</td>";
+						";
 								};	
 
 								
