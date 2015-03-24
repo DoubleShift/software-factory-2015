@@ -22,7 +22,7 @@
 		$name = $row;
 	}?>
 
-<div class="wrapper" id=“welcome”>
+<div class="wrapper" id="welcome">
 
 	<div class="content welcome">
    		<h1 id='text-name'><?=WELCOME?>

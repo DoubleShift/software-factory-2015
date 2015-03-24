@@ -219,6 +219,13 @@ input.highlight, textarea.highlight{
 	background: url('../pictures/icon-star.png') center center no-repeat;
 }
 
+#welcome .col{
+	border-radius: 160px;
+	width: 160px;
+	height: 160px;
+	line-height: 160px;
+	padding: 0;
+}
 #welcome .col.exercise{
 	border-radius: 400px;
 	width: 400px;
