@@ -228,6 +228,11 @@ input.highlight, textarea.highlight{
 	height: 160px;
 	line-height: 160px;
 	padding-top: 0;
+	padding-left: 0;
+	font-size: 100%;
+}
+#welcome .col:before{
+	display: none;
 }
 #welcome .col.exercise{
 	border-radius: 400px;
@@ -235,9 +240,11 @@ input.highlight, textarea.highlight{
 	height: 400px;
 	line-height: 400px;
 	padding-top: 0;
+	font-size: 180%;
 }
 #welcome .col.exercise:before{
 	top: 150px;
+	display: block;
 }
 #welcome .col.goal{
 	position: absolute;

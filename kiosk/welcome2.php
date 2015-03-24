@@ -39,7 +39,7 @@
 			<a href="#" class="col left exercise" onclick=onBtnClick('exercise')>Exercise</a>
 			<a href="#" class="col right goal" onclick=onBtnClick('goal')>Goals</a>
 			<a href="#" class="col left challenge" onclick=onBtnClick('challenge')>Challenge</a>
-			<a href="#" class="col left profile" onclick=onBtnClick('challenge')>Challenge</a>
+			<a href="#" class="col left profile" onclick=onBtnClick('profile')>Profile</a>
 			<a href="#" class="col right rank" onclick=onBtnClick('rank')>Top users</a>
 		</div>
 	</div>
