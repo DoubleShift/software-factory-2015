@@ -251,22 +251,34 @@ input.highlight, textarea.highlight{
 #welcome .col.goal{
 	position: absolute;
 	left: 0;
-	bottom: 0;
+	top: 0;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
 }
 #welcome .col.profile{
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	top: 0;
+	width: 160px;
+	height: 160px;
+	line-height: 160px;
 }
 #welcome .col.rank{
 	position: absolute;
-	right: 0;
-	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
 }
 #welcome .col.challenge{
 	position: absolute;
-	left: 0;
-	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 180px;
+	height: 180px;
+	line-height: 180px;
 }
 
 
