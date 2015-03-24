@@ -194,7 +194,7 @@ input.highlight, textarea.highlight{
 	position: relative;
 	line-height: 80px;
 }
-.welcome .col:hover{
+.welcome .col:hover, .welcome .col.highlight{
 	color: #97c950;
 	background: rgba(255,255,255,.6);
 	border-color: #fff;
@@ -240,6 +240,8 @@ input.highlight, textarea.highlight{
 	height: 400px;
 	line-height: 400px;
 	padding-top: 0;
+	padding-left: 100px;
+	margin: 0;
 	font-size: 180%;
 }
 #welcome .col.exercise:before{
