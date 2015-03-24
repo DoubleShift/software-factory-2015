@@ -110,10 +110,30 @@ Created: 13.02.2015
 </div></td>
 </tr></table>
 
+<div id="light" class="white_content">
+Recommended levels
+<table width="100%" cellspacing="4" id="weight-table">
+<tr class="colored-line"><td>Weight (kg)</td><td>Recommended level for male</td><td> Recommended level for female</td></tr>
+<tr><td>less than 50</td><td>1</td><td>3</td></tr>
+<tr class="colored-line"><td>from 50 to 55</td><td>2</td><td>4</td></tr>
+<tr><td>from 55 to 60</td><td>3</td><td>5</td></tr>
+<tr class="colored-line"><td>from 60 to 65</td><td>4</td><td>6</td></tr>
+<tr><td>from 65 to 70</td><td>5</td><td>7</td></tr>
+<tr class="colored-line"><td>from 70 to 75</td><td>6</td><td>8</td></tr>
+<tr><td>from 75 to 80</td><td>7</td><td>9</td></tr>
+<tr class="colored-line"><td>from 80 to 85</td><td>8</td><td>10</td></tr>
+<tr><td>from 85 to 90</td><td>9</td><td>11</td></tr>
+<tr class="colored-line"><td>from 90 to 95</td><td>10</td><td>12</td></tr>
+<tr><td>more than 95 </td><td>11</td><td>13</td></tr>
+</table>
+<a class="green-bg button" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
+<div id="fade" class="black_overlay"></div>
+
 <div class="center difficulty-wrapper">
-	<div class="button level-button green-bg" <?php if($difficulty>5) {?> onclick="location.href='<?php echo curPage();?>?level=-1'" <?php }?>>-</div>
+	<div class="button level-button green-bg" <?php if($difficulty>2) {?> onclick="location.href='<?php echo curPage();?>?level=-1'" <?php }?>>-</div>
 	<div class="deficulty button"><?=EXERCISE_DIFFICULTY?> <?php echo $row['difficulty'] ?></div>
-	<div class="button level-button green-bg" <?php if($difficulty<20) {?> onclick="location.href='<?php echo curPage();?>?level=1'" <?php }?>>+</div>
+<img src="<?php echo IP_PICTURES; ?>question-blue.png" id="help-image" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+	<div class="button level-button green-bg" <?php if($difficulty<15) {?> onclick="location.href='<?php echo curPage();?>?level=1'" <?php }?>>+</div>
 </div>
 
 <!--<div class="bottom">

@@ -194,7 +194,7 @@ input.highlight, textarea.highlight{
 	position: relative;
 	line-height: 80px;
 }
-.welcome .col:hover{
+.welcome .col:hover, .welcome .col.highlight{
 	color: #97c950;
 	background: rgba(255,255,255,.6);
 	border-color: #fff;
@@ -218,6 +218,76 @@ input.highlight, textarea.highlight{
 .welcome .col.rank:before{
 	background: url('../pictures/icon-star.png') center center no-repeat;
 }
+
+#welcome .row{
+	position: relative;
+}
+#welcome .col{
+	border-radius: 160px;
+	width: 160px;
+	height: 160px;
+	line-height: 160px;
+	padding-top: 0;
+	padding-left: 0;
+	font-size: 100%;
+	box-shadow: 0 0 20px rgba(202, 215, 194, 1);
+	transition: all .3s ease;
+}
+#welcome .col:before{
+	display: none;
+}
+#welcome .col:hover{
+	background: rgba(255,255,255,1);
+}
+#welcome .col.exercise{
+	border-radius: 400px;
+	width: 400px;
+	height: 400px;
+	line-height: 400px;
+	padding-top: 0;
+	padding-left: 100px;
+	margin: 0;
+	font-size: 180%;
+	top: 20px;
+}
+#welcome .col.exercise:before{
+	top: 150px;
+	display: block;
+}
+#welcome .col.goal{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+}
+#welcome .col.profile{
+	position: absolute;
+	right: 20px;
+	top: -20px;
+	width: 160px;
+	height: 160px;
+	line-height: 160px;
+}
+#welcome .col.rank{
+	position: absolute;
+	bottom: -50px;
+  	left: 70px;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+}
+#welcome .col.challenge{
+	position: absolute;
+	right: 50px;
+  	bottom: -50px;
+	width: 180px;
+	height: 180px;
+	line-height: 180px;
+}
+
+
 
 #input_name{
 	width: 100%;

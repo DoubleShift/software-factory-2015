@@ -55,6 +55,8 @@
 }
 .deficulty {
     display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
     margin: 0px;
     color: #000;
     background-color: #FFF;
@@ -112,4 +114,56 @@
 .frm-goal
 {
 	text-align: center;
+}
+
+#weight-table
+{
+	font-size: 14px;
+	table-layout: fixed;
+	text-align: center;
+	padding: 10px;
+}
+
+.colored-line
+{
+	background-color: #EEEEEE;
+}
+
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.6;
+    opacity:.60;
+    filter: alpha(opacity=60);
+}
+
+.white_content {
+	text-align: center;
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    padding: 16px;
+    border: 4px solid #333;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+
+#help-image
+{
+	width: 70px;
+	height: 70px;
+	margin-right: -70px;
+	position: relative;
+	left: -45px;
 }
