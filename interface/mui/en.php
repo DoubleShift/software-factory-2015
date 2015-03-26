@@ -14,6 +14,7 @@ define("REPORT_PROBLEM", "Report a problem");
 define("HELP", "Help");
 define("BACK", "Back");
 define("MENU", "Home");
+define("LOGOUT", "Logout");
 
 // ecercise-plan
 define("START_EXERCISE", "Start exercise");
