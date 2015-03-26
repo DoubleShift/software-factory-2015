@@ -7,7 +7,7 @@ Author: Alexander Samodelkin
 Version: 0.1
 Created: 13.02.2015
 */
-
+	ob_start(); 
 	error_reporting(E_ALL);
 	ini_set('display_errors', 1);
 
@@ -71,7 +71,8 @@ Created: 13.02.2015
 		<span class="menu-text"><?=HELP?></span>
 		</div>
 
-		<div class="menu-item" onclick="location.href='login.php'">
+
+		<div class="menu-item help" onclick="location.href='login.php'">
 		<img class="menu-image" src="<?=IP_PICTURES?>logout.png">
 		<span class="menu-text"><?=LOGOUT?></span>
 		</div>

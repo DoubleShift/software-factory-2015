@@ -12,11 +12,11 @@ $query = "SELECT * FROM user WHERE uid = $id";
 $result = mysqli_query( $db, $query );
 if($row = mysqli_fetch_assoc($result))
 {
-$name = $row['name'];
-setcookie('username',$name);
+	$name = $row['name'];
+	//setcookie('username',$name);
 }else {
-//what if get nothing?
-$name = $row;
+	//what if get nothing?
+	$name = $row;
 }?>
 
 <div class="wrapper" id="welcome">
