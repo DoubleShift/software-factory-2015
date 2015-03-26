@@ -15,6 +15,14 @@ Created: 7.3.2015
 
 function btn_next_onclick(){
 
+var obj = document.getElementsByName("register_gender");
+   //should work
+    for(var i=0; i<obj.length; i++){
+        if(obj[i].value == 'checked'){
+        	console.log(obj[i].checked);
+        }
+    }
+
 	var user_gender = $('input[name="register_gender"]:checked').val();
 	var user_age = $('input[name="register_age"]:checked').val();
 	
