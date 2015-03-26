@@ -34,7 +34,7 @@ Created: 20.03.2015
 			$cid = ($id == $row['cid'])?$row['uid']:$row['cid'];
 
 			//search competitor's name
-			$query = "SELECT * FROM user WHERE id = $cid";
+			$query = "SELECT * FROM user WHERE uid = $cid";
 			$result = mysqli_query( $db, $query );
 			$row = mysqli_fetch_assoc($result);
 			$cname = $row['name'];
