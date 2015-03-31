@@ -27,7 +27,7 @@ if($row = mysqli_fetch_assoc($result))
    	if($_COOKIE['isfirst']){
    	echo " ".$name."!";
    	}else{
-   	echo "Back".$name."!";
+   	echo "Back ".$name."!";
    	}
 
 
