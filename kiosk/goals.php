@@ -49,13 +49,10 @@ if($result = mysqli_query( $db, $query ))
 	<div class="right green-bg button" onclick="location.href='goal-select.php'"><?=ADD_GOAL?></div> 
 </div>-->
 
-<table width="100%" style="margin: 0 auto;">	
-<tr>
-	<td colspan="2" height="10">&nbsp;</td>
-</tr>
+<table width="100%">	
 <tr>
 	<td>
-		<button class="btn" onclick="location.href='welcome.php'"><?=MENU?></button>
+		<button class="btn orange" onclick="location.href='welcome.php'"><?=MENU?></button>
 	</td>
 	<td align="right">
 		<button class="btn next" onclick="location.href='goal-select.php'"><?=ADD_GOAL?></button>

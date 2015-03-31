@@ -88,6 +88,9 @@ Created: 08.03.2015
 			<td>
 				<button class="btn prev" onclick="javascript:window.location.href='welcome.php';"><?=BACK?></button>
 			</td>
+			<td align="center">
+				<button class="btn" onclick="location.href='export.php'"><?=EXPORT?></button>
+			</td>
 			<td align="right">
 				<button class="btn next" onclick="onBtnClick()"><?=MODIFY?></button>
 			</td>

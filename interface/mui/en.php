@@ -97,5 +97,8 @@ define("STAR","Star level:");
 define("SAVE","SAVE");
 
 define("EMPTY","Please recheck and fill in all the fields!");
-       
+
+define("EXPORT", "Export" );  
+define("EXPORT_DONE", "Export complete" );  
+   
 ?>

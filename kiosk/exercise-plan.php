@@ -148,13 +148,13 @@ Recommended levels
 </tr>
 <tr>
 	<td>
-		<div class="btn" onclick="location.href='exercise-type.php'"><?=CHANGE_TYPE?></div>
+		<button class="btn" onclick="location.href='exercise-type.php'"><?=CHANGE_TYPE?></button>
 	</td>
 	<td align="center">
-		<div class="btn orange" onclick="location.href='welcome.php'"><?=MENU?></div>
+		<button class="btn orange" onclick="location.href='welcome.php'"><?=MENU?></button>
 	</td>
 	<td align="right">
-		<div class="btn" onclick="location.href='go.php'"><?=START_EXERCISE?></div> 
+		<button class="btn" onclick="location.href='go.php'"><?=START_EXERCISE?></button> 
 	</td>
 </tr>
 </table>
