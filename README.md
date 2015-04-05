@@ -29,11 +29,11 @@ SWF
 │  └─styles     
 └─kiosk
 ```
-`/kiosk` page folder
-`interface/mui` different languages
-`interface/pictures` images
-`interface/scripts`	*.js 
-`interface/styles`	*.css 
+* `/kiosk` page folder;
+* `interface/mui` different languages;
+* `interface/pictures` images;
+* `interface/scripts`	*.js;
+* `interface/styles`	*.css.
 
 ##Installation
 1. Download the latest release [HealthEX](https://github.com/niellun/software-factory-2015/archive/master.zip)  or Clone this repo  
@@ -42,16 +42,16 @@ SWF
 3. Import psicoderu.sql to your MySQL.
 4. edit file config.php
 ```
-		 //root address of your website
-		define( 'IP_ROOT', 'http://sfp.psicode.ru/' ); 
-		//MySQL username
-		define( 'SQL_USER', 'psicoderu_sfp' );	
-		//MySQL password
-		define( 'SQL_PASS', 'sfp12345' );
-		//MySQL host
-		define( 'SQL_HOST', 'localhost' );
-		//MySQL name
-		define( 'SQL_DB', 'psicoderu_sfp' );
+	//root address of your website
+define( 'IP_ROOT', 'http://sfp.psicode.ru/' ); 
+	//MySQL username
+define( 'SQL_USER', 'psicoderu_sfp' );	
+	//MySQL password
+define( 'SQL_PASS', 'sfp12345' );
+	//MySQL host
+define( 'SQL_HOST', 'localhost' );
+	//MySQL name
+define( 'SQL_DB', 'psicoderu_sfp' );
 ```
 
 ##Demo
