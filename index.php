@@ -34,10 +34,18 @@ function listDirTree( $dirName = null )
 
 $files = listDirTree("kiosk");
 $size = count($files);
+
+$addr = $_SERVER['REMOTE_ADDR'];
+	if(($addr=='127.0.0.1')||($addr=='localhost')){
 //create  file list links
 echo '<ol>';
     for( $i=0; $i < $size; $i++ ) {
     echo '<li><a href="kiosk\\'.($files[$i]).'" target="_blank">'.$files[$i].'</a></li>';
     }
 echo '</ol>';
+}else{
+	echo '<script>window.location.href="./kiosk/login.php"</script>';
+}
+
+
 ?>
