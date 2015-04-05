@@ -16,9 +16,9 @@ Created: 7.3.2015
 function btn_next_onclick(){
 
 var obj = document.getElementsByName("register_gender");
-   //should work
+   //should work........
     for(var i=0; i<obj.length; i++){
-        if(obj[i].value == 'checked'){
+        if(obj[i].checked){
         	console.log(obj[i].checked);
         }
     }
@@ -68,7 +68,9 @@ var obj = document.getElementsByName("register_gender");
 						</td>
 						<td width="30">&nbsp;</td>
 						<td>
+
 							<a href="#" class="option-block register-gender female"><span></span>Female
+
 								<input class="required" type="radio" name="register_gender" value="female" />
 							</a>
 						
