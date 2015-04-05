@@ -41,6 +41,7 @@ SWF
 2. Unzip the master.zip and upload all the files to your server.
 3. Import psicoderu.sql to your MySQL.
 4. edit file config.php
+```
 		 //root address of your website
 		define( 'IP_ROOT', 'http://sfp.psicode.ru/' ); 
 		//MySQL username
@@ -51,6 +52,7 @@ SWF
 		define( 'SQL_HOST', 'localhost' );
 		//MySQL name
 		define( 'SQL_DB', 'psicoderu_sfp' );
+```
 5. visit http://localhost 
 
 ##Demo
