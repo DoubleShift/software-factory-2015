@@ -53,7 +53,6 @@ SWF
 		//MySQL name
 		define( 'SQL_DB', 'psicoderu_sfp' );
 ```
-5. visit http://localhost 
 
 ##Demo
 You can also visit our online [Demo](http://sfp.psicode.ru/kiosk/login.php).
