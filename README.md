@@ -1,5 +1,6 @@
 #HealthEX
 HealthEX is an interactive kiosk client system in which users can set their exercise plan and goal. Aim to motivate people to exercise more frequently.
+
 ##Features
 
 ##Requirements
@@ -7,10 +8,12 @@ HealthEX is an interactive kiosk client system in which users can set their exer
 * RadialIndicator.js
 * PHP 5.2
 * MySQL
+
 ##Browers support
 IE  | Firefox | Chrome | Safari
------- | ---------- | --------- | --------
- |  |  | ✔|✔
+--- | ------- | ------ | -----
+ 	|		|  			| ✔|✔
+
 ##What's Included
 
 
@@ -20,7 +23,7 @@ IE  | Firefox | Chrome | Safari
 2. Unzip the master.zip and upload all the files to your server.
 3. Import psicoderu.sql to your MySQL.
 4. edit file config.php
-	
+
 		 //root address of your website
 		define( 'IP_ROOT', 'http://sfp.psicode.ru/' ); 
 		//MySQL username
@@ -32,8 +35,10 @@ IE  | Firefox | Chrome | Safari
 		//MySQL name
 		define( 'SQL_DB', 'psicoderu_sfp' );
 5. visit http://localhost 
+
 ##Demo
 You can also visit our online [Demo](http://sfp.psicode.ru/kiosk/login.php).
+
 ##Documentation
 
 
