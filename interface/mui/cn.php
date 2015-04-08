@@ -14,6 +14,7 @@ define("REPORT_PROBLEM", "报修");
 define("HELP", "帮助");
 define("BACK", "返回");
 define("MENU", "菜单");
+define("LOGOUT", "退出");
 
 // ecercise-plan
 define("START_EXERCISE", "开始训练");

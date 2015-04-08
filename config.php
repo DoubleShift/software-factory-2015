@@ -7,12 +7,15 @@ Author: Alexander Samodelkin
 Version: 0.1
 Created: 13.02.2015
 */
+
+//please add this file to .gitignore before you push sth.
 	$addr = $_SERVER['REMOTE_ADDR'];
 	if(($addr=='127.0.0.1')||($addr=='localhost')){
 		define( 'IP_ROOT', 'http://127.0.0.1/swf/' );
 		define( 'SQL_USER', 'root' );
 		define( 'SQL_PASS', '' );
 	}else{
+
 		define( 'IP_ROOT', 'http://sfp.psicode.ru/' );
 		define( 'SQL_USER', 'psicoderu_sfp' );
 		define( 'SQL_PASS', 'sfp12345' );

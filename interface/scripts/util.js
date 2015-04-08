@@ -9,7 +9,7 @@
     }
 
 function on_logout_click(){
-   //why should I clear it for twice    
+   //why should I clear it for twice  ?  
     for(var i=0;i<2;i++){
 
         $.removeCookie('userid');
@@ -24,10 +24,8 @@ function on_logout_click(){
         $.removeCookie('problemequipment');
         $.removeCookie('isfirst');
     }
-       
-    
 
-    //window.location.href='login.php' ;  
+ //   window.location.href='login.php' ;  
 
 }
 

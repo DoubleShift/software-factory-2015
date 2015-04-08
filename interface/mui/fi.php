@@ -13,6 +13,7 @@ define("REPORT_PROBLEM", "Ilmoita ongelmasta");
 define("HELP", "Apua");
 define("BACK", "Takaisin");
 define("MENU", "Menu");
+define("LOGOUT", "lopettaa");
 
 // ecercise-plan
 define("START_EXERCISE", "Aloita liikunta");

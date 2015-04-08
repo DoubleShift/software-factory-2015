@@ -73,6 +73,14 @@ Created: 22.03.2015
 						?>
 						
 					</tr>
+					<tr>
+						<td>
+							<button class="btn prev" onclick="javascript:history.go(-1);">Back</button>
+						</td>
+						<td></td>
+						<td align="right">
+						</td>
+					</tr>
 				</table>
 		</div>
 	</div>

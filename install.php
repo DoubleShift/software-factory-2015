@@ -1,4 +1,8 @@
 <?php
+
+/*
+** Actually, we didn't finish this file. Import the psicoderu_sfp.sql to mysql directly.
+*/
 	// P_ROOT and config
 	define( 'P_ROOT', dirname(__FILE__) . '/' );
 	include( P_ROOT . 'config.php' );

@@ -1,8 +1,17 @@
 <?php
+
+/*
+File: index.php
+Description: descript list files under a folder,Only for Developers
+Author: Chen Xin
+Version: 0.1
+Created: 13.02.2015
+*/
+
 /*  listDirTree( $dirName = null )
 ** descript list files under a folder
 ** param $dirName 
-** return folder ,if none return false
+** return folder ,if none return false 
 */
 function listDirTree( $dirName = null )
 {
