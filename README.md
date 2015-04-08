@@ -58,9 +58,10 @@ Your server information was stored here, edit it when you upload the files to yo
 `git clone https://github.com/niellun/software-factory-2015`
 2. Unzip the master.zip and upload all the files to your server.
 3. Import psicoderu.sql to your MySQL by phpMyAdmin or 
-	`mysql -u root -p
-	 mysql>use psicoderu_sfp
-	 mysql>source psicoderu_sfp.sql`
+	`
+	mysql -u root -p
+	mysql>use psicoderu_sfp
+	mysql>source psicoderu_sfp.sql`
 4. edit file config.php
 ```php
 	//root address of your website
